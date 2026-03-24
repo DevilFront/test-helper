@@ -12,6 +12,13 @@ export const EXPECTED_CATEGORIES = {
     "computer-architecture",
     "project-management",
   ],
+  "electrical-engineer": [
+    "electro-magnetics",
+    "power-engineering",
+    "electrical-machines",
+    "circuits-control",
+    "electrical-installation",
+  ],
   "industrial-safety": [
     "safety-law",
     "safety-management",
@@ -75,6 +82,11 @@ export const EXAMS = [
     slug: "info-processing",
     title: "정보처리기사",
     file: "data/info-processing-engineer-questions.json",
+  },
+  {
+    slug: "electrical-engineer",
+    title: "전기기사",
+    file: "data/electrical-engineer-questions.json",
   },
   {
     slug: "industrial-safety-industrial",

@@ -1,0 +1,1322 @@
+[
+  {
+    "id": 1,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "정전계에서 도체 내부의 전계 강도는 일반적으로 어떻게 되는가?",
+    "options": [
+      "영(0)",
+      "표면에만 존재",
+      "내부가 균일",
+      "무한대"
+    ],
+    "answer": 0,
+    "explanation": "정전평형 상태의 도체 내부는 자유전하가 없고 전계는 0이다.",
+    "category": "electro-magnetics",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "전기자기학"
+    ]
+  },
+  {
+    "id": 2,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "가우스 법칙이 주로 다루는 물리량의 관계는?",
+    "options": [
+      "자계와 전류",
+      "전속과 전하",
+      "전압과 저항",
+      "인덕턴스와 전류"
+    ],
+    "answer": 1,
+    "explanation": "가우스 법칙은 전기장의 발산과 닫힌 곡면 내부 전하를 연결한다.",
+    "category": "electro-magnetics",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "전기자기학"
+    ]
+  },
+  {
+    "id": 3,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "패러데이 전자기 유도 법칙에 따르면, 자속 변화에 의해 유도되는 기전력은 무엇에 비례하는가?",
+    "options": [
+      "자속의 시간 변화율",
+      "자속의 절댓값만",
+      "도체의 질량",
+      "온도"
+    ],
+    "answer": 0,
+    "explanation": "유도 기전력은 자속의 변화율(시간 미분)에 관련된다.",
+    "category": "electro-magnetics",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "전기자기학"
+    ]
+  },
+  {
+    "id": 4,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "평행판 콘덴서에 충전 후 도체판 사이를 유전율이 더 큰 유전체로 채우면, 전하를 유지한 채 정전용량은 일반적으로?",
+    "options": [
+      "감소",
+      "증가",
+      "불변",
+      "0이 된다"
+    ],
+    "answer": 1,
+    "explanation": "C = εA/d 형태에서 ε가 커지면 정전용량이 증가한다.",
+    "category": "electro-magnetics",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "전기자기학"
+    ]
+  },
+  {
+    "id": 5,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "자기 회로에서 자속 밀도 B와 자계 강도 H의 관계를 나타내는 재료 특성은?",
+    "options": [
+      "유전율",
+      "투자율(μ)",
+      "비저항",
+      "유전 손실"
+    ],
+    "answer": 1,
+    "explanation": "B = μH 관계에서 μ는 투자율이다.",
+    "category": "electro-magnetics",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "전기자기학"
+    ]
+  },
+  {
+    "id": 6,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "렌츠의 법칙이 말하는 유도 전류의 방향은?",
+    "options": [
+      "자속 변화를 돕는 방향",
+      "자속 변화를 방해하는 방향",
+      "항상 시계 방향",
+      "전하 부호와 무관"
+    ],
+    "answer": 1,
+    "explanation": "유도 전류는 원인이 된 자속 변화를 방해하는 방향으로 흐른다.",
+    "category": "electro-magnetics",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "전기자기학"
+    ]
+  },
+  {
+    "id": 7,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "솔레노이드 내부의 자계 강도를 키우는 방법으로 적절한 것은?",
+    "options": [
+      "권수를 줄이기",
+      "전류를 늘리기",
+      "코어를 공기만 사용",
+      "길이를 무한히 늘리기"
+    ],
+    "answer": 1,
+    "explanation": "권수·전류·투자율 등이 자계에 영향을 준다.",
+    "category": "electro-magnetics",
+    "difficulty": "easy",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "전기자기학"
+    ]
+  },
+  {
+    "id": 8,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "변위 전류 밀도와 관련된 설명으로 옳지 않은 것은?",
+    "options": [
+      "변위 전류는 전계의 시간 변화와 연관된다",
+      "도체 내부에서만 존재한다",
+      "맥스웰 방정식에서 자계 소스 항에 포함될 수 있다",
+      "콘덴서 극판 사이에서 개념적으로 사용된다"
+    ],
+    "answer": 1,
+    "explanation": "변위 전류는 유전체·진공에서도 전계 변화로 정의된다.",
+    "category": "electro-magnetics",
+    "difficulty": "hard",
+    "stemKind": "not",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "전기자기학"
+    ]
+  },
+  {
+    "id": 9,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "상변환기(변압기) 철심에 흐르는 교류 자속이 시간에 따라 변할 때, 권선에 유도되는 전압의 특징으로 가장 가까운 것은?",
+    "options": [
+      "직류 전압",
+      "시간에 따라 변하는 교류 전압",
+      "항상 0",
+      "온도에만 비례"
+    ],
+    "answer": 1,
+    "explanation": "교류 자속 변화에 따라 권선에 유도 전압이 생긴다.",
+    "category": "electro-magnetics",
+    "difficulty": "easy",
+    "stemKind": "scenario",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "전기자기학"
+    ]
+  },
+  {
+    "id": 10,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "쿨롱의 법칙이 적용되는 전형적인 조건에 가까운 것은?",
+    "options": [
+      "점전하·정전계",
+      "철심 포화",
+      "초전도 임계",
+      "아크 방전만"
+    ],
+    "answer": 0,
+    "explanation": "쿨롱 법칙은 점전하 사이의 정전기력을 다룬다.",
+    "category": "electro-magnetics",
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "전기자기학"
+    ]
+  },
+  {
+    "id": 11,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "자기 유도 계수 L이 큰 코일의 의미로 적절한 것은?",
+    "options": [
+      "전류 변화에 대한 자기 에너지 저장 능력이 상대적으로 크다",
+      "저항이 항상 작다",
+      "정전용량이 크다",
+      "유전 손실이 없다"
+    ],
+    "answer": 0,
+    "explanation": "L은 전류 변화당 유도 기전력과 에너지 저장에 관여한다.",
+    "category": "electro-magnetics",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "전기자기학"
+    ]
+  },
+  {
+    "id": 12,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "전자기파의 진행 방향과 전계·자계 벡터의 관계로 알려진 것은?",
+    "options": [
+      "서로 평행",
+      "서로 수직이며 진행 방향과 수직",
+      "모두 동일 방향",
+      "전계만 존재"
+    ],
+    "answer": 1,
+    "explanation": "평면파에서 E, H, 진행 방향은 서로 직교한다.",
+    "category": "electro-magnetics",
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "전기자기학"
+    ]
+  },
+  {
+    "id": 13,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "3상 교류에서 선간 전압과 상전압(별결선)의 크기 관계는 일반적으로?",
+    "options": [
+      "선간 = 상",
+      "선간 = √3 × 상",
+      "선간 = 1/√3 × 상",
+      "무관"
+    ],
+    "answer": 1,
+    "explanation": "Y결선에서 선간전압은 상전압의 √3배이다.",
+    "category": "power-engineering",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "전력공학"
+    ]
+  },
+  {
+    "id": 14,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "송전선로에서 무효전력 보상을 위해 자주 사용되는 설비는?",
+    "options": [
+      "변압기만",
+      "동기조상기·콘덴서 뱅크 등",
+      "퓨즈만",
+      "접지선만"
+    ],
+    "answer": 1,
+    "explanation": "진상·지상 무효전력 보상에 동조기, 콘던서 등이 쓰인다.",
+    "category": "power-engineering",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "전력공학"
+    ]
+  },
+  {
+    "id": 15,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "단락 용량(SCA)이 클수록 계통은 일반적으로?",
+    "options": [
+      "더 부드럽게",
+      "단락 전류가 커질 수 있어 보호·차단기 선정이 중요",
+      "단락 전류가 0",
+      "주파수가 변하지 않는다"
+    ],
+    "answer": 1,
+    "explanation": "단락 용량이 크면 공급 가능한 단락 전류가 커질 수 있다.",
+    "category": "power-engineering",
+    "difficulty": "medium",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "전력공학"
+    ]
+  },
+  {
+    "id": 16,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "부하의 역률이 낮을 때 발생하기 쉬운 문제는?",
+    "options": [
+      "유효전력만 증가",
+      "선로 전류 증가·손실 증가",
+      "전압이 항상 상승",
+      "주파수 상승"
+    ],
+    "answer": 1,
+    "explanation": "역률이 낮으면 같은 유효전력에 더 큰 피상전력이 필요해 전류가 커진다.",
+    "category": "power-engineering",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "전력공학"
+    ]
+  },
+  {
+    "id": 17,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "동기발전기의 여자(여기) 조절이 주로 영향을 주는 것은?",
+    "options": [
+      "회전 속도만",
+      "기전력의 크기",
+      "극수만",
+      "유전율"
+    ],
+    "answer": 1,
+    "explanation": "여자 전류로 자속·유기기전력을 조절한다.",
+    "category": "power-engineering",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "전력공학"
+    ]
+  },
+  {
+    "id": 18,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "피뢰기의 주된 기능은?",
+    "options": [
+      "전압 상승",
+      "과전압 서지를 제한·절연 보호",
+      "역률 개선",
+      "전력량 계측"
+    ],
+    "answer": 1,
+    "explanation": "피뢰기는 서지·과전압을 클램프하여 설비를 보호한다.",
+    "category": "power-engineering",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "전력공학"
+    ]
+  },
+  {
+    "id": 19,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "중성점 접지 방식 중, 단락 전류를 제한하려는 목적으로 쓰이는 경우가 있는 접지는?",
+    "options": [
+      "직접 접지",
+      "저항·리액터 접지 등",
+      "접지 없음만",
+      "항상 절연"
+    ],
+    "answer": 1,
+    "explanation": "저항·리액터 접지는 단락 전류를 줄이는 데 활용될 수 있다.",
+    "category": "power-engineering",
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "전력공학"
+    ]
+  },
+  {
+    "id": 20,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "부하 흐름(파워 플로) 해석의 목적에 가까운 것은?",
+    "options": [
+      "각 노드 전압·선로 전력 분포 파악",
+      "건물 구조 계산",
+      "토질 시험",
+      "수질 분석"
+    ],
+    "answer": 0,
+    "explanation": "파워 플로는 계통의 전압·전력 흐름을 계산한다.",
+    "category": "power-engineering",
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "전력공학"
+    ]
+  },
+  {
+    "id": 21,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "설명으로 옳지 않은 것은?",
+    "options": [
+      "동기발전기는 계통 주파수에 맞춰 동기 속도로 회전한다",
+      "유도전동기는 항상 동기 속도로만 회전한다",
+      "변압기는 교류 전압 변환에 쓰인다",
+      "차단기는 고장·운전 시 회로를 개폐한다"
+    ],
+    "answer": 1,
+    "explanation": "유도전동기는 슬립이 있어 동기 속도보다 느리게(또는 특수한 경우 초동기) 돈다.",
+    "category": "power-engineering",
+    "difficulty": "hard",
+    "stemKind": "not",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "전력공학"
+    ]
+  },
+  {
+    "id": 22,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "고장 분석에서 대칭분법을 사용하는 주된 이유는?",
+    "options": [
+      "3상 불대칭 고장을 순서분으로 풀기 위해",
+      "직류로 변환",
+      "철손만 계산",
+      "케이블 굵기만 구하기"
+    ],
+    "answer": 0,
+    "explanation": "불대칭 고장은 정·부·영상분으로 나누어 계산한다.",
+    "category": "power-engineering",
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "전력공학"
+    ]
+  },
+  {
+    "id": 23,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "수전단 변압기의 효율을 높이는 설계·운전 측면에서 고려되는 것은?",
+    "options": [
+      "철손·동손 균형, 적절 부하",
+      "철손만 무시",
+      "항상 무부하 운전",
+      "2차만 단락"
+    ],
+    "answer": 0,
+    "explanation": "손실을 최소화하고 설계 부하 근처에서 운전하는 것이 유리하다.",
+    "category": "power-engineering",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "전력공학"
+    ]
+  },
+  {
+    "id": 24,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "배전선로의 전압강하를 줄이려 할 때 검토할 수 있는 것은?",
+    "options": [
+      "도체 굵기·길이·역률 개선",
+      "역률만 악화",
+      "선로만 연장",
+      "접지만 제거"
+    ],
+    "answer": 0,
+    "explanation": "임피던스를 줄이고 전류를 줄이면 강하가 완화된다.",
+    "category": "power-engineering",
+    "difficulty": "medium",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "전력공학"
+    ]
+  },
+  {
+    "id": 25,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "이상 변압기에서 1차·2차 권수비와 전압비의 관계는?",
+    "options": [
+      "무관",
+      "권수비에 비례",
+      "역수",
+      "제곱"
+    ],
+    "answer": 1,
+    "explanation": "이상 변압기에서 전압은 권수비에 비례한다.",
+    "category": "electrical-machines",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "전기기기"
+    ]
+  },
+  {
+    "id": 26,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "3상 유도전동기에서 슬립 s의 정의에 가까운 것은?",
+    "options": [
+      "동기속도와 회전속도의 차에 대한 비",
+      "전압만",
+      "전류 위상",
+      "토크의 제곱"
+    ],
+    "answer": 0,
+    "explanation": "s = (ns - n)/ns 형태로 정의된다.",
+    "category": "electrical-machines",
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "전기기기"
+    ]
+  },
+  {
+    "id": 27,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "동기발전기 무부하 특성 곡선에서 여자 전류를 키우면 단자 전압은 일반적으로?",
+    "options": [
+      "감소",
+      "증가 경향",
+      "불변",
+      "0"
+    ],
+    "answer": 1,
+    "explanation": "무부하에서 여자를 키우면 유기 기전력이 증가한다.",
+    "category": "electrical-machines",
+    "difficulty": "easy",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "전기기기"
+    ]
+  },
+  {
+    "id": 28,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "DC 전동기에서 전기자 반작용의 영향으로 나타날 수 있는 것은?",
+    "options": [
+      "주 자속 감소(전기자 반작용)",
+      "속도가 항상 동기",
+      "변압기 비율 변화",
+      "교류로 변환"
+    ],
+    "answer": 0,
+    "explanation": "전기자 전류가 주 자속을 약화시킬 수 있다.",
+    "category": "electrical-machines",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "전기기기"
+    ]
+  },
+  {
+    "id": 29,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "변압기에서 효율이 최대가 되는 조건으로 자주 언급되는 것은?",
+    "options": [
+      "철손 = 동손",
+      "철손 = 0",
+      "동손 = 0",
+      "부하 0"
+    ],
+    "answer": 0,
+    "explanation": "효율 최대는 통상 고정손과 가변손이 같아질 때 근처에서 발생한다.",
+    "category": "electrical-machines",
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "전기기기"
+    ]
+  },
+  {
+    "id": 30,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "유도전동기 기동 시 기동 전류가 큰 이유와 관련해 적절한 설명은?",
+    "options": [
+      "기동 시 슬립이 커 로터 전류가 크다",
+      "슬립이 항상 0",
+      "전압이 0",
+      "극수가 0"
+    ],
+    "answer": 0,
+    "explanation": "기동 초기 슬립≈1에 가까워 로터 주파수가 높고 전류가 크다.",
+    "category": "electrical-machines",
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "전기기기"
+    ]
+  },
+  {
+    "id": 31,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "동기조상기가 무효전력을 공급·흡수하는 원리와 가장 가까운 것은?",
+    "options": [
+      "계자 전류로 자속 조절",
+      "저항만 조절",
+      "전압을 0으로",
+      "DC만 사용"
+    ],
+    "answer": 0,
+    "explanation": "여자를 조절해 무효전력을 제어한다.",
+    "category": "electrical-machines",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "전기기기"
+    ]
+  },
+  {
+    "id": 32,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "변압기 연결군(Dyn11 등) 표기에서 숫자 11의 의미에 가까운 것은?",
+    "options": [
+      "2차가 1차에 대해 30°×11만큼 위상 진다",
+      "11kV",
+      "11개 권선",
+      "11차 고조파만"
+    ],
+    "answer": 0,
+    "explanation": "시계 표기로 위상차를 나타낸다.",
+    "category": "electrical-machines",
+    "difficulty": "hard",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "전기기기"
+    ]
+  },
+  {
+    "id": 33,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "옳지 않은 것은?",
+    "options": [
+      "변압기 철심은 교류 자속에 의해 히스테리시스·와전류 손실이 생긴다",
+      "유도전동기는 항상 동기 속도에서만 토크를 낸다",
+      "동기기는 여자로 무효를 조절할 수 있다",
+      "DC기는 정류자·브러시로 기계적 정류가 필요할 수 있다"
+    ],
+    "answer": 1,
+    "explanation": "유도기는 슬립이 있어야 전달 토크가 생긴다.",
+    "category": "electrical-machines",
+    "difficulty": "hard",
+    "stemKind": "not",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "전기기기"
+    ]
+  },
+  {
+    "id": 34,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "공장에서 대형 유도전동기를 직접 온라인 기동할 때 계통에 미칠 수 있는 영향은?",
+    "options": [
+      "전압 드롭·보호 조정 필요",
+      "전압 상승만",
+      "주파수 불변 보장",
+      "무관"
+    ],
+    "answer": 0,
+    "explanation": "기동 전류로 인해 계통 전압이 일시적으로 떨어질 수 있다.",
+    "category": "electrical-machines",
+    "difficulty": "medium",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "전기기기"
+    ]
+  },
+  {
+    "id": 35,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "동기발전기 단락비(Xd'')가 작을수록 일반적으로 단락 전류는?",
+    "options": [
+      "작아진다",
+      "커질 수 있다",
+      "변하지 않는다",
+      "0"
+    ],
+    "answer": 1,
+    "explanation": "임피던스가 작을수록 같은 전압에서 전류가 커진다.",
+    "category": "electrical-machines",
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "전기기기"
+    ]
+  },
+  {
+    "id": 36,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "1차 측 전류가 부하에 따라 변하는 이유(이상 변압기)는?",
+    "options": [
+      "2차 부하 전류에 대한 자기평형",
+      "철심 온도만",
+      "주파수 변화",
+      "접지"
+    ],
+    "answer": 0,
+    "explanation": "앰페어턴 평형으로 1차가 2차 부하를 반영한다.",
+    "category": "electrical-machines",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "전기기기"
+    ]
+  },
+  {
+    "id": 37,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "RL 직렬회로에서 시간 정수 τ는?",
+    "options": [
+      "R/L",
+      "L/R",
+      "RL",
+      "1/(RL)"
+    ],
+    "answer": 1,
+    "explanation": "τ = L/R이다.",
+    "category": "circuits-control",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "회로·제어"
+    ]
+  },
+  {
+    "id": 38,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "RC 저역통과 필터의 차단 특성으로 가까운 것은?",
+    "options": [
+      "고주파 감쇠",
+      "저주파 감쇠",
+      "모두 통과",
+      "직류만 차단"
+    ],
+    "answer": 0,
+    "explanation": "RC 저역통과는 고주파를 감쇠한다.",
+    "category": "circuits-control",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "회로·제어"
+    ]
+  },
+  {
+    "id": 39,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "라플라스 변환의 주된 용도로 전기회로에서 쓰이는 것은?",
+    "options": [
+      "미분방정식을 s영역 대수로 풀기",
+      "벡터만 그리기",
+      "저항을 0으로",
+      "전력을 직접 곱하기"
+    ],
+    "answer": 0,
+    "explanation": "선형 시불변 회로는 s영역에서 해석한다.",
+    "category": "circuits-control",
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "회로·제어"
+    ]
+  },
+  {
+    "id": 40,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "폐루프 시스템에서 감쇠비가 너무 작으면 일반적으로?",
+    "options": [
+      "응답이 과도하게 진동",
+      "항상 과감쇠",
+      "지연만 0",
+      "오차가 없다"
+    ],
+    "answer": 0,
+    "explanation": "감쇠가 부족하면 오버슈트·진동이 커진다.",
+    "category": "circuits-control",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "회로·제어"
+    ]
+  },
+  {
+    "id": 41,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "3상 전력에서 유효전력 P의 일반식 P = √3 V_L I_L cos φ에서 φ는?",
+    "options": [
+      "선간전압과 선전류 사이 위상차",
+      "상전압과 상전류(해당 상 기준)",
+      "기계각만",
+      "온도"
+    ],
+    "answer": 1,
+    "explanation": "통상 φ는 상전압과 상전류의 위상차로 쓴다(결선에 따라 정의 일치 필요).",
+    "category": "circuits-control",
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "회로·제어"
+    ]
+  },
+  {
+    "id": 42,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "오픈루프와 폐루프 비교에서 폐루프의 이점으로 적절한 것은?",
+    "options": [
+      "외란에 대한 강인성·오차 감소",
+      "항상 불안정",
+      "센서 불필요",
+      "이득이 항상 0"
+    ],
+    "answer": 0,
+    "explanation": "피드백은 센서·보상으로 성능을 개선한다.",
+    "category": "circuits-control",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "회로·제어"
+    ]
+  },
+  {
+    "id": 43,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "공진(직렬) 회로에서 공진 주파수는?",
+    "options": [
+      "1/(2π√(LC))",
+      "2π√(LC)",
+      "LC",
+      "1/LC"
+    ],
+    "answer": 0,
+    "explanation": "f0 = 1/(2π√(LC))이다.",
+    "category": "circuits-control",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "회로·제어"
+    ]
+  },
+  {
+    "id": 44,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "옳지 않은 것은?",
+    "options": [
+      "헤비사이드 단위계단 응답은 1차 시스템의 특성 파악에 쓰인다",
+      "Bode plot은 주파수 응답을 나타낸다",
+      "모든 비선형 시스템은 라플라스로 항상 정확히 선형화된다",
+      "전달함수는 영점·극점으로 해석된다"
+    ],
+    "answer": 2,
+    "explanation": "강한 비선형은 선형 근사 한계가 있다.",
+    "category": "circuits-control",
+    "difficulty": "hard",
+    "stemKind": "not",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "회로·제어"
+    ]
+  },
+  {
+    "id": 45,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "이득 여유와 위상 여유가 큰 편이면 일반적으로?",
+    "options": [
+      "안정 마진이 충분한 편",
+      "항상 발진",
+      "대역폭 무한",
+      "센서 불필요"
+    ],
+    "answer": 0,
+    "explanation": "여유가 크면 보통 안정성이 좋다.",
+    "category": "circuits-control",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "회로·제어"
+    ]
+  },
+  {
+    "id": 46,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "PLC 제어에서 인터락(interlock)의 주된 목적은?",
+    "options": [
+      "안전·순서 보장",
+      "속도만 측정",
+      "전력량만",
+      "통신 암호화"
+    ],
+    "answer": 0,
+    "explanation": "상호 잠금으로 위험한 조합을 방지한다.",
+    "category": "circuits-control",
+    "difficulty": "easy",
+    "stemKind": "scenario",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "회로·제어"
+    ]
+  },
+  {
+    "id": 47,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "벡터도(페이저)에서 3상 평형 시 중성선 전류는?",
+    "options": [
+      "0",
+      "최대",
+      "√3배만",
+      "무한"
+    ],
+    "answer": 0,
+    "explanation": "평형 3상은 중성점 전류가 0이다.",
+    "category": "circuits-control",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "회로·제어"
+    ]
+  },
+  {
+    "id": 48,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "PID 제어에서 적분항의 주된 역할은?",
+    "options": [
+      "정상 상태 오차 감소",
+      "고주파 노이즈 증폭",
+      "시스템을 항상 불안정하게",
+      "지연 제거만"
+    ],
+    "answer": 0,
+    "explanation": "적분은 누적 오차를 제거해 정상편차를 줄인다.",
+    "category": "circuits-control",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "회로·제어"
+    ]
+  },
+  {
+    "id": 49,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "저압 전기설비에서 접지형 콘센트의 접지 단자 연결 목적에 가까운 것은?",
+    "options": [
+      "장식",
+      "누전 시 금속 외함 도전 방지·보호도체 경로 확보",
+      "전압 상승",
+      "역률 개선"
+    ],
+    "answer": 1,
+    "explanation": "보호도체로 외함을 접지해 감전 위험을 줄인다.",
+    "category": "electrical-installation",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "전기설비"
+    ]
+  },
+  {
+    "id": 50,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "간선·피더의 도체 선정 시 검토하는 요소로 적절한 것은?",
+    "options": [
+      "허용 전류·전압강하·단락 열용량",
+      "색상만",
+      "브랜드만",
+      "길이만"
+    ],
+    "answer": 0,
+    "explanation": "연속 전류·강하·단락 조건을 만족해야 한다.",
+    "category": "electrical-installation",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "전기설비"
+    ]
+  },
+  {
+    "id": 51,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "누전차단기(ELCB/RCD)의 보호 대상에 가까운 것은?",
+    "options": [
+      "누전·접촉 사고 전류",
+      "과부하만",
+      "번개만",
+      "역률"
+    ],
+    "answer": 0,
+    "explanation": "지락·누전 감지로 사람 보호에 쓰인다.",
+    "category": "electrical-installation",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "전기설비"
+    ]
+  },
+  {
+    "id": 52,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "전기실 배치에서 작업 공간·진입로 확보가 중요한 이유는?",
+    "options": [
+      "유지보수·비상 시 안전 확보",
+      "미관만",
+      "소음",
+      "습도 측정"
+    ],
+    "answer": 0,
+    "explanation": "점검·차단·대피를 위해 공간이 필요하다.",
+    "category": "electrical-installation",
+    "difficulty": "easy",
+    "stemKind": "scenario",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "전기설비"
+    ]
+  },
+  {
+    "id": 53,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "옳지 않은 것은?",
+    "options": [
+      "전선 굵기는 부하 전류에 맞게 선정한다",
+      "보호기기는 도체 허용 전류보다 큰 정격만 선택하면 된다",
+      "등전위 접지는 정보·의료 등에서 중요할 수 있다",
+      "분전반은 과전류·누전 보호를 모듈화한다"
+    ],
+    "answer": 1,
+    "explanation": "보호기기는 도체·설비와 조정(coordination)되어야 한다.",
+    "category": "electrical-installation",
+    "difficulty": "hard",
+    "stemKind": "not",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "전기설비"
+    ]
+  },
+  {
+    "id": 54,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "수요전력 계약에서 최대수요전력을 초과하지 않도록 하는 이유와 가까운 것은?",
+    "options": [
+      "요금·계약 위반 방지",
+      "역률 개선",
+      "전압 상승",
+      "주파수 변화"
+    ],
+    "answer": 0,
+    "explanation": "전력량 요금·계약에 따라 초과 시 불리할 수 있다.",
+    "category": "electrical-installation",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "전기설비"
+    ]
+  },
+  {
+    "id": 55,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "옥내 배선에서 케이블의 굴곡 반경을 제한하는 이유는?",
+    "options": [
+      "절연·도체 손상 방지",
+      "색상 유지",
+      "미관",
+      "통신 속도"
+    ],
+    "answer": 0,
+    "explanation": "과도한 굴곡은 절연 손상·특성 악화를 일으킨다.",
+    "category": "electrical-installation",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "전기설비"
+    ]
+  },
+  {
+    "id": 56,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "피뢰침·도체·접지극으로 구성되는 시스템의 목적은?",
+    "options": [
+      "직접 낙뢰 에너지를 안전하게 대지로 유도",
+      "전압을 올림",
+      "통신 증폭",
+      "역률 측정"
+    ],
+    "answer": 0,
+    "explanation": "낙뢰 보호 시스템은 서지를 대지로 흘려보낸다.",
+    "category": "electrical-installation",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "전기설비"
+    ]
+  },
+  {
+    "id": 57,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "분전반에서 과전류 차단기(MCCB 등)와 도체의 조정에서 고려하는 것은?",
+    "options": [
+      "차단기 특성·케이블 허용",
+      "색만",
+      "길이만",
+      "습도만"
+    ],
+    "answer": 0,
+    "explanation": "IEC/제조사 곡선과 케이블 열용량을 맞춘다.",
+    "category": "electrical-installation",
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "전기설비"
+    ]
+  },
+  {
+    "id": 58,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "전기설비 기술기준의 취지에 가까운 것은?",
+    "options": [
+      "안전·신뢰성 확보",
+      "가격만",
+      "디자인만",
+      "통신만"
+    ],
+    "answer": 0,
+    "explanation": "인명·재산 보호와 적절한 성능을 목표로 한다.",
+    "category": "electrical-installation",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "전기설비"
+    ]
+  },
+  {
+    "id": 59,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "UPS의 용도로 적절한 것은?",
+    "options": [
+      "정전·순간 전압강하 시 중요 부하에 전원 유지",
+      "역률만 개선",
+      "동기 속도 측정",
+      "토크 측정"
+    ],
+    "answer": 0,
+    "explanation": "무정전 전원으로 연속 운전을 돕는다.",
+    "category": "electrical-installation",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "전기설비"
+    ]
+  },
+  {
+    "id": 60,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "감전 방지를 위한 기본 원칙으로 묶기 쉬운 것은?",
+    "options": [
+      "절연·보호·등전위·차단",
+      "전압만 올리기",
+      "접지 제거",
+      "절연 테이프만"
+    ],
+    "answer": 0,
+    "explanation": "다층 방어로 감전 위험을 줄인다.",
+    "category": "electrical-installation",
+    "difficulty": "medium",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "전기설비"
+    ]
+  }
+]

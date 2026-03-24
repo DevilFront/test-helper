@@ -1,5 +1,6 @@
 import constructionSafetyEngineerRaw from "@/data/construction-safety-engineer-questions.json";
 import constructionSafetyIndustrialRaw from "@/data/construction-safety-industrial-questions.json";
+import electricalEngineerRaw from "@/data/electrical-engineer-questions.json";
 import industrialSafetyIndustrialRaw from "@/data/industrial-safety-industrial-questions.json";
 import industrialSafetyRaw from "@/data/industrial-safety-engineer-questions.json";
 import infoProcessingRaw from "@/data/info-processing-engineer-questions.json";
@@ -7,6 +8,7 @@ import type { ExamQuestion } from "./types";
 
 export const EXAM_SLUGS = [
   "info-processing",
+  "electrical-engineer",
   "industrial-safety-industrial",
   "industrial-safety",
   "construction-safety-industrial",
@@ -39,6 +41,14 @@ export function getExamConfig(slug: string): ExamConfig | null {
         phase: "written",
         revisionNote:
           "문항 풀은 필기 형식을 참고한 창작 모의입니다. 과목·비율은 시행 공고·개정에 따라 달라질 수 있습니다.",
+      };
+    case "electrical-engineer":
+      return {
+        pool: electricalEngineerRaw as ExamQuestion[],
+        title: "전기기사 모의",
+        phase: "written",
+        revisionNote:
+          "문항 풀은 전기기사 필기 범위를 참고한 창작 모의입니다. 과목명·비율·출제 기준은 시행 공고·개정에 따라 달라질 수 있습니다.",
       };
     case "industrial-safety-industrial":
       return {

@@ -32,6 +32,11 @@ export const CATEGORY_LABELS: Record<string, string> = {
   "construction-health": "건설 보건",
   "construction-confined": "밀폐·동바리·지하 작업",
   "construction-ppe": "보호구(건설)",
+  "electro-magnetics": "전기자기학",
+  "power-engineering": "전력공학",
+  "electrical-machines": "전기기기",
+  "circuits-control": "회로이론 및 제어공학",
+  "electrical-installation": "전기설비",
 };
 
 export function getCategoryDisplayName(key: string): string {

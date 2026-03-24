@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Noto_Sans_KR } from "next/font/google";
 import { PreferencesProvider } from "@/components/preferences-provider";
 import "./globals.css";
@@ -17,6 +17,24 @@ export const metadata: Metadata = {
   },
   description:
     "자격증별 모의고사로 실력을 점검하세요. 빠른 진단, 약점 분석, 실전 대비.",
+  applicationName: "자격증 도우미",
+  icons: {
+    icon: [{ url: "/icons/icon-192.png", sizes: "192x192", type: "image/png" }],
+    apple: "/icons/icon-192.png",
+  },
+  appleWebApp: {
+    capable: true,
+    title: "자격증 도우미",
+    statusBarStyle: "default",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#fafafa" },
+    { media: "(prefers-color-scheme: dark)", color: "#09090b" },
+  ],
+  colorScheme: "dark light",
 };
 
 export default function RootLayout({

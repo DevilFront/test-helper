@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "icons": "node scripts/generate-pwa-icons.mjs",
+    "enrich-questions": "node scripts/enrich-questions-json.mjs",
+    "check-coverage": "node scripts/check-question-coverage.mjs",
+    "coverage-gap-plan": "node scripts/coverage-gap-plan.mjs",
+    "apply-coverage-rewrites": "node scripts/apply-coverage-rewrites.mjs"
   },
   "dependencies": {
     "next": "16.2.1",
@@ -20,6 +25,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.1",
+    "sharp": "^0.34.5",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

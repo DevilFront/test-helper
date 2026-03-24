@@ -22,6 +22,8 @@ import {
   loadInProgress,
   saveInProgress,
 } from "@/lib/session-in-progress";
+import { QuestionBody } from "@/components/question-body";
+import { getSourceLevelLabel, resolveSourceLevel } from "@/lib/source-level";
 import { getResultStorageKey } from "@/lib/storage-keys";
 import type { ExamQuestion, TestResultPayload } from "@/lib/types";
 
@@ -73,6 +75,8 @@ type Props = {
   examTitleOverride?: string;
   /** 과목 키만 출제 (풀 필터). `poolOverride`가 있으면 무시 */
   categoryFilter?: string[] | null;
+  /** `?session=new` — 난이도 화면 등에서 들어올 때 이어풀기 초기화·새 랜덤 순서 */
+  sessionFresh?: boolean;
 };
 
 export function TestRunner({
@@ -82,6 +86,7 @@ export function TestRunner({
   sessionLabel,
   examTitleOverride,
   categoryFilter,
+  sessionFresh = false,
 }: Props) {
   const router = useRouter();
   const config = getExamConfig(examSlug);
@@ -125,9 +130,21 @@ export function TestRunner({
   }, []);
 
   useEffect(() => {
+    if (!sessionFresh || typeof window === "undefined") return;
+    const url = new URL(window.location.href);
+    if (url.searchParams.get("session") !== "new") return;
+    url.searchParams.delete("session");
+    const next = `${url.pathname}${url.search}${url.hash}`;
+    router.replace(next, { scroll: false });
+  }, [sessionFresh, router]);
+
+  useEffect(() => {
     const cfg = getExamConfig(examSlug);
     if (!cfg) return;
     queueMicrotask(() => {
+      if (sessionFresh) {
+        clearInProgress();
+      }
       let filtered: ExamQuestion[];
       if (poolOverride && poolOverride.length > 0) {
         filtered = [...poolOverride];
@@ -153,6 +170,7 @@ export function TestRunner({
       );
       const saved = loadInProgress();
       if (
+        !sessionFresh &&
         saved &&
         saved.sessionKey === sk &&
         saved.questionIds.length > 0 &&
@@ -188,6 +206,7 @@ export function TestRunner({
     categoryFilterKey,
     categoryFilter,
     sessionNonce,
+    sessionFresh,
   ]);
 
   useEffect(() => {
@@ -338,6 +357,7 @@ export function TestRunner({
 
   const isLast = step === sessionCount - 1;
   const canAdvance = selected !== null && selected !== undefined;
+  const sourceLabel = getSourceLevelLabel(resolveSourceLevel(current));
 
   return (
     <div className="mx-auto flex w-full max-w-lg flex-1 flex-col gap-6 px-4 py-6">
@@ -397,9 +417,9 @@ export function TestRunner({
             questionId={current.id}
           />
         </div>
-        <p className="mt-3 text-base font-medium leading-relaxed text-zinc-900 dark:text-zinc-50">
-          {current.question}
-        </p>
+        <div className="mt-3">
+          <QuestionBody question={current} showMeta />
+        </div>
         <ul className="mt-5 flex flex-col gap-2">
           {current.options.map((opt, idx) => {
             const isSelected = selected === idx;
@@ -424,7 +444,17 @@ export function TestRunner({
           })}
         </ul>
         <p className="mt-4 text-xs leading-relaxed text-zinc-500 dark:text-zinc-500">
-          창작 모의 문항이며 실제 기출·시험과 다를 수 있습니다.
+          <span className="font-medium text-zinc-600 dark:text-zinc-400">
+            출처: {sourceLabel}
+          </span>
+          {" · "}
+          실제 기출·시험과 다를 수 있습니다.{" "}
+          <Link
+            href={`/exam/${examSlug}/info`}
+            className="underline underline-offset-2 hover:text-zinc-700 dark:hover:text-zinc-300"
+          >
+            시험 공고·과목 안내
+          </Link>
         </p>
       </article>
 

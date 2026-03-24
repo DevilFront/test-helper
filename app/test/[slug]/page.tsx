@@ -1,11 +1,16 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ExamRevisionBanner } from "@/components/exam-revision-banner";
 import {
   EXAM_DIFFICULTY_MODES,
   MODE_LABELS,
   SESSION_QUESTION_CAP,
 } from "@/lib/exam-modes";
-import { getExamConfig, isExamSlug } from "@/lib/exam-registry";
+import {
+  getExamConfig,
+  getExamPhaseLabel,
+  isExamSlug,
+} from "@/lib/exam-registry";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -43,11 +48,29 @@ export default async function TestMenuPage({ params }: Props) {
         </div>
       </div>
       <div className="mx-auto w-full max-w-lg flex-1 px-4 py-8">
-        <h1 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
-          난이도 선택
-        </h1>
+        <div className="flex flex-wrap items-center gap-2">
+          <h1 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
+            난이도 선택
+          </h1>
+          <span className="rounded-full bg-zinc-200 px-2.5 py-0.5 text-xs font-medium text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300">
+            {getExamPhaseLabel(config.phase)}
+          </span>
+        </div>
         <p className="mt-2 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
           한 세션 최대 {SESSION_QUESTION_CAP}문항이 무작위로 출제됩니다.
+        </p>
+        {config.revisionNote && (
+          <div className="mt-4">
+            <ExamRevisionBanner text={config.revisionNote} />
+          </div>
+        )}
+        <p className="mt-4 text-sm">
+          <Link
+            href={`/exam/${slug}/info`}
+            className="font-medium text-emerald-700 underline-offset-2 hover:underline dark:text-emerald-400"
+          >
+            시험 공고·과목 비율 안내 ↗
+          </Link>
         </p>
         <ul className="mt-6 flex flex-col gap-3">
           {EXAM_DIFFICULTY_MODES.map((mode) => {
@@ -55,7 +78,7 @@ export default async function TestMenuPage({ params }: Props) {
             return (
               <li key={mode}>
                 <Link
-                  href={`/test/${slug}/quiz?mode=${mode}`}
+                  href={`/test/${slug}/quiz?mode=${mode}&session=new`}
                   className="flex flex-col rounded-2xl border border-zinc-200 bg-white px-5 py-4 shadow-sm transition-colors hover:border-emerald-300 hover:bg-emerald-50/40 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:border-emerald-800 dark:hover:bg-emerald-950/20"
                 >
                   <span className="font-semibold text-zinc-900 dark:text-zinc-50">

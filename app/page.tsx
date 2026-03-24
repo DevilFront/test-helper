@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { HabitsWidget } from "@/components/habits-widget";
 
 export const metadata = {
   title: "자격증 도우미",
@@ -10,15 +11,36 @@ const certifications = [
   {
     slug: "info-processing",
     name: "정보처리기사",
-    description: "난이도 선택 · 최대 15문항",
+    description: "필기 모의 · 난이도 선택 · 최대 15문항",
     href: "/test/info-processing",
+    available: true,
+  },
+  {
+    slug: "industrial-safety-industrial",
+    name: "산업안전 산업기사",
+    description: "필기 모의 · 난이도 선택 · 최대 15문항",
+    href: "/test/industrial-safety-industrial",
     available: true,
   },
   {
     slug: "industrial-safety",
     name: "산업안전기사",
-    description: "난이도 선택 · 최대 15문항",
+    description: "필기 모의 · 난이도 선택 · 최대 15문항",
     href: "/test/industrial-safety",
+    available: true,
+  },
+  {
+    slug: "construction-safety-industrial",
+    name: "건설안전 산업기사",
+    description: "필기 모의 · 난이도 선택 · 최대 15문항",
+    href: "/test/construction-safety-industrial",
+    available: true,
+  },
+  {
+    slug: "construction-safety-engineer",
+    name: "건설안전기사",
+    description: "필기 모의 · 난이도 선택 · 최대 15문항",
+    href: "/test/construction-safety-engineer",
     available: true,
   },
 ] as const;
@@ -35,6 +57,19 @@ export default function Home() {
             실제 시험에 가까운 모의로 합격 가능성을 가볍게 점검해 보세요
           </p>
         </div>
+
+        <div className="mt-8 w-full">
+          <HabitsWidget />
+        </div>
+
+        <p
+          className="mt-6 w-full rounded-xl border border-amber-200/90 bg-amber-50/90 px-4 py-3 text-left text-xs leading-relaxed text-amber-950 dark:border-amber-900/40 dark:bg-amber-950/30 dark:text-amber-100"
+          role="status"
+        >
+          <strong className="font-semibold">개정 안내:</strong> 실제 시험 과목·출제
+          비율은 시행·개정에 따라 달라질 수 있습니다. 응시 전 큐넷 등{" "}
+          <strong>최신 공고</strong>를 확인하세요.
+        </p>
 
         <div className="mt-10">
           <h2 className="text-center text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
@@ -95,6 +130,12 @@ export default function Home() {
         <div className="mt-10 flex flex-col items-center gap-3 text-center text-xs leading-relaxed text-zinc-500 dark:text-zinc-500">
           <p>회원가입 없음 · 결과는 이 기기에만 저장됩니다</p>
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
+            <Link
+              href="/progress"
+              className="font-medium text-emerald-700 underline-offset-2 hover:underline dark:text-emerald-400"
+            >
+              학습 현황
+            </Link>
             <Link
               href="/learn"
               className="font-medium text-emerald-700 underline-offset-2 hover:underline dark:text-emerald-400"

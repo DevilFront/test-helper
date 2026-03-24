@@ -20,6 +20,18 @@ export const CATEGORY_LABELS: Record<string, string> = {
   ppe: "보호구",
   psm: "PSM·중대재해 예방",
   ergonomics: "인간공학·근골격계",
+  "construction-law": "건설·산업안전 법령",
+  "construction-mgmt": "건설현장 안전보건관리",
+  "construction-risk": "위험성평가(건설)",
+  "construction-scaffold": "비계·거푸집·가설",
+  "construction-excavation": "굴착·가시설",
+  "construction-electrical": "건설 전기·감전 예방",
+  "construction-machinery": "건설기계·양중",
+  "construction-demolition": "해체공사",
+  "construction-fire": "화재·소방(건설)",
+  "construction-health": "건설 보건",
+  "construction-confined": "밀폐·동바리·지하 작업",
+  "construction-ppe": "보호구(건설)",
 };
 
 export function getCategoryDisplayName(key: string): string {

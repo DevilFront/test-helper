@@ -72,7 +72,7 @@ export default function LearnPage() {
   );
 
   const quizHref = useMemo(() => {
-    const base = `/test/${examSlug}/quiz?mode=mixed`;
+    const base = `/test/${examSlug}/quiz?mode=mixed&session=new`;
     const keys = [...selectedCats].sort();
     if (keys.length === 0) return base;
     return `${base}&focus=${encodeURIComponent(keys.join(","))}`;

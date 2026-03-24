@@ -32,8 +32,8 @@
 
 | 항목 | 상태 | 비고 |
 |------|------|------|
-| 연속 출석 / 주간 목표 | ☐ | `localStorage` + 날짜 키 |
-| 주간 요약 리포트 | ☐ | 로컬 이력 집계 |
+| 연속 출석 / 주간 목표 | ☑ | `cert-habits-v1`, 월요일 주간 리셋, 로드맵 목표와 진행률 |
+| 주간 요약 리포트 | ☑ | `cert-study-history-v1`, `/progress` |
 
 ---
 
@@ -41,8 +41,8 @@
 
 | 항목 | 상태 | 비고 |
 |------|------|------|
-| 문항별 `sourceLevel` JSON 필드 | ☐ | 선택, 일괄 기본값 가능 |
-| 시험 공고 링크·과목 비율 안내 | ☐ | 자격증별 정적 페이지 또는 카드 |
+| 문항별 `sourceLevel` JSON 필드 | ☑ | `creative_mock` 기본, 모의·결과에 표시 |
+| 시험 공고 링크·과목 비율 안내 | ☑ | `/exam/[slug]/info`, 큐넷 링크 + 공고 확인 유도 |
 
 ---
 
@@ -50,8 +50,8 @@
 
 | 항목 | 상태 | 비고 |
 |------|------|------|
-| PWA (manifest, 아이콘) | ☐ | `public/manifest.webmanifest` |
-| 결과 공유 이미지 | ☐ | Canvas / `html-to-image` |
+| PWA (manifest, 아이콘) | ☑ | `app/manifest.ts`, `public/icons/*.png`, `npm run icons` |
+| 결과 공유 이미지 | ☑ | Canvas 요약 카드, Web Share 또는 다운로드 |
 
 ---
 
@@ -59,9 +59,10 @@
 
 | 항목 | 상태 | 비고 |
 |------|------|------|
-| 인증 (Auth.js 등) | ☐ | |
+| 인증 (Auth.js 등) | ☐ | `docs/phase6-future-auth.md` |
 | DB (PostgreSQL 등) | ☐ | 응시 이력·오답 통계 |
-| 기기 간 이어풀기 | ☐ | 로그인 후 |
+| 기기 간 이어풀기 | ☐ | 로그인 후 클라우드 동기화 |
+| 로컬 백업·복원 | ☑ | `/settings/data`, JSON 파일 |
 
 ---
 
@@ -69,12 +70,18 @@
 
 | 항목 | 상태 | 비고 |
 |------|------|------|
-| 자격증 종류 추가 | ☐ | `exam-registry` + JSON 풀 |
-| 필기/실기 구분 | ☐ | 라우트·메타 |
-| 개정·연도 안내 | ☐ | 문서·배너 |
+| 자격증 종류 추가 | ☑ | `exam-registry` + JSON 풀 — 정보처리·산업안전(산업기사/기사)·건설안전(산업기사/기사) |
+| 필기/실기 구분 | ☑ | `ExamConfig.phase`, 배지·메타 |
+| 개정·연도 안내 | ☑ | 홈·난이도 선택 배너, `revisionNote` |
 
 ---
 
 ## OpenAI 활용
 
 별도 문서: `docs/openai-integration.md`
+
+---
+
+## 문항 품질 (전면 설계)
+
+설계서: `docs/question-bank-quality-design.md` (유형·스키마 v2·검수·커버리지·마이그레이션)

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCallback, useState } from "react";
+import { QuestionBody } from "@/components/question-body";
 import { getCategoryDisplayName } from "@/lib/category-labels";
 import {
   EXAM_SLUGS,
@@ -103,9 +104,9 @@ export default function BookmarksPage() {
                           삭제
                         </button>
                       </div>
-                      <p className="mt-2 text-sm leading-relaxed text-zinc-800 dark:text-zinc-200">
-                        {q.question}
-                      </p>
+                      <div className="mt-2 text-sm text-zinc-800 dark:text-zinc-200">
+                        <QuestionBody question={q} />
+                      </div>
                     </li>
                   ))}
                 </ul>

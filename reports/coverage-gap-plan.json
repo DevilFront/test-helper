@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-03-24T07:54:44.025Z",
+  "note": "후보는 휴리스틱이며, 실제 수정은 사람 검수 또는 LLM 초안+검수를 권장합니다. 자동 덮어쓰기 스크립트는 제공하지 않습니다.",
+  "exams": [
+    {
+      "examSlug": "info-processing",
+      "title": "정보처리기사",
+      "dataFile": "data/info-processing-engineer-questions.json",
+      "totalQuestions": 60,
+      "stemKindCounts": {
+        "definition": 39,
+        "which_best": 12,
+        "code_or_sql": 3,
+        "not": 3,
+        "scenario": 3
+      },
+      "stemGaps": [],
+      "actions": []
+    },
+    {
+      "examSlug": "industrial-safety",
+      "title": "산업안전기사",
+      "dataFile": "data/industrial-safety-engineer-questions.json",
+      "totalQuestions": 60,
+      "stemKindCounts": {
+        "scenario": 1,
+        "definition": 49,
+        "which_best": 10
+      },
+      "stemGaps": [
+        {
+          "kind": "scenario",
+          "current": 1,
+          "target": 3,
+          "shortfall": 2
+        },
+        {
+          "kind": "not",
+          "current": 0,
+          "target": 1,
+          "shortfall": 1
+        }
+      ],
+      "actions": [
+        {
+          "gap": {
+            "kind": "scenario",
+            "current": 1,
+            "target": 3,
+            "shortfall": 2
+          },
+          "strategy": "짧은 정의문을 상황 서술로 확장하거나, 긴 지문을 leadIn / question 으로 분리",
+          "candidates": [
+            {
+              "id": 53,
+              "category": "chemical-safety",
+              "stemKind": "which_best",
+              "questionLength": 66,
+              "hasLeadIn": false,
+              "hint": "leadIn에 맥락·question에 단일 판단 요구로 분리, stemKind=scenario, cognitiveLevel 조정"
+            },
+            {
+              "id": 31,
+              "category": "fire-explosion",
+              "stemKind": "which_best",
+              "questionLength": 56,
+              "hasLeadIn": false,
+              "hint": "leadIn에 맥락·question에 단일 판단 요구로 분리, stemKind=scenario, cognitiveLevel 조정"
+            }
+          ]
+        },
+        {
+          "gap": {
+            "kind": "not",
+            "current": 0,
+            "target": 1,
+            "shortfall": 1
+          },
+          "strategy": "긍정형을 부정형으로 바꿀 때 정답이 바뀌는지 반드시 확인",
+          "candidates": [
+            {
+              "id": 8,
+              "category": "machinery-safety",
+              "stemKind": "which_best",
+              "hint": "발문을 \"옳지 않은 것은?\" 등으로 바꾸고 오답·해설·answer 인덱스 재검증. stemKind=not"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

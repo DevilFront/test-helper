@@ -10,7 +10,7 @@ import { parseCategoryFocusParam } from "@/lib/quiz-url";
 
 type Props = {
   params: Promise<{ slug: string }>;
-  searchParams: Promise<{ mode?: string; focus?: string }>;
+  searchParams: Promise<{ mode?: string; focus?: string; session?: string }>;
 };
 
 export async function generateMetadata({ params, searchParams }: Props) {
@@ -33,6 +33,8 @@ export default async function QuizPage({ params, searchParams }: Props) {
   const config = getExamConfig(slug);
   if (!config) notFound();
   const categoryFilter = parseCategoryFocusParam(sp.focus);
+  /** 난이도 화면에서 들어올 때만 전달 — 이어풀기 초기화 후 매번 새 랜덤 순서 */
+  const sessionFresh = sp.session === "new";
 
   return (
     <div className="flex min-h-full flex-col">
@@ -53,6 +55,7 @@ export default async function QuizPage({ params, searchParams }: Props) {
         examSlug={slug}
         difficultyMode={mode}
         categoryFilter={categoryFilter}
+        sessionFresh={sessionFresh}
       />
     </div>
   );

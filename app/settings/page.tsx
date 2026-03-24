@@ -110,6 +110,21 @@ export default function SettingsPage() {
 
       <section className="mt-8 space-y-3">
         <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-50">
+          데이터
+        </h2>
+        <p className="text-xs text-zinc-500 dark:text-zinc-400">
+          다른 기기로 설정·학습 기록을 옮기려면 백업 파일을 사용하세요.
+        </p>
+        <Link
+          href="/settings/data"
+          className="inline-flex w-full items-center justify-center rounded-xl border border-zinc-200 bg-white px-4 py-3 text-sm font-medium text-zinc-900 hover:bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-950 dark:text-zinc-50 dark:hover:bg-zinc-900"
+        >
+          백업·복원 (기기 옮기기)
+        </Link>
+      </section>
+
+      <section className="mt-8 space-y-3">
+        <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-50">
           글자 크기
         </h2>
         <div className="flex flex-col gap-2">

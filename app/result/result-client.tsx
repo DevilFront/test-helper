@@ -20,6 +20,10 @@ import {
   getScorePercent,
   getWeakCategories,
 } from "@/lib/result-analytics";
+import { QuestionBody } from "@/components/question-body";
+import { ResultShareButton } from "@/components/result-share-button";
+import { tryRecordStudySession } from "@/lib/record-study-session";
+import { getSourceLevelLabel, resolveSourceLevel } from "@/lib/source-level";
 import { loadTestResultFromSession } from "@/lib/result-storage";
 import { scoreToPassProbability } from "@/lib/scoring";
 import type { TestResultPayload } from "@/lib/types";
@@ -56,6 +60,13 @@ export function ResultClient({ examSlugParam }: Props) {
       setData(loadTestResultFromSession(examSlugParam));
     });
   }, [examSlugParam]);
+
+  useEffect(() => {
+    if (!data) return;
+    queueMicrotask(() => {
+      tryRecordStudySession(data);
+    });
+  }, [data]);
 
   const analysis = useMemo(() => {
     if (!data) return null;
@@ -123,10 +134,10 @@ export function ResultClient({ examSlugParam }: Props) {
           결과 정보가 없습니다. 테스트를 완료해 주세요.
         </p>
         <Link
-          href="/test/info-processing"
+          href="/"
           className="mt-6 rounded-xl bg-emerald-600 px-6 py-3 text-sm font-semibold text-white hover:bg-emerald-700"
         >
-          모의고사로 가기
+          시험 선택으로 가기
         </Link>
       </div>
     );
@@ -155,7 +166,7 @@ export function ResultClient({ examSlugParam }: Props) {
     data.difficultyMode && isExamDifficultyMode(data.difficultyMode)
       ? data.difficultyMode
       : "mixed";
-  const retestHref = `/test/${examSlug}/quiz?mode=${encodeURIComponent(retestMode)}`;
+    const retestHref = `/test/${examSlug}/quiz?mode=${encodeURIComponent(retestMode)}&session=new`;
 
   function goWrongRetry() {
     if (wrongQuestions.length === 0) return;
@@ -346,10 +357,13 @@ export function ResultClient({ examSlugParam }: Props) {
                   <span className="text-xs text-zinc-400">
                     {getCategoryDisplayName(q.category)}
                   </span>
+                  <span className="rounded-full bg-zinc-200/80 px-2 py-0.5 text-[10px] font-medium text-zinc-600 dark:bg-zinc-800 dark:text-zinc-400">
+                    {getSourceLevelLabel(resolveSourceLevel(q))}
+                  </span>
                 </div>
-                <p className="mt-2 leading-relaxed text-zinc-800 dark:text-zinc-200">
-                  {q.question}
-                </p>
+                <div className="mt-2">
+                  <QuestionBody question={q} showMeta />
+                </div>
                 <p className="mt-2 text-zinc-600 dark:text-zinc-400">
                   내 답: {picked !== undefined ? labels[picked] : "—"}{" "}
                   {picked !== undefined ? q.options[picked] : ""}
@@ -368,7 +382,16 @@ export function ResultClient({ examSlugParam }: Props) {
         </ol>
       </details>
 
-      <div className="flex flex-col gap-3 sm:flex-row sm:justify-center">
+      <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:justify-center">
+        <ResultShareButton
+          data={{
+            examTitle,
+            scorePercent,
+            correct,
+            total,
+            weakDisplayNames: weak.map((w) => w.displayName),
+          }}
+        />
         <Link
           href={retestHref}
           className="inline-flex items-center justify-center rounded-xl border border-zinc-300 bg-white px-5 py-3 text-sm font-semibold text-zinc-900 hover:bg-zinc-50 dark:border-zinc-600 dark:bg-zinc-900 dark:text-zinc-50 dark:hover:bg-zinc-800"

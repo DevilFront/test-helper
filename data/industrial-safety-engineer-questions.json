@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "leadIn": "50명 규모 제조 현장에서 연간 안전보건교육 계획을 수립하는 과정이다. 법령상 교육 실시의 취지를 검토하는 단계이다.",
     "question": "사업주가 근로자에게 산업재해 예방을 위한 교육을 실시해야 하는 근거로 가장 적절한 것은?",
     "options": [
       "산업재해 예방과 안전·보건 수준 향상을 위해서",
@@ -11,7 +12,16 @@
     "answer": 0,
     "explanation": "산업안전보건법은 사업주에게 안전·보건에 관한 교육 실시를 통해 재해 예방과 수준 향상을 도모하도록 규정한다.",
     "category": "safety-law",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "sourceLevel": "creative_mock",
+    "stemKind": "scenario",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "교육",
+      "산업안전보건법"
+    ]
   },
   {
     "id": 2,
@@ -25,7 +35,11 @@
     "answer": 1,
     "explanation": "통상 상시 근로자 수 등 법령이 정한 기준에 따라 안전·보건 관리 조직과 책임자 선임 의무가 달라진다.",
     "category": "safety-management",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 3,
@@ -39,7 +53,11 @@
     "answer": 0,
     "explanation": "보호구는 작업별 위험에 맞는 규격·성능을 갖추고 올바르게 착용되도록 지급·관리해야 한다.",
     "category": "ppe",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 4,
@@ -53,7 +71,11 @@
     "answer": 1,
     "explanation": "위험성평가는 유해·위험 요인을 체계적으로 식별하고, 허용 가능한 수준으로 낮추기 위한 조치를 마련하는 과정이다.",
     "category": "risk-assessment",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 5,
@@ -67,7 +89,11 @@
     "answer": 0,
     "explanation": "유해화학물질은 물질별 안전·보건 정보를 제공하고, 지정된 보관·취급·비상조치를 준수해야 한다.",
     "category": "chemical-safety",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 6,
@@ -81,7 +107,11 @@
     "answer": 1,
     "explanation": "재해 발생 시 응급조치·현장 조사 협조·보고·재발 방지 및 관련 법령에 따른 조치가 요구된다.",
     "category": "safety-law",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 7,
@@ -95,7 +125,11 @@
     "answer": 1,
     "explanation": "안전·보건 교육은 유해·위험 요인을 이해하고 안전 수칙을 따르도록 하여 재해를 예방하는 데 목적이 있다.",
     "category": "safety-management",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 8,
@@ -109,7 +143,11 @@
     "answer": 2,
     "explanation": "방호장치·연동장치 등은 기계의 위험부에 대한 접근을 막거나 위험을 줄이기 위한 설비이다.",
     "category": "machinery-safety",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 9,
@@ -123,7 +161,11 @@
     "answer": 3,
     "explanation": "밀폐공간은 작업 전 산소·유해가스 농도 측정, 환기, 감시자 배치, 비상대피 등이 절차적으로 요구된다.",
     "category": "confined-space",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 10,
@@ -137,7 +179,11 @@
     "answer": 1,
     "explanation": "전기 안전은 정전 확인, 잠금·표지(LOTO), 절연용구 사용, 접지 점검 등 절차적 통제가 핵심이다.",
     "category": "electrical-safety",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 11,
@@ -151,7 +197,11 @@
     "answer": 2,
     "explanation": "화기작업은 인화성 물질 이격·소화설비·감시·작업 허가 등 화재·폭발 위험을 통제하는 절차가 필요하다.",
     "category": "fire-explosion",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 12,
@@ -165,7 +215,11 @@
     "answer": 2,
     "explanation": "작업환경측정은 유해인자의 농도·강도 등을 파악해 관리·보건조치와 관리기준 준수에 활용한다.",
     "category": "industrial-health",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 13,
@@ -179,7 +233,11 @@
     "answer": 3,
     "explanation": "유해화학물질은 물질별 안전·보건 정보를 근로자에게 알려 안전하게 취급하도록 해야 한다.",
     "category": "chemical-safety",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 14,
@@ -193,7 +251,11 @@
     "answer": 1,
     "explanation": "위험성평가는 유해·위험의 크기와 발생 가능성을 고려해 제거·대체·공정통제·보호구 등 순으로 조치를 선정한다.",
     "category": "risk-assessment",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 15,
@@ -207,7 +269,11 @@
     "answer": 1,
     "explanation": "안전보건관리책임자는 사업장의 안전·보건 관리 조직 운영과 관련 지도·점검 등을 맡는다.",
     "category": "safety-management",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 16,
@@ -221,7 +287,11 @@
     "answer": 2,
     "explanation": "물리적 유해인자는 발생 억제·격리·시간 단축·보호구·건강진단 등으로 노출을 관리한다.",
     "category": "industrial-health",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 17,
@@ -235,7 +305,11 @@
     "answer": 3,
     "explanation": "끼임·절단 위험부에는 방호장치를 설치하고, 필요 시 연동·비상정지 등을 갖춘다.",
     "category": "machinery-safety",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 18,
@@ -249,7 +323,11 @@
     "answer": 2,
     "explanation": "감전 위험이 있는 전기 작업에서는 정전 확인, 잠금·표지로 오인전·오가동을 방지하는 절차가 중요하다.",
     "category": "electrical-safety",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 19,
@@ -263,7 +341,11 @@
     "answer": 1,
     "explanation": "폭발위험장소는 인화성 가스·분진에 맞는 방폭 등급의 설비·배선·접지·환기 등을 적용해야 한다.",
     "category": "fire-explosion",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 20,
@@ -277,7 +359,11 @@
     "answer": 2,
     "explanation": "인양 작업은 인양기·와이어·신호·통제선·작업반경 확보 등으로 낙하·충돌을 방지한다.",
     "category": "machinery-safety",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 21,
@@ -291,7 +377,11 @@
     "answer": 3,
     "explanation": "부적절한 자세·반복·부하를 줄이기 위해 작업대 높이, 보조구, 순환·휴게 등을 조정한다.",
     "category": "ergonomics",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 22,
@@ -305,7 +395,11 @@
     "answer": 2,
     "explanation": "안전·보건 관리는 위험 식별, 점검, 교육, 개선·재발방지 등을 포함하는 순환 구조가 필요하다.",
     "category": "safety-management",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 23,
@@ -319,7 +413,11 @@
     "answer": 1,
     "explanation": "누출 시 인명 보호·격리·환기·소화·수집·보고 등 비상·보고 절차가 필요하다.",
     "category": "chemical-safety",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 24,
@@ -333,7 +431,11 @@
     "answer": 1,
     "explanation": "추락 방지는 난간·안전대·발판·접근통제·작업계획·교육 등으로 통제한다.",
     "category": "safety-management",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 25,
@@ -347,7 +449,11 @@
     "answer": 3,
     "explanation": "관리기준 초과 시 공정·환기·보호구·건강진단 등으로 노출을 낮추고 재측정으로 확인한다.",
     "category": "industrial-health",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 26,
@@ -361,7 +467,11 @@
     "answer": 2,
     "explanation": "감시자는 작업자와 연락·통신을 유지하고, 이상 시 비상대피·구조·작업 중단을 지시한다.",
     "category": "confined-space",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 27,
@@ -375,7 +485,11 @@
     "answer": 1,
     "explanation": "사업주는 안전·보건에 관한 유해·위험을 제거하거나 줄이기 위한 조치를 강구해야 한다는 취지로 이해한다.",
     "category": "psm",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 28,
@@ -389,7 +503,11 @@
     "answer": 1,
     "explanation": "PSM은 공정의 유해·위험을 식별·평가하고 설비·운영·비상대응을 체계적으로 관리한다.",
     "category": "psm",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 29,
@@ -403,7 +521,11 @@
     "answer": 3,
     "explanation": "잔여 위험은 제거·대체·공정통제 후에도 남을 수 있어 보호구·절차·권한 등으로 추가 통제한다.",
     "category": "risk-assessment",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "definition",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 30,
@@ -417,7 +539,11 @@
     "answer": 2,
     "explanation": "유해인자는 측정·관리기준과 비교해 개선하고 재평가로 효과를 확인하는 순환 관리가 필요하다.",
     "category": "chemical-safety",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 31,
@@ -431,7 +557,11 @@
     "answer": 1,
     "explanation": "가연성 분진은 발생 억제, 환기, 정전기·방폭, 점화원 통제, 적절한 청소 등으로 화재·폭발을 통제한다.",
     "category": "fire-explosion",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 32,
@@ -445,7 +575,11 @@
     "answer": 2,
     "explanation": "방호·연동·비상정지는 위험부 접근·오작동·오가동·인체 접근에 따른 재해를 예방한다.",
     "category": "machinery-safety",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 33,
@@ -459,7 +593,11 @@
     "answer": 3,
     "explanation": "기준 초과 시 작업 중단·환기·재측정·재진입 허용·감시 등 절차를 재확인해야 한다.",
     "category": "confined-space",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 34,
@@ -473,7 +611,11 @@
     "answer": 2,
     "explanation": "활선 작업은 절연·거리·절연용구·절차·감독 등으로 감전·아크 위험을 통제한다.",
     "category": "electrical-safety",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "definition",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 35,
@@ -487,7 +629,11 @@
     "answer": 1,
     "explanation": "화학물질 혼합·반응·가열은 반응성·발열·폭발·독성 등을 사전에 검토해 통제한다.",
     "category": "chemical-safety",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 36,
@@ -501,7 +647,11 @@
     "answer": 2,
     "explanation": "건강진단은 유해인자 노출에 따른 건강 이상을 조기에 발견하고 작업 전환·보호조치에 활용한다.",
     "category": "industrial-health",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "definition",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 37,
@@ -515,7 +665,11 @@
     "answer": 3,
     "explanation": "정리정돈·청결은 낙상·넘어짐·충돌·비상대피 장애 등을 줄이는 기본 조치이다.",
     "category": "safety-management",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "definition",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 38,
@@ -529,7 +683,11 @@
     "answer": 1,
     "explanation": "호흡용 보호구는 유해인자 종류·농도·산소 농도·필터 적합성·밀착 등을 고려해 선정한다.",
     "category": "ppe",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "definition",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 39,
@@ -543,7 +701,11 @@
     "answer": 1,
     "explanation": "근골격계 부담은 작업 높이·도구·순환·휴게·보조장치 등으로 줄인다.",
     "category": "ergonomics",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "definition",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 40,
@@ -557,7 +719,11 @@
     "answer": 2,
     "explanation": "공정·설비·물질 변경 시 유해·위험과 통제 수준이 달라지므로 재평가로 조치를 갱신한다.",
     "category": "risk-assessment",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "definition",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 41,
@@ -571,7 +737,11 @@
     "answer": 0,
     "explanation": "통로·비상구는 화재·재해 시 대피와 구조, 일상 안전 동선을 위해 확보해야 한다.",
     "category": "safety-law",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 42,
@@ -585,7 +755,11 @@
     "answer": 0,
     "explanation": "안전표지는 시인성 높은 색·기호로 위험과 준수 행동을 전달한다.",
     "category": "safety-management",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 43,
@@ -599,7 +773,11 @@
     "answer": 0,
     "explanation": "청력 보호구는 과도한 소음 노출에 따른 청력 손상을 줄이기 위해 사용한다.",
     "category": "ppe",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 44,
@@ -613,7 +791,11 @@
     "answer": 3,
     "explanation": "라벨은 명칭·위험·예방조치 등을 알려 안전하게 취급하도록 한다.",
     "category": "chemical-safety",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 45,
@@ -627,7 +809,11 @@
     "answer": 0,
     "explanation": "절연·접지 상태는 누전·감전·화재 위험과 직결되므로 정기 점검이 필요하다.",
     "category": "electrical-safety",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 46,
@@ -641,7 +827,11 @@
     "answer": 0,
     "explanation": "가연성 가스는 점화원 차단·환기·누출 차단·측정·보고 등으로 폭발·화재를 막는다.",
     "category": "fire-explosion",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 47,
@@ -655,7 +845,11 @@
     "answer": 0,
     "explanation": "작업 자세·높이·도구는 근골격계 질환과 피로를 줄이는 데 영향을 준다.",
     "category": "ergonomics",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 48,
@@ -669,7 +863,11 @@
     "answer": 3,
     "explanation": "건강진단은 질병 조기 발견과 작업 배치·보호조치에 활용되도록 알림이 중요하다.",
     "category": "industrial-health",
-    "difficulty": "easy"
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 49,
@@ -683,7 +881,11 @@
     "answer": 2,
     "explanation": "위험도는 사고 가능성과 피해의 중대성을 결합해 우선순위를 정하는 방식이 일반적이다.",
     "category": "risk-assessment",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 50,
@@ -697,7 +899,11 @@
     "answer": 0,
     "explanation": "밀폐공간은 작업 종류에 따라 유해가스·산소 결핍 등을 측정해 진입 허용을 판단한다.",
     "category": "confined-space",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 51,
@@ -711,7 +917,11 @@
     "answer": 0,
     "explanation": "PSI는 공정·물질·설비의 안전 정보를 담아 운영·비상·변경관리에 활용한다.",
     "category": "psm",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 52,
@@ -725,7 +935,11 @@
     "answer": 3,
     "explanation": "두 손 조작은 양손으로 조작해 손이 위험부에 들어가지 않도록 하는 연동 방호이다.",
     "category": "machinery-safety",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 53,
@@ -739,7 +953,11 @@
     "answer": 2,
     "explanation": "계층적 통제는 제거·대체·공정·관리·보호구 순으로 노출을 줄이는 원칙이다.",
     "category": "chemical-safety",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 54,
@@ -753,7 +971,11 @@
     "answer": 0,
     "explanation": "아크 플래시는 정전·거리·PPE·에너지 통제 등으로 위험을 줄인다.",
     "category": "electrical-safety",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "definition",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 55,
@@ -767,7 +989,11 @@
     "answer": 0,
     "explanation": "가연성 분진은 최소 점화에너지 이하로 점화원을 통제해야 폭발을 예방한다.",
     "category": "fire-explosion",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "definition",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 56,
@@ -781,7 +1007,11 @@
     "answer": 3,
     "explanation": "기준 초과 시 공학적 개선·행정조치·보호구·건강관리 등을 종합해 노출을 낮춘다.",
     "category": "industrial-health",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "definition",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 57,
@@ -795,7 +1025,11 @@
     "answer": 0,
     "explanation": "중대재해는 사업주의 안전·보건 확보 의무와 체계적 예방 조치의 이행 여부가 문제된다.",
     "category": "psm",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 58,
@@ -809,7 +1043,11 @@
     "answer": 0,
     "explanation": "구조 변경은 환기·가스 침체·신규 위험을 바꿀 수 있어 재측정·재평가가 필요하다.",
     "category": "confined-space",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "definition",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 59,
@@ -823,7 +1061,11 @@
     "answer": 2,
     "explanation": "중대한 위험이 있는 경우 작업중지 등 법령이 정한 조치가 논의될 수 있다.",
     "category": "safety-management",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "definition",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   },
   {
     "id": 60,
@@ -837,6 +1079,10 @@
     "answer": 3,
     "explanation": "방호장치는 위험부 접근을 막거나 위험을 낮춰 기계 재해를 예방한다.",
     "category": "machinery-safety",
-    "difficulty": "hard"
+    "difficulty": "hard",
+    "stemKind": "definition",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   }
 ]

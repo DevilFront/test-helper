@@ -19,6 +19,13 @@ export const EXPECTED_CATEGORIES = {
     "circuits-control",
     "electrical-installation",
   ],
+  "electrical-craftsman": [
+    "electro-magnetics",
+    "power-engineering",
+    "electrical-machines",
+    "circuits-control",
+    "electrical-installation",
+  ],
   "industrial-safety": [
     "safety-law",
     "safety-management",
@@ -87,6 +94,11 @@ export const EXAMS = [
     slug: "electrical-engineer",
     title: "전기기사",
     file: "data/electrical-engineer-questions.json",
+  },
+  {
+    slug: "electrical-craftsman",
+    title: "전기기능사",
+    file: "data/electrical-craftsman-questions.json",
   },
   {
     slug: "industrial-safety-industrial",

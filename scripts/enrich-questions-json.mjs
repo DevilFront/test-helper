@@ -12,6 +12,7 @@ const root = path.join(__dirname, "..");
 const FILES = [
   "data/info-processing-engineer-questions.json",
   "data/electrical-engineer-questions.json",
+  "data/electrical-craftsman-questions.json",
   "data/industrial-safety-engineer-questions.json",
   "data/industrial-safety-industrial-questions.json",
   "data/construction-safety-industrial-questions.json",

@@ -78,6 +78,38 @@ export function getExamOfficialInfo(slug: ExamSlug): ExamOfficialInfo | null {
         disclaimer:
           "자격 제도·시험 과목은 개정될 수 있습니다. 응시·합격 기준은 공식 공고를 기준으로 하세요.",
       };
+    case "electrical-craftsman":
+      return {
+        shortTitle: "전기기능사",
+        title: "전기기능사 시험 안내",
+        examPhaseLabel: "필기(참고)",
+        intro:
+          "전기기능사 필기는 전기자기학·전력공학·전기기기·회로이론 및 제어공학·전기설비 등의 범위로 알려져 있으나, 과목명·문항 수·출제 비율은 시행(회차)마다 공고와 출제 기준에 따라 달라질 수 있습니다. 전기기사와 난이도·과목 구성이 다를 수 있습니다.",
+        noticeLinks: [
+          {
+            label: "큐넷(한국산업인력공단)",
+            href: "https://www.q-net.or.kr/",
+          },
+          {
+            label: "시험일정·자격 검색",
+            href: "https://www.q-net.or.kr/cst005.do?id=cst005",
+          },
+        ],
+        subjectRatioSections: [
+          {
+            heading: "필기 시험 구성(참고)",
+            body:
+              "통상 전기자기학, 전력공학, 전기기기, 회로이론 및 제어공학, 전기설비 등의 영역이 필기 출제 범위에 포함될 수 있습니다. 정확한 과목·비율은 해당 시행의 시험 공고를 따릅니다.",
+          },
+          {
+            heading: "이 앱의 모의고사와의 관계",
+            body:
+              "본 서비스 문항은 학습용 창작·참고 문항이며 기출문항이 아닙니다. 법령·기준·개정은 공식 자료와 교재로 확인하세요.",
+          },
+        ],
+        disclaimer:
+          "자격 제도·시험 과목은 개정될 수 있습니다. 응시·합격 기준은 공식 공고를 기준으로 하세요.",
+      };
     case "industrial-safety":
       return {
         shortTitle: "산업안전기사",

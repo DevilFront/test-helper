@@ -23,6 +23,13 @@ const certifications = [
     available: true,
   },
   {
+    slug: "electrical-craftsman",
+    name: "전기기능사",
+    description: "필기 모의 · 난이도 선택 · 최대 15문항",
+    href: "/test/electrical-craftsman",
+    available: true,
+  },
+  {
     slug: "industrial-safety-industrial",
     name: "산업안전 산업기사",
     description: "필기 모의 · 난이도 선택 · 최대 15문항",

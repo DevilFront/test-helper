@@ -30,6 +30,13 @@ const certifications = [
     available: true,
   },
   {
+    slug: "sqld",
+    name: "SQLD",
+    description: "필기 모의 · 난이도 선택 · 최대 15문항",
+    href: "/test/sqld",
+    available: true,
+  },
+  {
     slug: "industrial-safety-industrial",
     name: "산업안전 산업기사",
     description: "필기 모의 · 난이도 선택 · 최대 15문항",

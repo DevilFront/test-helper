@@ -1,0 +1,1352 @@
+[
+  {
+    "id": 1,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "개체-관계 모델에서 사각형으로 주로 표현하는 것은?",
+    "options": [
+      "관계",
+      "개체 타입",
+      "속성",
+      "제약"
+    ],
+    "answer": 1,
+    "explanation": "개체 타입은 보통 사각형으로 나타낸다.",
+    "category": "sql-data-modeling",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "모델링"
+    ]
+  },
+  {
+    "id": 2,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "정규화의 주된 목적에 가까운 것은?",
+    "options": [
+      "저장 공간만 늘리기",
+      "이상 현상 완화·중복 최소화",
+      "쿼리 속도 항상 향상",
+      "인덱스 제거"
+    ],
+    "answer": 1,
+    "explanation": "정규화는 데이터 중복과 이상을 줄이기 위한 분해 과정이다.",
+    "category": "sql-data-modeling",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "모델링"
+    ]
+  },
+  {
+    "id": 3,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "제3정규형(3NF)에서 제거하는 종속은?",
+    "options": [
+      "부분 함수적 종속",
+      "이행 함수적 종속",
+      "다치 종속만",
+      "조인 종속만"
+    ],
+    "answer": 1,
+    "explanation": "3NF는 이행 함수적 종속을 제거한다.",
+    "category": "sql-data-modeling",
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "모델링"
+    ]
+  },
+  {
+    "id": 4,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "기본키로 적합한 설명은?",
+    "options": [
+      "NULL 허용·중복 허용",
+      "유일성·최소성을 만족하는 식별자",
+      "외래키와 동일",
+      "설명 문자열만"
+    ],
+    "answer": 1,
+    "explanation": "기본키는 행을 유일하게 식별하며 NULL이 아니어야 한다.",
+    "category": "sql-data-modeling",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "모델링"
+    ]
+  },
+  {
+    "id": 5,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "식별 관계와 비식별 관계의 차이에 가까운 것은?",
+    "options": [
+      "자식이 부모 PK를 포함해 기본키가 되는지 여부",
+      "색상",
+      "데이터 타입",
+      "인덱스 개수"
+    ],
+    "answer": 0,
+    "explanation": "식별 관계는 부모 PK가 자식 PK의 일부가 된다.",
+    "category": "sql-data-modeling",
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "모델링"
+    ]
+  },
+  {
+    "id": 6,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "정규화 과정에서 무손실 분해의 의미에 가까운 것은?",
+    "options": [
+      "분해 후 자연 조인으로 원래 릴레이션 복원 가능",
+      "항상 행 수 감소",
+      "항상 속성 삭제",
+      "역정규화"
+    ],
+    "answer": 0,
+    "explanation": "무손실 분해는 조인으로 원래 정보를 복원할 수 있다.",
+    "category": "sql-data-modeling",
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "모델링"
+    ]
+  },
+  {
+    "id": 7,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "옳지 않은 것은?",
+    "options": [
+      "외래키는 참조 무결성에 사용된다",
+      "기본키는 NULL일 수 없다",
+      "모든 테이블은 반드시 외래키만 있어야 한다",
+      "후보키는 기본키가 될 수 있다"
+    ],
+    "answer": 2,
+    "explanation": "테이블은 외래키가 없을 수도 있다.",
+    "category": "sql-data-modeling",
+    "difficulty": "medium",
+    "stemKind": "not",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "모델링"
+    ]
+  },
+  {
+    "id": 8,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "온라인 주문 시스템에서 '주문'과 '주문상세'를 1:N으로 둘 때, 주문상세에 주문번호 FK를 두는 설계는?",
+    "options": [
+      "개념 모델링",
+      "논리 모델링",
+      "물리 모델링만",
+      "백업"
+    ],
+    "answer": 1,
+    "explanation": "엔티티·관계·속성을 정리하는 단계는 논리 모델에 해당한다.",
+    "category": "sql-data-modeling",
+    "difficulty": "medium",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "모델링"
+    ]
+  },
+  {
+    "id": 9,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "다치 종속을 제거하는 정규형은?",
+    "options": [
+      "BCNF",
+      "4NF",
+      "2NF",
+      "1NF"
+    ],
+    "answer": 1,
+    "explanation": "4NF는 다치 종속 제거를 다룬다.",
+    "category": "sql-data-modeling",
+    "difficulty": "hard",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "모델링"
+    ]
+  },
+  {
+    "id": 10,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "역정규화를 고려하는 경우에 가까운 것은?",
+    "options": [
+      "읽기 성능·집계 최적화",
+      "항상 중복 제거만",
+      "이상 최대화",
+      "키 제거"
+    ],
+    "answer": 0,
+    "explanation": "역정규화는 성능·집계를 위해 의도적으로 중복을 허용할 수 있다.",
+    "category": "sql-data-modeling",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "모델링"
+    ]
+  },
+  {
+    "id": 11,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "SELECT 문에서 DISTINCT의 의미는?",
+    "options": [
+      "정렬",
+      "중복 행 제거",
+      "그룹핑",
+      "조인"
+    ],
+    "answer": 1,
+    "explanation": "DISTINCT는 결과 집합에서 중복 행을 제거한다.",
+    "category": "sql-basic",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "SQL기본"
+    ]
+  },
+  {
+    "id": 12,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "WHERE 절에서 문자열 패턴 매칭에 자주 쓰는 연산자는?",
+    "options": [
+      "BETWEEN",
+      "LIKE",
+      "IN만",
+      "COUNT"
+    ],
+    "answer": 1,
+    "explanation": "LIKE와 와일드카드(%, _)를 사용한다.",
+    "category": "sql-basic",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "SQL기본"
+    ]
+  },
+  {
+    "id": 13,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "집계 함수 COUNT(*)와 COUNT(컬럼)의 차이에 가까운 것은?",
+    "options": [
+      "항상 동일",
+      "NULL 행 처리 차이 가능",
+      "정렬 차이",
+      "조인 차이"
+    ],
+    "answer": 1,
+    "explanation": "COUNT(컬럼)은 NULL을 제외할 수 있다.",
+    "category": "sql-basic",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "SQL기본"
+    ]
+  },
+  {
+    "id": 14,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "INSERT 시 기본값이 없는 NOT NULL 컬럼을 빠뜨리면?",
+    "options": [
+      "자동 NULL",
+      "오류 가능",
+      "무시",
+      "삭제"
+    ],
+    "answer": 1,
+    "explanation": "값이 없으면 제약 위반으로 실패할 수 있다.",
+    "category": "sql-basic",
+    "difficulty": "medium",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "SQL기본"
+    ]
+  },
+  {
+    "id": 15,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "옳지 않은 것은?",
+    "options": [
+      "PRIMARY KEY는 유일성을 보장한다",
+      "UNIQUE는 NULL을 여러 허용할 수 있는 DBMS도 있다",
+      "FOREIGN KEY는 항상 부모에 없을 수 있다",
+      "NOT NULL은 NULL 금지"
+    ],
+    "answer": 2,
+    "explanation": "FK는 참조 무결성으로 부모 존재 값이어야 한다.",
+    "category": "sql-basic",
+    "difficulty": "hard",
+    "stemKind": "not",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "SQL기본"
+    ]
+  },
+  {
+    "id": 16,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "ORDER BY와 LIMIT(또는 FETCH)를 함께 쓰는 목적에 가까운 것은?",
+    "options": [
+      "정렬 후 상위 N건 조회",
+      "그룹핑",
+      "조인",
+      "DDL"
+    ],
+    "answer": 0,
+    "explanation": "정렬 순서를 정한 뒤 일부 행만 가져올 때 사용한다.",
+    "category": "sql-basic",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "SQL기본"
+    ]
+  },
+  {
+    "id": 17,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "NULL과 관련된 비교에서 주의할 점은?",
+    "options": [
+      "NULL = NULL은 알 수 없음(UNKNOWN)",
+      "NULL = NULL은 항상 참",
+      "NULL은 0과 같다",
+      "비교 불가"
+    ],
+    "answer": 0,
+    "explanation": "SQL에서 NULL 비교는 3값 논리로 처리된다.",
+    "category": "sql-basic",
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "SQL기본"
+    ]
+  },
+  {
+    "id": 18,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "INNER JOIN의 결과에 포함되는 행은?",
+    "options": [
+      "한쪽만 매칭",
+      "양쪽 모두 키가 일치",
+      "NULL만",
+      "모든 카티션"
+    ],
+    "answer": 1,
+    "explanation": "INNER JOIN은 양쪽 조건에 맞는 행만 반환한다.",
+    "category": "sql-application",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "SQL활용"
+    ]
+  },
+  {
+    "id": 19,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "상관 서브쿼리의 설명으로 옳은 것은?",
+    "options": [
+      "바깥 쿼리와 무관",
+      "바깥 행 값을 참조할 수 있다",
+      "항상 동일 결과",
+      "정렬 불가"
+    ],
+    "answer": 1,
+    "explanation": "상관 서브쿼리는 외부 질의의 컬럼을 참조한다.",
+    "category": "sql-application",
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "SQL활용"
+    ]
+  },
+  {
+    "id": 20,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "GROUP BY와 함께 사용할 때 SELECT 절에 올 수 있는 비집계 컬럼은?",
+    "options": [
+      "GROUP BY에 포함된 컬럼 또는 집계 함수",
+      "임의 컬럼",
+      "모든 컬럼",
+      "서브쿼리만"
+    ],
+    "answer": 0,
+    "explanation": "SQL 표준에서는 GROUP BY에 없는 비집계 컬럼은 제한된다.",
+    "category": "sql-application",
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "SQL활용"
+    ]
+  },
+  {
+    "id": 21,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "윈도우 함수 ROW_NUMBER()와 RANK()의 차이에 가까운 것은?",
+    "options": [
+      "동일",
+      "동일 순위 처리 방식이 다를 수 있다",
+      "정렬 불가",
+      "집계만"
+    ],
+    "answer": 1,
+    "explanation": "RANK는 동점 시 동일 순위를 부여하고 다음 순위를 건너뛸 수 있다.",
+    "category": "sql-application",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "SQL활용"
+    ]
+  },
+  {
+    "id": 22,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "세트 연산 UNION과 UNION ALL의 차이는?",
+    "options": [
+      "UNION은 중복 제거",
+      "동일",
+      "UNION ALL만 정렬",
+      "둘 다 집계"
+    ],
+    "answer": 0,
+    "explanation": "UNION은 중복 제거, UNION ALL은 합친다.",
+    "category": "sql-application",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "SQL활용"
+    ]
+  },
+  {
+    "id": 23,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "피벗이 필요한 보고서를 SQL만으로 풀 때 검토할 것은?",
+    "options": [
+      "CASE·집계·GROUP BY 조합",
+      "DROP TABLE만",
+      "트랜잭션 없음",
+      "인덱스 삭제"
+    ],
+    "answer": 0,
+    "explanation": "CASE WHEN으로 열을 펼치는 패턴이 많다.",
+    "category": "sql-application",
+    "difficulty": "medium",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "SQL활용"
+    ]
+  },
+  {
+    "id": 24,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "HAVING 절에 사용하는 값은 일반적으로?",
+    "options": [
+      "그룹 집계 결과 필터",
+      "행 단위 전용",
+      "DDL",
+      "인덱스 이름"
+    ],
+    "answer": 0,
+    "explanation": "HAVING은 GROUP BY 집계 후 조건에 쓴다.",
+    "category": "sql-application",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "SQL활용"
+    ]
+  },
+  {
+    "id": 25,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "옳지 않은 것은?",
+    "options": [
+      "서브쿼리는 SELECT·FROM·WHERE 등에 쓰일 수 있다",
+      "EXISTS는 존재 여부만 확인할 수 있다",
+      "서브쿼리는 항상 상관 서브쿼리만 가능하다",
+      "IN은 서브쿼리와 함께 쓸 수 있다"
+    ],
+    "answer": 2,
+    "explanation": "비상관 서브쿼리도 존재한다.",
+    "category": "sql-application",
+    "difficulty": "medium",
+    "stemKind": "not",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "SQL활용"
+    ]
+  },
+  {
+    "id": 26,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "B-Tree 인덱스가 범위 검색에 유리한 이유는?",
+    "options": [
+      "정렬된 구조로 범위 스캔 가능",
+      "항상 해시보다 느림",
+      "INSERT만 빠름",
+      "중복 허용"
+    ],
+    "answer": 0,
+    "explanation": "B-Tree는 정렬·범위 탐색에 유리하다.",
+    "category": "sql-tuning",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "튜닝"
+    ]
+  },
+  {
+    "id": 27,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "함수로 인한 인덱스 컬럼 사용 예: WHERE YEAR(order_date) = 2024 일 때 문제는?",
+    "options": [
+      "인덱스 활용이 어려울 수 있음",
+      "항상 빠름",
+      "NULL만",
+      "조인 불가"
+    ],
+    "answer": 0,
+    "explanation": "컬럼에 함수를 씌우면 옵티마이저가 인덱스를 못 쓸 수 있다.",
+    "category": "sql-tuning",
+    "difficulty": "medium",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "튜닝"
+    ]
+  },
+  {
+    "id": 28,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "실행 계획에서 테이블 풀 스캔이 자주 선택되는 경우는?",
+    "options": [
+      "인덱스가 없거나 선택도가 낮을 때",
+      "항상",
+      "행 1개",
+      "인덱스만 있을 때"
+    ],
+    "answer": 0,
+    "explanation": "소량 행·낮은 선택도·부적절 인덱스 시 풀 스캔이 선택될 수 있다.",
+    "category": "sql-tuning",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "튜닝"
+    ]
+  },
+  {
+    "id": 29,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "커버링 인덱스에 가까운 설명은?",
+    "options": [
+      "질의에 필요한 컬럼이 인덱스에 모두 포함",
+      "테이블 삭제",
+      "뷰만",
+      "트랜잭션"
+    ],
+    "answer": 0,
+    "explanation": "인덱스만 읽고 테이블 접근을 줄인다.",
+    "category": "sql-tuning",
+    "difficulty": "hard",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "튜닝"
+    ]
+  },
+  {
+    "id": 30,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "옳지 않은 것은?",
+    "options": [
+      "통계 정보는 옵티마이저에 영향을 줄 수 있다",
+      "인덱스가 많으면 항상 쓰기만 빨라진다",
+      "바인드 변수는 플랜 재사용에 도움이 될 수 있다",
+      "히스토그램은 분포 추정에 쓰일 수 있다"
+    ],
+    "answer": 1,
+    "explanation": "인덱스 유지 비용이 커질 수 있다.",
+    "category": "sql-tuning",
+    "difficulty": "medium",
+    "stemKind": "not",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "튜닝"
+    ]
+  },
+  {
+    "id": 31,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "조인 순서와 통계가 중요한 이유는?",
+    "options": [
+      "비용 기반 최적화에 영향",
+      "미관",
+      "DDL",
+      "사용자"
+    ],
+    "answer": 0,
+    "explanation": "옵티마이저는 통계·비용으로 조인 순서를 정한다.",
+    "category": "sql-tuning",
+    "difficulty": "easy",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "튜닝"
+    ]
+  },
+  {
+    "id": 32,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "파티셔닝의 목적에 가까운 것은?",
+    "options": [
+      "대용량 관리·성능·운영",
+      "항상 행 수 감소",
+      "키 제거",
+      "인덱스 제거"
+    ],
+    "answer": 0,
+    "explanation": "범위·관리 단위로 나누어 스캔 범위를 줄인다.",
+    "category": "sql-tuning",
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "튜닝"
+    ]
+  },
+  {
+    "id": 33,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "옵티마이저 힌트 사용 시 주의할 점은?",
+    "options": [
+      "버전·데이터 변화에 따라 부작용 가능",
+      "항상 금지",
+      "통계만",
+      "무시"
+    ],
+    "answer": 0,
+    "explanation": "힌트는 강제하지만 데이터/버전에 따라 비효율이 될 수 있다.",
+    "category": "sql-tuning",
+    "difficulty": "medium",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "튜닝"
+    ]
+  },
+  {
+    "id": 34,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "인덱스 컬럼 순서 설계 시 고려할 것은?",
+    "options": [
+      "선택도·질의 패턴",
+      "색상",
+      "테이블 이름",
+      "사용자 수"
+    ],
+    "answer": 0,
+    "explanation": "선택도가 높은 조건·자주 쓰는 순서를 앞에 둔다.",
+    "category": "sql-tuning",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "튜닝"
+    ]
+  },
+  {
+    "id": 35,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "히스토그램이 도움이 되는 경우는?",
+    "options": [
+      "데이터 분포가 치우친 컬럼",
+      "항상 균등",
+      "NULL만",
+      "키 없음"
+    ],
+    "answer": 0,
+    "explanation": "치우친 분포에서 선택도 추정이 정확해질 수 있다.",
+    "category": "sql-tuning",
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "튜닝"
+    ]
+  },
+  {
+    "id": 36,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "ACID 중 '원자성(Atomicity)'에 가까운 것은?",
+    "options": [
+      "전부 수행 또는 전부 미수행",
+      "동시성만",
+      "영속성만",
+      "격리만"
+    ],
+    "answer": 0,
+    "explanation": "원자성은 트랜잭션을 나눌 수 없는 단위로 취급한다.",
+    "category": "sql-control-transaction",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "SQL관리"
+    ]
+  },
+  {
+    "id": 37,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "격리 수준 READ UNCOMMITTED에서 허용될 수 있는 현상은?",
+    "options": [
+      "더티 리드",
+      "없음",
+      "팬텀만 없음",
+      "직렬화"
+    ],
+    "answer": 0,
+    "explanation": "다른 수준보다 낮은 격리로 더티 리드가 가능하다.",
+    "category": "sql-control-transaction",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "SQL관리"
+    ]
+  },
+  {
+    "id": 38,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "2단계 잠금(2PL)의 목적에 가까운 것은?",
+    "options": [
+      "직렬 가능성 보장",
+      "읽기만",
+      "DDL",
+      "인덱스"
+    ],
+    "answer": 0,
+    "explanation": "2PL은 직렬 가능 스케줄과 연관된다.",
+    "category": "sql-control-transaction",
+    "difficulty": "hard",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "SQL관리"
+    ]
+  },
+  {
+    "id": 39,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "GRANT로 권한을 부여한 주체는 일반적으로?",
+    "options": [
+      "DBA 또는 권한 위임자",
+      "모든 사용자",
+      "익명만",
+      "클라이언트"
+    ],
+    "answer": 0,
+    "explanation": "권한 있는 계정이 부여한다.",
+    "category": "sql-control-transaction",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "SQL관리"
+    ]
+  },
+  {
+    "id": 40,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "옳지 않은 것은?",
+    "options": [
+      "COMMIT은 트랜잭션을 확정한다",
+      "ROLLBACK은 변경을 취소할 수 있다",
+      "SAVEPOINT는 무조건 전체를 롤백한다",
+      "트랜잭션은 격리 수준을 가진다"
+    ],
+    "answer": 2,
+    "explanation": "SAVEPOINT는 부분 롤백 지점을 둔다.",
+    "category": "sql-control-transaction",
+    "difficulty": "medium",
+    "stemKind": "not",
+    "cognitiveLevel": "analyze",
+    "tags": [
+      "SQL관리"
+    ]
+  },
+  {
+    "id": 41,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "데드락 발생 시 DBMS가 흔히 하는 조치는?",
+    "options": [
+      "한 트랜잭션을 희생시켜 롤백",
+      "무한 대기",
+      "서버 종료",
+      "무시"
+    ],
+    "answer": 0,
+    "explanation": "희생자를 선택해 롤백한다.",
+    "category": "sql-control-transaction",
+    "difficulty": "medium",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "tags": [
+      "SQL관리"
+    ]
+  },
+  {
+    "id": 42,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "MVCC의 장점에 가까운 것은?",
+    "options": [
+      "읽기·쓰기 경합 완화",
+      "항상 직렬",
+      "락 없음만",
+      "인덱스 제거"
+    ],
+    "answer": 0,
+    "explanation": "버전을 두어 읽기 일관성과 동시성을 맞춘다.",
+    "category": "sql-control-transaction",
+    "difficulty": "hard",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "SQL관리"
+    ]
+  },
+  {
+    "id": 43,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "REVOKE 시 CASCADE의 의미는?",
+    "options": [
+      "권한 위임 연쇄 제거 가능",
+      "테이블 삭제",
+      "백업",
+      "인덱스"
+    ],
+    "answer": 0,
+    "explanation": "위임된 권한까지 회수할 수 있다.",
+    "category": "sql-control-transaction",
+    "difficulty": "medium",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "SQL관리"
+    ]
+  },
+  {
+    "id": 44,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "격리 수준 SERIALIZABLE에서 팬텀 현상은?",
+    "options": [
+      "방지 목표",
+      "항상 허용",
+      "읽기만",
+      "DDL"
+    ],
+    "answer": 0,
+    "explanation": "직렬화 가능 수준에서 팬텀을 방지한다.",
+    "category": "sql-control-transaction",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "tags": [
+      "SQL관리"
+    ]
+  },
+  {
+    "id": 45,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "question": "트랜잭션 로그(WAL)의 주된 목적은?",
+    "options": [
+      "장애 후 복구",
+      "조회만",
+      "인덱스",
+      "정렬"
+    ],
+    "answer": 0,
+    "explanation": "로그 기반 복구로 내구성을 보장한다.",
+    "category": "sql-control-transaction",
+    "difficulty": "easy",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "tags": [
+      "SQL관리"
+    ]
+  },
+  {
+    "id": 46,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "contextBlock": "CREATE TABLE order_item (\n  order_id INT NOT NULL,\n  line_no INT NOT NULL,\n  qty INT,\n  PRIMARY KEY (order_id, line_no),\n  FOREIGN KEY (order_id) REFERENCES orders(order_id)\n);",
+    "contextType": "code",
+    "stemKind": "code_or_sql",
+    "cognitiveLevel": "analyze",
+    "category": "sql-data-modeling",
+    "question": "복합 기본키의 의미",
+    "options": [
+      "한 주문 내에서 줄번호로 행을 유일하게 식별",
+      "order_id만 유일",
+      "외래키는 불필요",
+      "NULL 허용"
+    ],
+    "answer": 0,
+    "explanation": "복합키로 (order_id, line_no) 조합이 유일하다.",
+    "difficulty": "medium",
+    "tags": [
+      "모델링"
+    ]
+  },
+  {
+    "id": 47,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "contextBlock": "SELECT emp_id, dept_id\nFROM employees\nWHERE dept_id IN (SELECT dept_id FROM departments WHERE region='KR');",
+    "contextType": "code",
+    "stemKind": "code_or_sql",
+    "cognitiveLevel": "analyze",
+    "category": "sql-data-modeling",
+    "question": "서브쿼리의 역할",
+    "options": [
+      "한국 지역 부서에 속한 직원만 조회",
+      "부서 삭제",
+      "행 추가",
+      "인덱스 생성"
+    ],
+    "answer": 0,
+    "explanation": "IN 서브쿼리로 필터링한다.",
+    "difficulty": "easy",
+    "tags": [
+      "모델링"
+    ]
+  },
+  {
+    "id": 48,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "contextBlock": "SELECT emp_id, name\nFROM employees\nWHERE dept_id = 10;",
+    "contextType": "code",
+    "stemKind": "code_or_sql",
+    "cognitiveLevel": "analyze",
+    "category": "sql-basic",
+    "question": "위 질의의 의미",
+    "options": [
+      "dept_id가 10인 부서의 직원만 조회",
+      "10명만 조회",
+      "emp_id가 10인 행만",
+      "dept 테이블만 조회"
+    ],
+    "answer": 0,
+    "explanation": "WHERE 절로 필터링한다.",
+    "difficulty": "easy",
+    "tags": [
+      "SQL기본"
+    ]
+  },
+  {
+    "id": 49,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "contextBlock": "UPDATE inventory\nSET qty = qty - 1\nWHERE item_id = 7;",
+    "contextType": "code",
+    "stemKind": "code_or_sql",
+    "cognitiveLevel": "analyze",
+    "category": "sql-basic",
+    "question": "이 문의 효과",
+    "options": [
+      "item_id=7 행의 수량을 1 감소",
+      "모든 행 삭제",
+      "행 추가",
+      "테이블 생성"
+    ],
+    "answer": 0,
+    "explanation": "UPDATE는 조건에 맞는 행을 갱신한다.",
+    "difficulty": "easy",
+    "tags": [
+      "SQL기본"
+    ]
+  },
+  {
+    "id": 50,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "contextBlock": "CREATE TABLE t (\n  id INT PRIMARY KEY,\n  name VARCHAR(50) NOT NULL\n);",
+    "contextType": "code",
+    "stemKind": "code_or_sql",
+    "cognitiveLevel": "analyze",
+    "category": "sql-basic",
+    "question": "PRIMARY KEY와 NOT NULL의 관계",
+    "options": [
+      "PRIMARY KEY 열은 유일·NULL 불가",
+      "PRIMARY KEY는 NULL 허용",
+      "NOT NULL은 PRIMARY KEY와 무관",
+      "복합키는 불가"
+    ],
+    "answer": 0,
+    "explanation": "기본키는 유일성과 개체 무결성을 위해 NULL이 아니다.",
+    "difficulty": "easy",
+    "tags": [
+      "SQL기본"
+    ]
+  },
+  {
+    "id": 51,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "contextBlock": "DELETE FROM temp_log\nWHERE log_date < DATE '2024-01-01';",
+    "contextType": "code",
+    "stemKind": "code_or_sql",
+    "cognitiveLevel": "analyze",
+    "category": "sql-basic",
+    "question": "DELETE의 특징",
+    "options": [
+      "조건에 맞는 행을 삭제",
+      "테이블 구조 삭제",
+      "롤백 불가",
+      "인덱스만 삭제"
+    ],
+    "answer": 0,
+    "explanation": "DML로 행 삭제이며 트랜잭션에 따라 롤백 가능할 수 있다.",
+    "difficulty": "medium",
+    "tags": [
+      "SQL기본"
+    ]
+  },
+  {
+    "id": 52,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "contextBlock": "SELECT name, salary * 12 AS annual\nFROM employees;",
+    "contextType": "code",
+    "stemKind": "code_or_sql",
+    "cognitiveLevel": "analyze",
+    "category": "sql-basic",
+    "question": "별칭 annual이 의미하는 바",
+    "options": [
+      "연봉 추정 표현",
+      "연도 컬럼",
+      "정렬 키",
+      "테이블 이름"
+    ],
+    "answer": 0,
+    "explanation": "SELECT 절에 표현식에 별칭을 붙였다.",
+    "difficulty": "easy",
+    "tags": [
+      "SQL기본"
+    ]
+  },
+  {
+    "id": 53,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "contextBlock": "SELECT d.dept_name, COUNT(e.emp_id)\nFROM departments d\nLEFT JOIN employees e ON d.dept_id = e.dept_id\nGROUP BY d.dept_name;",
+    "contextType": "code",
+    "stemKind": "code_or_sql",
+    "cognitiveLevel": "analyze",
+    "category": "sql-application",
+    "question": "LEFT JOIN과 COUNT를 함께 쓸 때 주의할 점",
+    "options": [
+      "직원이 없는 부서도 집계 설계에 따라 0 또는 1행이 될 수 있어 주의",
+      "항상 INNER와 동일",
+      "GROUP BY 불가",
+      "JOIN 불가"
+    ],
+    "answer": 0,
+    "explanation": "LEFT JOIN 후 COUNT는 설계에 따라 다르게 집계된다.",
+    "difficulty": "hard",
+    "tags": [
+      "SQL활용"
+    ]
+  },
+  {
+    "id": 54,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "contextBlock": "SELECT dept_id, AVG(salary)\nFROM employees\nGROUP BY dept_id\nHAVING AVG(salary) > 5000;",
+    "contextType": "code",
+    "stemKind": "code_or_sql",
+    "cognitiveLevel": "analyze",
+    "category": "sql-application",
+    "question": "HAVING의 역할",
+    "options": [
+      "집계 결과에 대한 필터",
+      "행 단위 필터",
+      "정렬",
+      "조인 조건"
+    ],
+    "answer": 0,
+    "explanation": "HAVING은 집계 후 조건에 사용한다.",
+    "difficulty": "medium",
+    "tags": [
+      "SQL활용"
+    ]
+  },
+  {
+    "id": 55,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "contextBlock": "SELECT emp_id, salary,\nROW_NUMBER() OVER (PARTITION BY dept_id ORDER BY salary DESC) AS rn\nFROM employees;",
+    "contextType": "code",
+    "stemKind": "code_or_sql",
+    "cognitiveLevel": "analyze",
+    "category": "sql-application",
+    "question": "rn이 의미하는 것",
+    "options": [
+      "부서별 급여 순위",
+      "전체 급여 합",
+      "부서 수",
+      "행 수"
+    ],
+    "answer": 0,
+    "explanation": "PARTITION BY로 부서별 그룹 내 순위를 매긴다.",
+    "difficulty": "medium",
+    "tags": [
+      "SQL활용"
+    ]
+  },
+  {
+    "id": 56,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "contextBlock": "SELECT a.name\nFROM customers a\nWHERE EXISTS (\n  SELECT 1 FROM orders b WHERE b.cust_id = a.cust_id\n);",
+    "contextType": "code",
+    "stemKind": "code_or_sql",
+    "cognitiveLevel": "analyze",
+    "category": "sql-application",
+    "question": "EXISTS 서브쿼리의 의미",
+    "options": [
+      "주문이 한 건이라도 있는 고객",
+      "주문이 없는 고객",
+      "모든 고객",
+      "중복 제거만"
+    ],
+    "answer": 0,
+    "explanation": "상관 EXISTS로 존재하는 행만 남긴다.",
+    "difficulty": "medium",
+    "tags": [
+      "SQL활용"
+    ]
+  },
+  {
+    "id": 57,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "contextBlock": "CREATE INDEX idx_emp_dept ON employees(dept_id);",
+    "contextType": "code",
+    "stemKind": "code_or_sql",
+    "cognitiveLevel": "analyze",
+    "category": "sql-tuning",
+    "question": "이 인덱스가 도움이 되는 질의 예",
+    "options": [
+      "WHERE dept_id = ?",
+      "WHERE dept_id * 2 = 10",
+      "WHERE UPPER(name) = 'KIM'",
+      "SELECT COUNT(*) FROM employees"
+    ],
+    "answer": 0,
+    "explanation": "조건이 인덱스 선두 컬럼과 일치할 때 유리하다.",
+    "difficulty": "medium",
+    "tags": [
+      "튜닝"
+    ]
+  },
+  {
+    "id": 58,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "contextBlock": "EXPLAIN SELECT * FROM orders WHERE order_id = 100;",
+    "contextType": "code",
+    "stemKind": "code_or_sql",
+    "cognitiveLevel": "analyze",
+    "category": "sql-tuning",
+    "question": "EXPLAIN의 목적",
+    "options": [
+      "옵티마이저의 실행 계획 확인",
+      "데이터 삭제",
+      "권한 부여",
+      "트랜잭션 시작"
+    ],
+    "answer": 0,
+    "explanation": "실행 계획을 보는 데 사용한다.",
+    "difficulty": "easy",
+    "tags": [
+      "튜닝"
+    ]
+  },
+  {
+    "id": 59,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "contextBlock": "BEGIN;\nUPDATE accounts SET balance = balance - 100 WHERE id = 1;\nUPDATE accounts SET balance = balance + 100 WHERE id = 2;\nCOMMIT;",
+    "contextType": "code",
+    "stemKind": "code_or_sql",
+    "cognitiveLevel": "analyze",
+    "category": "sql-control-transaction",
+    "question": "이 트랜잭션의 원자성",
+    "options": [
+      "두 UPDATE가 함께 성공하거나 함께 롤백되어야 이체로서 의미가 있다",
+      "첫 UPDATE만 중요",
+      "COMMIT은 불필요",
+      "항상 데드락"
+    ],
+    "answer": 0,
+    "explanation": "이체는 둘 다 반영되거나 둘 다 아니어야 한다.",
+    "difficulty": "medium",
+    "tags": [
+      "SQL관리"
+    ]
+  },
+  {
+    "id": 60,
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "contextBlock": "SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;",
+    "contextType": "code",
+    "stemKind": "code_or_sql",
+    "cognitiveLevel": "analyze",
+    "category": "sql-control-transaction",
+    "question": "격리 수준을 높이면 일반적으로",
+    "options": [
+      "동시성은 줄고 일관성은 강해질 수 있다",
+      "항상 더 빠름",
+      "인덱스 삭제",
+      "DDL만 가능"
+    ],
+    "answer": 0,
+    "explanation": "높은 격리는 락·충돌 가능성이 증가할 수 있다.",
+    "difficulty": "medium",
+    "tags": [
+      "SQL관리"
+    ]
+  }
+]

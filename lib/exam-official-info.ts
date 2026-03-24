@@ -110,6 +110,34 @@ export function getExamOfficialInfo(slug: ExamSlug): ExamOfficialInfo | null {
         disclaimer:
           "자격 제도·시험 과목은 개정될 수 있습니다. 응시·합격 기준은 공식 공고를 기준으로 하세요.",
       };
+    case "sqld":
+      return {
+        shortTitle: "SQLD",
+        title: "SQL 개발자(SQLD) 시험 안내",
+        examPhaseLabel: "필기(참고)",
+        intro:
+          "SQL 개발자(SQLD)는 한국데이터산업진흥원 등에서 시행하는 데이터 자격 검정으로, 과목명·문항 수·배점은 시행(회차)마다 공고에 따라 달라질 수 있습니다. 응시 전 최신 공고를 확인하세요.",
+        noticeLinks: [
+          {
+            label: "데이터자격증(한국데이터산업진흥원)",
+            href: "https://www.dataq.or.kr/",
+          },
+        ],
+        subjectRatioSections: [
+          {
+            heading: "필기 시험 구성(참고)",
+            body:
+              "통상 데이터 모델링, SQL 기본·활용, SQL 응용·최적화, 트랜잭션·권한 등 데이터베이스·SQL 영역이 출제 범위에 포함될 수 있습니다. 정확한 과목·비율은 해당 시행 공고를 따릅니다.",
+          },
+          {
+            heading: "이 앱의 모의고사와의 관계",
+            body:
+              "본 서비스 문항은 학습용 창작·참고 문항이며 기출문항이 아닙니다. DBMS·문법 세부는 제품·버전에 따라 다를 수 있으니 공식 교재와 병행하세요.",
+          },
+        ],
+        disclaimer:
+          "시험 공고·자격 체계는 개정·사이트 개편 등으로 바뀔 수 있습니다. 합격·응시 요건은 항상 공식 공고를 기준으로 하세요.",
+      };
     case "industrial-safety":
       return {
         shortTitle: "산업안전기사",

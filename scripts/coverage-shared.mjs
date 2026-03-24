@@ -26,6 +26,13 @@ export const EXPECTED_CATEGORIES = {
     "circuits-control",
     "electrical-installation",
   ],
+  sqld: [
+    "sql-data-modeling",
+    "sql-basic",
+    "sql-application",
+    "sql-tuning",
+    "sql-control-transaction",
+  ],
   "industrial-safety": [
     "safety-law",
     "safety-management",
@@ -99,6 +106,11 @@ export const EXAMS = [
     slug: "electrical-craftsman",
     title: "전기기능사",
     file: "data/electrical-craftsman-questions.json",
+  },
+  {
+    slug: "sqld",
+    title: "SQLD",
+    file: "data/sqld-questions.json",
   },
   {
     slug: "industrial-safety-industrial",
@@ -203,6 +215,12 @@ export function analyzeExam(exam, items) {
     );
   }
 
+  if (exam.slug === "sqld" && (byStem.code_or_sql ?? 0) < 8) {
+    warnings.push(
+      `SQL·코드형(code_or_sql) 부족: ${byStem.code_or_sql ?? 0}개 (SQLD 풀은 8개 이상 권장)`,
+    );
+  }
+
   const defRatio = (byStem.definition ?? 0) / n;
   if (n >= 20 && defRatio > 0.72) {
     infos.push(
@@ -273,6 +291,15 @@ export function computeStemGaps(examSlug, byStem, n) {
       current: cur,
       target: 3,
       shortfall: 3 - cur,
+    });
+  }
+  if (examSlug === "sqld" && (byStem.code_or_sql ?? 0) < 8) {
+    const cur = byStem.code_or_sql ?? 0;
+    gaps.push({
+      kind: "code_or_sql",
+      current: cur,
+      target: 8,
+      shortfall: 8 - cur,
     });
   }
   return gaps;

@@ -2,6 +2,7 @@ import constructionSafetyEngineerRaw from "@/data/construction-safety-engineer-q
 import constructionSafetyIndustrialRaw from "@/data/construction-safety-industrial-questions.json";
 import electricalCraftsmanRaw from "@/data/electrical-craftsman-questions.json";
 import electricalEngineerRaw from "@/data/electrical-engineer-questions.json";
+import sqldRaw from "@/data/sqld-questions.json";
 import industrialSafetyIndustrialRaw from "@/data/industrial-safety-industrial-questions.json";
 import industrialSafetyRaw from "@/data/industrial-safety-engineer-questions.json";
 import infoProcessingRaw from "@/data/info-processing-engineer-questions.json";
@@ -11,6 +12,7 @@ export const EXAM_SLUGS = [
   "info-processing",
   "electrical-engineer",
   "electrical-craftsman",
+  "sqld",
   "industrial-safety-industrial",
   "industrial-safety",
   "construction-safety-industrial",
@@ -59,6 +61,14 @@ export function getExamConfig(slug: string): ExamConfig | null {
         phase: "written",
         revisionNote:
           "문항 풀은 전기기능사 필기 범위를 참고한 창작 모의입니다. 과목명·비율·출제 기준은 시행 공고·개정에 따라 달라질 수 있습니다.",
+      };
+    case "sqld":
+      return {
+        pool: sqldRaw as ExamQuestion[],
+        title: "SQLD 모의",
+        phase: "written",
+        revisionNote:
+          "문항 풀은 SQL 개발자(SQLD) 필기 범위를 참고한 창작 모의입니다. 과목명·비율·출제 기준은 시행 공고·개정에 따라 달라질 수 있습니다.",
       };
     case "industrial-safety-industrial":
       return {

@@ -8,7 +8,7 @@
 |----------|---------------|-----------|------|------|
 | 높음 | 전기기사 모의 | `electrical-engineer` | 인프라·전력 수요와 검색 많음 | 반영됨 |
 | 높음 | 전기기능사 모의 | `electrical-craftsman` | 기사와 구분; `electrician` 대신 slug는 `electrical-craftsman` 권장 | 반영됨 |
-| 높음 | SQLD 모의 | `sqld` | 짧고 검색·브랜드 그대로 인식 | 예정 |
+| 높음 | SQLD 모의 | `sqld` | 짧고 검색·브랜드 그대로 인식 | 반영됨 |
 | 높음 | ADsP 모의 | `adsp` | 동일 | 예정 |
 | 높음 | 한국사능력검정 모의 | `korean-history` | 공직·검정 연계 관심 | 예정 |
 | 중간 | 재경관리사 모의 | `certified-management-accountant` (또는 `cma`) | ESG·재무 맥락; 약어보다 재경관리사 풀네임이 익숙할 수 있음 | 예정 |

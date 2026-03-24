@@ -37,6 +37,11 @@ export const CATEGORY_LABELS: Record<string, string> = {
   "electrical-machines": "전기기기",
   "circuits-control": "회로이론 및 제어공학",
   "electrical-installation": "전기설비",
+  "sql-data-modeling": "데이터 모델링",
+  "sql-basic": "SQL 기본",
+  "sql-application": "SQL 활용",
+  "sql-tuning": "SQL 최적화·튜닝",
+  "sql-control-transaction": "트랜잭션·권한·관리",
 };
 
 export function getCategoryDisplayName(key: string): string {

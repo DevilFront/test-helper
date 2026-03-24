@@ -35,6 +35,7 @@ export default async function QuizPage({ params, searchParams }: Props) {
   const categoryFilter = parseCategoryFocusParam(sp.focus);
   /** 난이도 화면에서 들어올 때만 전달 — 이어풀기 초기화 후 매번 새 랜덤 순서 */
   const sessionFresh = sp.session === "new";
+  const focusKey = categoryFilter?.slice().sort().join(",") ?? "";
 
   return (
     <div className="flex min-h-full flex-col">
@@ -52,6 +53,7 @@ export default async function QuizPage({ params, searchParams }: Props) {
         </div>
       </div>
       <TestRunner
+        key={`${slug}|${mode}|${sessionFresh ? "new" : "cont"}|${focusKey}`}
         examSlug={slug}
         difficultyMode={mode}
         categoryFilter={categoryFilter}

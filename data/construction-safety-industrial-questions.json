@@ -1138,5 +1138,885 @@
     "cognitiveLevel": "apply",
     "itemVersion": 1,
     "reviewStatus": "published"
+  },
+  {
+    "id": 61,
+    "category": "construction-law",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 다단계 하도급 현장에서 안전·보건 협의체 운영 시 사업주·관계수급인의 협력 취지에 가장 가까운 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설·산업안전 법령)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설·산업안전 법령 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설·산업안전 법령"
+    ]
+  },
+  {
+    "id": 62,
+    "category": "construction-mgmt",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 건설공사의 유해위험방지계획서·안전관리비 집행과 관련한 일반적 관리 방향은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설공사 관리)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설공사 관리 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설공사 관리"
+    ]
+  },
+  {
+    "id": 63,
+    "category": "construction-risk",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 굴착·가설·고소 작업이 겹치는 구간에서 위험성평가 후 개선계획을 수립할 때 우선 고려할 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 위험성평가)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 위험성평가 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "위험성평가"
+    ]
+  },
+  {
+    "id": 64,
+    "category": "construction-law",
+    "difficulty": "easy",
+    "question": "[창작 모의 · 건설안전 산업기사] 건설업 관련 법령상 안전·보건 확보의 기본 취지에 가장 가까운 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설·산업안전 법령)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설·산업안전 법령 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설·산업안전 법령"
+    ]
+  },
+  {
+    "id": 65,
+    "category": "construction-mgmt",
+    "difficulty": "hard",
+    "question": "[창작 모의 · 건설안전 산업기사] 작업 변경·공정 지연 시에도 안전조치를 유지하기 위한 현장 관리 방향은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설공사 관리)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설공사 관리 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "analyze",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설공사 관리"
+    ]
+  },
+  {
+    "id": 66,
+    "category": "construction-health",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 소음·진동·고온 환경에서의 순환근무·휴게 배치를 검토할 때 인간공학적 관점에서 우선할 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 보건·인간공학)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 보건·인간공학 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 보건·인간공학"
+    ]
+  },
+  {
+    "id": 67,
+    "category": "construction-health",
+    "difficulty": "easy",
+    "question": "[창작 모의 · 건설안전 산업기사] 근골격계 부담을 줄이기 위한 작업자세·작업대 설계의 일반적 방향은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 보건·인간공학)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 보건·인간공학 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 보건·인간공학"
+    ]
+  },
+  {
+    "id": 68,
+    "category": "construction-fire",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 용접·절단 화기 작업 구역에서 화재 예방·소화기·감시인 배치에 관한 일반적 조치는?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 현장 화재예방)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 현장 화재예방 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 현장 화재예방"
+    ]
+  },
+  {
+    "id": 69,
+    "category": "construction-fire",
+    "difficulty": "hard",
+    "question": "[창작 모의 · 건설안전 산업기사] 가연물 보관·인화성 가스 취급 시 환기·금연·화기 통제에 관한 관리 방향은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 현장 화재예방)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 현장 화재예방 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "analyze",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 현장 화재예방"
+    ]
+  },
+  {
+    "id": 70,
+    "category": "construction-health",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 고소 작업 시 추락·낙하물과 연계된 보건·안전 교육의 취지에 가까운 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 보건·인간공학)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 보건·인간공학 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 보건·인간공학"
+    ]
+  },
+  {
+    "id": 71,
+    "category": "construction-fire",
+    "difficulty": "easy",
+    "question": "[창작 모의 · 건설안전 산업기사] 현장 화기 작업 허가·점검의 목적에 가장 가까운 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 현장 화재예방)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 현장 화재예방 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 현장 화재예방"
+    ]
+  },
+  {
+    "id": 72,
+    "category": "construction-health",
+    "difficulty": "hard",
+    "question": "[창작 모의 · 건설안전 산업기사] 야간·교대 근무 시 피로·주의력 저하와 재해 위험을 줄이기 위한 조직적 대응은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 보건·인간공학)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 보건·인간공학 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "scenario",
+    "cognitiveLevel": "analyze",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 보건·인간공학"
+    ]
+  },
+  {
+    "id": 73,
+    "category": "construction-fire",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 임시 가설건물·창고에서의 전기·난방·가연물 혼재 시 사전 점검 항목으로 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 현장 화재예방)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 현장 화재예방 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 현장 화재예방"
+    ]
+  },
+  {
+    "id": 74,
+    "category": "construction-health",
+    "difficulty": "easy",
+    "question": "[창작 모의 · 건설안전 산업기사] 작업환경측정 결과를 근로자 건강보호·작업배치에 반영하는 취지는?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 보건·인간공학)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 보건·인간공학 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 보건·인간공학"
+    ]
+  },
+  {
+    "id": 75,
+    "category": "construction-fire",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 분진·목재 가공 현장에서 누적 화재 위험을 줄이기 위한 청소·환기 관리는?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 현장 화재예방)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 현장 화재예방 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 현장 화재예방"
+    ]
+  },
+  {
+    "id": 76,
+    "category": "construction-excavation",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 연약지반 굴착 시 흙막이·지보공·배수·침하 관측을 병행할 때의 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 굴착·지보)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 굴착·지보 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 굴착·지보"
+    ]
+  },
+  {
+    "id": 77,
+    "category": "construction-scaffold",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 비계 기둥·띠장·수평연결재·받침의 조립 후 사용 전 점검에서 확인할 사항은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 비계)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 비계 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 비계"
+    ]
+  },
+  {
+    "id": 78,
+    "category": "construction-machinery",
+    "difficulty": "hard",
+    "question": "[창작 모의 · 건설안전 산업기사] 크레인·지게차 등 건설기계 작업 시 신호체계·작업반경·지반 안정성에 관한 관리는?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 기계·운반)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 기계·운반 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "analyze",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 기계·운반"
+    ]
+  },
+  {
+    "id": 79,
+    "category": "construction-excavation",
+    "difficulty": "easy",
+    "question": "[창작 모의 · 건설안전 산업기사] 굴착면 경사·흙막이 지보공의 목적에 가장 가까운 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 굴착·지보)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 굴착·지보 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "definition",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 굴착·지보"
+    ]
+  },
+  {
+    "id": 80,
+    "category": "construction-scaffold",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 작업발판·난간·발판끝 방호와 적재하중 제한의 취지는?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 비계)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 비계 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 비계"
+    ]
+  },
+  {
+    "id": 81,
+    "category": "construction-demolition",
+    "difficulty": "hard",
+    "question": "[창작 모의 · 건설안전 산업기사] 철거·파쇄 작업 시 비산·붕괴·먼지·소음을 통제하기 위한 순서·차단구역 설정은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 철거)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 철거 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 철거"
+    ]
+  },
+  {
+    "id": 82,
+    "category": "construction-electrical",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 가설전기·분전함·누전차단·접지를 점검할 때 건설현장 전기안전의 취지는?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 전기안전)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 전기안전 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 전기안전"
+    ]
+  },
+  {
+    "id": 83,
+    "category": "construction-demolition",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 구조체 남부재·2차 붕괴 위험을 줄이기 위한 사전 절차는?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 철거)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 철거 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 철거"
+    ]
+  },
+  {
+    "id": 84,
+    "category": "construction-electrical",
+    "difficulty": "hard",
+    "question": "[창작 모의 · 건설안전 산업기사] 우천·습기 환경에서 이동형 전동공구·임시조명 사용 시 확인할 사항은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 전기안전)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 전기안전 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "analyze",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 전기안전"
+    ]
+  },
+  {
+    "id": 85,
+    "category": "construction-demolition",
+    "difficulty": "easy",
+    "question": "[창작 모의 · 건설안전 산업기사] 철거·파쇄 작업 시 근로자·통행자 보호를 위한 통제선·유도원 배치의 목적은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 철거)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 철거 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 철거"
+    ]
+  },
+  {
+    "id": 86,
+    "category": "construction-electrical",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 정전작업·검전·통전금지 표지·잠금장치에 관한 일반적 조치는?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 전기안전)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 전기안전 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 전기안전"
+    ]
+  },
+  {
+    "id": 87,
+    "category": "construction-demolition",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 인접 구조물·지하매설물에 대한 사전 조사·보호조치의 취지는?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 철거)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 철거 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 철거"
+    ]
+  },
+  {
+    "id": 88,
+    "category": "construction-electrical",
+    "difficulty": "easy",
+    "question": "[창작 모의 · 건설안전 산업기사] 건설용 리프트·승강기·전기설비의 정기점검·이상 시 조치의 방향은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 전기안전)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 전기안전 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 전기안전"
+    ]
+  },
+  {
+    "id": 89,
+    "category": "construction-demolition",
+    "difficulty": "hard",
+    "question": "[창작 모의 · 건설안전 산업기사] 상부 철거·하부 잔존 구조에서 낙하·전도 위험을 줄이기 위한 작업 순서는?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 철거)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 철거 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "scenario",
+    "cognitiveLevel": "analyze",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 철거"
+    ]
+  },
+  {
+    "id": 90,
+    "category": "construction-electrical",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 방습·방진·방폭 구역에서 전기기계기구 선정·설치 시 고려할 점은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 전기안전)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 전기안전 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 전기안전"
+    ]
+  },
+  {
+    "id": 91,
+    "category": "construction-confined",
+    "difficulty": "hard",
+    "question": "[창작 모의 · 건설안전 산업기사] 맨홀·탱크·수직갱 등 밀폐공간 작업 전 산소·유해가스 측정·환기·감시인 배치는?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 밀폐공간)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 밀폐공간 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 밀폐공간"
+    ]
+  },
+  {
+    "id": 92,
+    "category": "construction-ppe",
+    "difficulty": "easy",
+    "question": "[창작 모의 · 건설안전 산업기사] 작업별 보호구 지급·착용 점검·불량 교체의 목적은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 보호구)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 보호구 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 보호구"
+    ]
+  },
+  {
+    "id": 93,
+    "category": "construction-confined",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 밀폐공간 내 구조·통신·비상 대피·구조계획을 수립할 때 우선할 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 밀폐공간)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 밀폐공간 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 밀폐공간"
+    ]
+  },
+  {
+    "id": 94,
+    "category": "construction-ppe",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 고소·추락 위험 작업에서 안전대·라이프라인·부착점 선정의 취지는?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 보호구)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 보호구 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 보호구"
+    ]
+  },
+  {
+    "id": 95,
+    "category": "construction-confined",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 밀폐공간 작업 중 가스 농도 재측정·작업 중단 기준의 취지는?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 밀폐공간)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 밀폐공간 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 밀폐공간"
+    ]
+  },
+  {
+    "id": 96,
+    "category": "construction-ppe",
+    "difficulty": "hard",
+    "question": "[창작 모의 · 건설안전 산업기사] 먼지·분진·화학물질 작업에서 호흡보호구·보호구 등급 선택의 방향은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 보호구)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 보호구 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "scenario",
+    "cognitiveLevel": "analyze",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 보호구"
+    ]
+  },
+  {
+    "id": 97,
+    "category": "construction-confined",
+    "difficulty": "easy",
+    "question": "[창작 모의 · 건설안전 산업기사] 밀폐공간 출입 허가·서명·출입자 명부의 관리 목적은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 밀폐공간)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 밀폐공간 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "definition",
+    "cognitiveLevel": "remember",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 밀폐공간"
+    ]
+  },
+  {
+    "id": 98,
+    "category": "construction-ppe",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전 산업기사] 충격·관통 위험이 있는 작업에서 안전모·안전화·보호구 착용을 강화하는 이유는?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 보호구)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 보호구 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 보호구"
+    ]
+  },
+  {
+    "id": 99,
+    "category": "construction-confined",
+    "difficulty": "hard",
+    "question": "[창작 모의 · 건설안전 산업기사] 인접 공정의 화기·가스와 연계된 밀폐공간 작업 시 공동 안전조치는?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 밀폐공간)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 밀폐공간 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "analyze",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 밀폐공간"
+    ]
+  },
+  {
+    "id": 100,
+    "category": "construction-ppe",
+    "difficulty": "easy",
+    "question": "[창작 모의 · 건설안전 산업기사] 작업 종료 후 보호구 세척·보관·폐기로 위생·재사용 위험을 줄이는 관리는?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: 건설 보호구)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 따릅니다. 건설 보호구 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published",
+    "tags": [
+      "건설 보호구"
+    ]
   }
 ]

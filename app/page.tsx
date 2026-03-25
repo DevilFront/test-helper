@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { HabitsWidget } from "@/components/habits-widget";
+import { HOME_CERTIFICATIONS } from "@/lib/home-certifications";
 
 export const metadata = {
   title: "자격증 도우미",
@@ -7,64 +8,7 @@ export const metadata = {
     "자격증별 모의고사로 실력을 점검하세요. 빠른 진단, 약점 분석, 실전 대비.",
 };
 
-const certifications = [
-  {
-    slug: "info-processing",
-    name: "정보처리기사",
-    description: "필기 모의 · 난이도 선택 · 최대 15문항",
-    href: "/test/info-processing",
-    available: true,
-  },
-  {
-    slug: "electrical-engineer",
-    name: "전기기사",
-    description: "필기 모의 · 난이도 선택 · 최대 15문항",
-    href: "/test/electrical-engineer",
-    available: true,
-  },
-  {
-    slug: "electrical-craftsman",
-    name: "전기기능사",
-    description: "필기 모의 · 난이도 선택 · 최대 15문항",
-    href: "/test/electrical-craftsman",
-    available: true,
-  },
-  {
-    slug: "sqld",
-    name: "SQLD",
-    description: "필기 모의 · 난이도 선택 · 최대 15문항",
-    href: "/test/sqld",
-    available: true,
-  },
-  {
-    slug: "industrial-safety-industrial",
-    name: "산업안전 산업기사",
-    description: "필기 모의 · 난이도 선택 · 최대 15문항",
-    href: "/test/industrial-safety-industrial",
-    available: true,
-  },
-  {
-    slug: "industrial-safety",
-    name: "산업안전기사",
-    description: "필기 모의 · 난이도 선택 · 최대 15문항",
-    href: "/test/industrial-safety",
-    available: true,
-  },
-  {
-    slug: "construction-safety-industrial",
-    name: "건설안전 산업기사",
-    description: "필기 모의 · 난이도 선택 · 최대 15문항",
-    href: "/test/construction-safety-industrial",
-    available: true,
-  },
-  {
-    slug: "construction-safety-engineer",
-    name: "건설안전기사",
-    description: "필기 모의 · 난이도 선택 · 최대 15문항",
-    href: "/test/construction-safety-engineer",
-    available: true,
-  },
-] as const;
+const certifications = HOME_CERTIFICATIONS;
 
 export default function Home() {
   return (

@@ -51,5 +51,35 @@ export const MODE_LABELS: Record<
   },
 };
 
-/** 한 세션 최대 문항 수 */
+/** 한 세션 최대 문항 수 (짧은 모의) */
 export const SESSION_QUESTION_CAP = 15;
+
+/** 정보처리기사·산업안전 산업기사 등 필기 실전 모의 (5과목×20) */
+export const SESSION_QUESTION_CAP_FULL = 100;
+
+/** 산업안전기사 필기 실전 모의 (6과목×20) */
+export const SESSION_QUESTION_CAP_FULL_120 = 120;
+
+/** 전기기능사 필기 실전 모의 (3과목×20) */
+export const SESSION_QUESTION_CAP_FULL_60 = 60;
+
+/** `preset=full-mock`일 때 시험별 세션 문항 상한 */
+export function sessionCapForFullMockExam(slug: string): number {
+  if (slug === "electrical-craftsman") return SESSION_QUESTION_CAP_FULL_60;
+  if (slug === "industrial-safety") return SESSION_QUESTION_CAP_FULL_120;
+  if (slug === "construction-safety-engineer") return SESSION_QUESTION_CAP_FULL_120;
+  return SESSION_QUESTION_CAP_FULL;
+}
+
+/** 필기 실전(`preset=full-mock`)을 지원하는 시험 — 난이도별 짧은 세션(15문항)과 병행 안내할 때 사용 */
+export function supportsWrittenFullMock(slug: string): boolean {
+  return (
+    slug === "info-processing" ||
+    slug === "industrial-safety-industrial" ||
+    slug === "construction-safety-industrial" ||
+    slug === "industrial-safety" ||
+    slug === "electrical-engineer" ||
+    slug === "electrical-craftsman" ||
+    slug === "construction-safety-engineer"
+  );
+}

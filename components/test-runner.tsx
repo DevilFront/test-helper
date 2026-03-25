@@ -1,14 +1,64 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import {
+  Suspense,
+  useCallback,
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import {
   filterPoolByMode,
   MODE_LABELS,
   SESSION_QUESTION_CAP,
+  sessionCapForFullMockExam,
   type ExamDifficultyMode,
 } from "@/lib/exam-modes";
+import { parseFullMockPreset } from "@/lib/full-mock-preset";
+import {
+  buildInfoProcessingFullMockRound,
+  getInfoProcessingSubjectAtStep,
+  getInfoProcessingSubjectForCategory,
+  INFO_PROCESSING_FULL_MOCK_TOTAL,
+} from "@/lib/info-processing-written";
+import {
+  buildIndustrialSafetyIndustrialFullMockRound,
+  getIndustrialSafetyIndustrialSubjectAtStep,
+  getIndustrialSafetyIndustrialSubjectForCategory,
+  INDUSTRIAL_SAFETY_INDUSTRIAL_FULL_MOCK_TOTAL,
+} from "@/lib/industrial-safety-industrial-written";
+import {
+  buildIndustrialSafetyEngineerFullMockRound,
+  getIndustrialSafetyEngineerSubjectAtStep,
+  getIndustrialSafetyEngineerSubjectForCategory,
+  INDUSTRIAL_SAFETY_ENGINEER_FULL_MOCK_TOTAL,
+} from "@/lib/industrial-safety-engineer-written";
+import {
+  buildConstructionSafetyIndustrialFullMockRound,
+  getConstructionSafetyIndustrialSubjectAtStep,
+  getConstructionSafetyIndustrialSubjectForCategory,
+  CONSTRUCTION_SAFETY_INDUSTRIAL_FULL_MOCK_TOTAL,
+} from "@/lib/construction-safety-industrial-written";
+import {
+  buildElectricalCraftsmanFullMockRound,
+  getElectricalCraftsmanSubjectAtStep,
+  getElectricalCraftsmanSubjectForCategory,
+  ELECTRICAL_CRAFTSMAN_FULL_MOCK_TOTAL,
+} from "@/lib/electrical-craftsman-written";
+import {
+  buildElectricalEngineerFullMockRound,
+  getElectricalEngineerSubjectAtStep,
+  getElectricalEngineerSubjectForCategory,
+  ELECTRICAL_ENGINEER_FULL_MOCK_TOTAL,
+} from "@/lib/electrical-engineer-written";
+import {
+  buildConstructionSafetyEngineerFullMockRound,
+  getConstructionSafetyEngineerSubjectAtStep,
+  getConstructionSafetyEngineerSubjectForCategory,
+  CONSTRUCTION_SAFETY_ENGINEER_FULL_MOCK_TOTAL,
+} from "@/lib/construction-safety-engineer-written";
 import {
   getExamConfig,
   getQuestionsByIds,
@@ -21,6 +71,7 @@ import {
   clearInProgress,
   loadInProgress,
   saveInProgress,
+  type SessionKeyOptions,
 } from "@/lib/session-in-progress";
 import { QuestionBody } from "@/components/question-body";
 import { getSourceLevelLabel, resolveSourceLevel } from "@/lib/source-level";
@@ -77,9 +128,13 @@ type Props = {
   categoryFilter?: string[] | null;
   /** `?session=new` — 난이도 화면 등에서 들어올 때 이어풀기 초기화·새 랜덤 순서 */
   sessionFresh?: boolean;
+  /** 기본 15 — URL `cap` 등 */
+  sessionCap?: number;
+  /** 필기 실전 모의 (`preset=full-mock`) — 과목 수는 시험별 상이 */
+  examPreset?: "full-mock" | null;
 };
 
-export function TestRunner({
+function TestRunnerInner({
   examSlug,
   difficultyMode,
   poolOverride,
@@ -87,9 +142,31 @@ export function TestRunner({
   examTitleOverride,
   categoryFilter,
   sessionFresh = false,
+  sessionCap,
+  examPreset: examPresetProp,
 }: Props) {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const presetFromUrlRaw = searchParams.get("preset");
   const config = getExamConfig(examSlug);
+
+  /** 서버 props만으로는 preset이 누락될 수 있어 URL을 우선한다 */
+  const examPreset = useMemo(() => {
+    if (
+      examSlug !== "info-processing" &&
+      examSlug !== "industrial-safety-industrial" &&
+      examSlug !== "industrial-safety" &&
+      examSlug !== "construction-safety-industrial" &&
+      examSlug !== "electrical-engineer" &&
+      examSlug !== "electrical-craftsman" &&
+      examSlug !== "construction-safety-engineer"
+    ) {
+      return examPresetProp ?? null;
+    }
+    const fromUrl = parseFullMockPreset(presetFromUrlRaw);
+    if (fromUrl) return fromUrl;
+    return examPresetProp ?? null;
+  }, [examSlug, examPresetProp, presetFromUrlRaw]);
   const poolKey = useMemo(
     () => JSON.stringify(poolOverride?.map((q) => q.id) ?? []),
     [poolOverride],
@@ -97,6 +174,17 @@ export function TestRunner({
   const categoryFilterKey = useMemo(
     () => JSON.stringify(categoryFilter?.slice().sort() ?? []),
     [categoryFilter],
+  );
+
+  const sessionKeyOpts: SessionKeyOptions = useMemo(
+    () => ({
+      sessionCap:
+        examPreset === "full-mock"
+          ? sessionCapForFullMockExam(examSlug)
+          : (sessionCap ?? SESSION_QUESTION_CAP),
+      examPreset: examPreset ?? undefined,
+    }),
+    [examSlug, sessionCap, examPreset],
   );
 
   const [round, setRound] = useState<ExamQuestion[] | null>(null);
@@ -112,6 +200,7 @@ export function TestRunner({
     difficultyMode,
     poolOverride,
     categoryFilter ?? undefined,
+    sessionKeyOpts,
   );
 
   useEffect(() => {
@@ -148,6 +237,55 @@ export function TestRunner({
       let filtered: ExamQuestion[];
       if (poolOverride && poolOverride.length > 0) {
         filtered = [...poolOverride];
+      } else if (
+        examSlug === "info-processing" &&
+        examPreset === "full-mock"
+      ) {
+        filtered = buildInfoProcessingFullMockRound(
+          filterPoolByMode(cfg.pool, "mixed"),
+        );
+      } else if (
+        examSlug === "industrial-safety-industrial" &&
+        examPreset === "full-mock"
+      ) {
+        filtered = buildIndustrialSafetyIndustrialFullMockRound(
+          filterPoolByMode(cfg.pool, "mixed"),
+        );
+      } else if (
+        examSlug === "industrial-safety" &&
+        examPreset === "full-mock"
+      ) {
+        filtered = buildIndustrialSafetyEngineerFullMockRound(
+          filterPoolByMode(cfg.pool, "mixed"),
+        );
+      } else if (
+        examSlug === "construction-safety-industrial" &&
+        examPreset === "full-mock"
+      ) {
+        filtered = buildConstructionSafetyIndustrialFullMockRound(
+          filterPoolByMode(cfg.pool, "mixed"),
+        );
+      } else if (
+        examSlug === "electrical-craftsman" &&
+        examPreset === "full-mock"
+      ) {
+        filtered = buildElectricalCraftsmanFullMockRound(
+          filterPoolByMode(cfg.pool, "mixed"),
+        );
+      } else if (
+        examSlug === "electrical-engineer" &&
+        examPreset === "full-mock"
+      ) {
+        filtered = buildElectricalEngineerFullMockRound(
+          filterPoolByMode(cfg.pool, "mixed"),
+        );
+      } else if (
+        examSlug === "construction-safety-engineer" &&
+        examPreset === "full-mock"
+      ) {
+        filtered = buildConstructionSafetyEngineerFullMockRound(
+          filterPoolByMode(cfg.pool, "mixed"),
+        );
       } else {
         filtered = filterPoolByMode(cfg.pool, difficultyMode);
         if (categoryFilter && categoryFilter.length > 0) {
@@ -167,6 +305,7 @@ export function TestRunner({
         difficultyMode,
         poolOverride,
         categoryFilter ?? undefined,
+        sessionKeyOpts,
       );
       const saved = loadInProgress();
       if (
@@ -176,7 +315,7 @@ export function TestRunner({
         saved.questionIds.length > 0 &&
         sessionNonce === 0
       ) {
-        const restored = getQuestionsByIds(filtered, saved.questionIds);
+        const restored = getQuestionsByIds(cfg.pool, saved.questionIds);
         if (
           restored.length === saved.questionIds.length &&
           saved.answers.length === restored.length
@@ -190,8 +329,26 @@ export function TestRunner({
         }
       }
 
-      const n = Math.min(SESSION_QUESTION_CAP, filtered.length);
-      const picked = pickRandomQuestions(filtered, n);
+      let picked: ExamQuestion[];
+      if (
+        (examSlug === "info-processing" ||
+          examSlug === "industrial-safety-industrial" ||
+          examSlug === "industrial-safety" ||
+          examSlug === "construction-safety-industrial" ||
+          examSlug === "electrical-engineer" ||
+          examSlug === "electrical-craftsman" ||
+          examSlug === "construction-safety-engineer") &&
+        examPreset === "full-mock"
+      ) {
+        picked = filtered;
+      } else {
+        const take = Math.min(
+          sessionCap ?? SESSION_QUESTION_CAP,
+          filtered.length,
+        );
+        picked = pickRandomQuestions(filtered, take);
+      }
+      const n = picked.length;
       setEmptyPool(false);
       setRound(picked);
       setStep(0);
@@ -207,6 +364,9 @@ export function TestRunner({
     categoryFilter,
     sessionNonce,
     sessionFresh,
+    sessionCap,
+    examPreset,
+    sessionKeyOpts,
   ]);
 
   useEffect(() => {
@@ -224,6 +384,7 @@ export function TestRunner({
       difficultyMode,
       poolOverride,
       categoryFilter ?? undefined,
+      sessionKeyOpts,
     );
     const payload = {
       version: 1 as const,
@@ -248,6 +409,7 @@ export function TestRunner({
     poolOverride,
     categoryFilter,
     sessionKey,
+    sessionKeyOpts,
   ]);
 
   const sessionCount = round?.length ?? 0;
@@ -257,7 +419,7 @@ export function TestRunner({
   const progressLabel =
     round && sessionCount > 0
       ? `${step + 1} / ${sessionCount}`
-      : `— / ${SESSION_QUESTION_CAP}`;
+      : `— / ${sessionCap ?? SESSION_QUESTION_CAP}`;
   const progressPct =
     round && sessionCount > 0
       ? ((step + 1) / sessionCount) * 100
@@ -404,13 +566,160 @@ export function TestRunner({
             style={{ width: `${progressPct}%` }}
           />
         </div>
+        {examSlug === "info-processing" &&
+          examPreset === "full-mock" &&
+          sessionCount < INFO_PROCESSING_FULL_MOCK_TOTAL && (
+            <p className="rounded-lg border border-amber-200 bg-amber-50/90 px-3 py-2 text-xs text-amber-950 dark:border-amber-900/50 dark:bg-amber-950/30 dark:text-amber-100">
+              과목당 문항 풀이 부족해 총 {sessionCount}문항만 구성되었습니다. 풀
+              보강 후 100문항에 가깝게 맞출 수 있습니다.
+            </p>
+          )}
+        {examSlug === "industrial-safety-industrial" &&
+          examPreset === "full-mock" &&
+          sessionCount < INDUSTRIAL_SAFETY_INDUSTRIAL_FULL_MOCK_TOTAL && (
+            <p className="rounded-lg border border-amber-200 bg-amber-50/90 px-3 py-2 text-xs text-amber-950 dark:border-amber-900/50 dark:bg-amber-950/30 dark:text-amber-100">
+              과목당 문항 풀이 부족해 총 {sessionCount}문항만 구성되었습니다. 풀
+              보강 후 100문항에 가깝게 맞출 수 있습니다.
+            </p>
+          )}
+        {examSlug === "industrial-safety" &&
+          examPreset === "full-mock" &&
+          sessionCount < INDUSTRIAL_SAFETY_ENGINEER_FULL_MOCK_TOTAL && (
+            <p className="rounded-lg border border-amber-200 bg-amber-50/90 px-3 py-2 text-xs text-amber-950 dark:border-amber-900/50 dark:bg-amber-950/30 dark:text-amber-100">
+              과목당 문항 풀이 부족해 총 {sessionCount}문항만 구성되었습니다. 풀
+              보강 후 120문항에 가깝게 맞출 수 있습니다.
+            </p>
+          )}
+        {examSlug === "construction-safety-industrial" &&
+          examPreset === "full-mock" &&
+          sessionCount < CONSTRUCTION_SAFETY_INDUSTRIAL_FULL_MOCK_TOTAL && (
+            <p className="rounded-lg border border-amber-200 bg-amber-50/90 px-3 py-2 text-xs text-amber-950 dark:border-amber-900/50 dark:bg-amber-950/30 dark:text-amber-100">
+              과목당 문항 풀이 부족해 총 {sessionCount}문항만 구성되었습니다. 풀
+              보강 후 100문항에 가깝게 맞출 수 있습니다.
+            </p>
+          )}
+        {examSlug === "electrical-craftsman" &&
+          examPreset === "full-mock" &&
+          sessionCount < ELECTRICAL_CRAFTSMAN_FULL_MOCK_TOTAL && (
+            <p className="rounded-lg border border-amber-200 bg-amber-50/90 px-3 py-2 text-xs text-amber-950 dark:border-amber-900/50 dark:bg-amber-950/30 dark:text-amber-100">
+              과목당 문항 풀이 부족해 총 {sessionCount}문항만 구성되었습니다. 풀
+              보강 후 60문항에 가깝게 맞출 수 있습니다.
+            </p>
+          )}
+        {examSlug === "electrical-engineer" &&
+          examPreset === "full-mock" &&
+          sessionCount < ELECTRICAL_ENGINEER_FULL_MOCK_TOTAL && (
+            <p className="rounded-lg border border-amber-200 bg-amber-50/90 px-3 py-2 text-xs text-amber-950 dark:border-amber-900/50 dark:bg-amber-950/30 dark:text-amber-100">
+              과목당 문항 풀이 부족해 총 {sessionCount}문항만 구성되었습니다. 풀
+              보강 후 100문항에 가깝게 맞출 수 있습니다.
+            </p>
+          )}
+        {examSlug === "construction-safety-engineer" &&
+          examPreset === "full-mock" &&
+          sessionCount < CONSTRUCTION_SAFETY_ENGINEER_FULL_MOCK_TOTAL && (
+            <p className="rounded-lg border border-amber-200 bg-amber-50/90 px-3 py-2 text-xs text-amber-950 dark:border-amber-900/50 dark:bg-amber-950/30 dark:text-amber-100">
+              과목당 문항 풀이 부족해 총 {sessionCount}문항만 구성되었습니다. 풀
+              보강 후 120문항에 가깝게 맞출 수 있습니다.
+            </p>
+          )}
       </header>
 
       <article className="flex flex-1 flex-col rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
         <div className="flex items-start justify-between gap-2">
-          <p className="text-xs font-medium uppercase tracking-wide text-emerald-700 dark:text-emerald-400">
-            문제 {step + 1}
-          </p>
+          <div className="min-w-0 flex-1 space-y-1">
+            {(examSlug === "info-processing" ||
+              examSlug === "industrial-safety-industrial" ||
+              examSlug === "industrial-safety" ||
+              examSlug === "construction-safety-industrial" ||
+              examSlug === "electrical-engineer" ||
+              examSlug === "electrical-craftsman" ||
+              examSlug === "construction-safety-engineer") &&
+              (() => {
+                const at =
+                  examPreset === "full-mock" && round
+                    ? examSlug === "info-processing"
+                      ? getInfoProcessingSubjectAtStep(round, step)
+                      : examSlug === "industrial-safety-industrial"
+                        ? getIndustrialSafetyIndustrialSubjectAtStep(
+                            round,
+                            step,
+                          )
+                        : examSlug === "industrial-safety"
+                          ? getIndustrialSafetyEngineerSubjectAtStep(
+                              round,
+                              step,
+                            )
+                          : examSlug === "construction-safety-industrial"
+                            ? getConstructionSafetyIndustrialSubjectAtStep(
+                                round,
+                                step,
+                              )
+                            : examSlug === "electrical-craftsman"
+                              ? getElectricalCraftsmanSubjectAtStep(
+                                  round,
+                                  step,
+                                )
+                              : examSlug === "electrical-engineer"
+                                ? getElectricalEngineerSubjectAtStep(
+                                    round,
+                                    step,
+                                  )
+                                : getConstructionSafetyEngineerSubjectAtStep(
+                                    round,
+                                    step,
+                                  )
+                    : null;
+                const byCat =
+                  examSlug === "info-processing"
+                    ? getInfoProcessingSubjectForCategory(current.category)
+                    : examSlug === "industrial-safety-industrial"
+                      ? getIndustrialSafetyIndustrialSubjectForCategory(
+                          current.category,
+                        )
+                      : examSlug === "industrial-safety"
+                        ? getIndustrialSafetyEngineerSubjectForCategory(
+                            current.category,
+                          )
+                        : examSlug === "construction-safety-industrial"
+                          ? getConstructionSafetyIndustrialSubjectForCategory(
+                              current.category,
+                            )
+                          : examSlug === "electrical-craftsman"
+                            ? getElectricalCraftsmanSubjectForCategory(
+                                current.category,
+                              )
+                            : examSlug === "electrical-engineer"
+                              ? getElectricalEngineerSubjectForCategory(
+                                  current.category,
+                                )
+                              : getConstructionSafetyEngineerSubjectForCategory(
+                                  current.category,
+                                );
+                const meta = at?.meta ?? byCat;
+                if (!meta) return null;
+                return (
+                  <div className="space-y-1">
+                    <p className="text-[11px] font-semibold leading-tight text-zinc-600 dark:text-zinc-300">
+                      <span className="rounded-md bg-zinc-200/90 px-1.5 py-0.5 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200">
+                        필기 {meta.shortLabel}
+                      </span>{" "}
+                      <span className="text-zinc-500 dark:text-zinc-400">
+                        {meta.label}
+                      </span>
+                    </p>
+                    {examPreset === "full-mock" && at && (
+                      <p className="text-[11px] font-normal text-zinc-500 dark:text-zinc-500">
+                        이 과목 {at.indexInSubject + 1}/{at.subjectSize} · 전체{" "}
+                        {step + 1}/{sessionCount}
+                      </p>
+                    )}
+                  </div>
+                );
+              })()}
+            <p className="text-xs font-medium uppercase tracking-wide text-emerald-700 dark:text-emerald-400">
+              문제 {step + 1}
+            </p>
+          </div>
           <QuestionBookmarkButton
             key={current.id}
             examSlug={examSlug}
@@ -486,5 +795,22 @@ export function TestRunner({
         </Link>
       </div>
     </div>
+  );
+}
+
+function TestRunnerFallback() {
+  return (
+    <div className="mx-auto flex w-full max-w-lg flex-1 flex-col items-center justify-center gap-3 px-4 py-16">
+      <div className="h-8 w-8 animate-spin rounded-full border-2 border-emerald-600 border-t-transparent dark:border-emerald-400" />
+      <p className="text-sm text-zinc-500 dark:text-zinc-400">문항을 준비하는 중…</p>
+    </div>
+  );
+}
+
+export function TestRunner(props: Props) {
+  return (
+    <Suspense fallback={<TestRunnerFallback />}>
+      <TestRunnerInner {...props} />
+    </Suspense>
   );
 }

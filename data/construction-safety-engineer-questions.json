@@ -1138,5 +1138,1145 @@
     "cognitiveLevel": "apply",
     "itemVersion": 1,
     "reviewStatus": "published"
+  },
+  {
+    "id": 61,
+    "category": "construction-law",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 건설안전 관련 법령·행정 절차(창작 1)를 고려할 때, 현장 관리 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-law)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-law 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 62,
+    "category": "construction-law",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 건설안전 관련 법령·행정 절차(창작 2)를 고려할 때, 현장 관리 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-law)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-law 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 63,
+    "category": "construction-law",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 건설안전 관련 법령·행정 절차(창작 3)를 고려할 때, 현장 관리 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-law)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-law 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 64,
+    "category": "construction-mgmt",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 건설공사 안전관리계획·보건관리계획 수립·이행(창작 1)과 관련한 일반적 방향은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-mgmt)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-mgmt 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 65,
+    "category": "construction-mgmt",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 건설공사 안전관리계획·보건관리계획 수립·이행(창작 2)과 관련한 일반적 방향은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-mgmt)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-mgmt 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 66,
+    "category": "construction-mgmt",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 건설공사 안전관리계획·보건관리계획 수립·이행(창작 3)과 관련한 일반적 방향은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-mgmt)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-mgmt 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 67,
+    "category": "construction-risk",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 건설현장 위험성평가·재평가(창작 1)를 실시할 때 우선 고려할 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-risk)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-risk 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 68,
+    "category": "construction-risk",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 건설현장 위험성평가·재평가(창작 2)를 실시할 때 우선 고려할 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-risk)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-risk 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 69,
+    "category": "construction-risk",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 건설현장 위험성평가·재평가(창작 3)를 실시할 때 우선 고려할 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-risk)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-risk 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 70,
+    "category": "construction-health",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·교육·작업환경(창작 1)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-health)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-health 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 71,
+    "category": "construction-health",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·교육·작업환경(창작 2)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-health)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-health 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 72,
+    "category": "construction-health",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·교육·작업환경(창작 3)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-health)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-health 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 73,
+    "category": "construction-health",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·교육·작업환경(창작 4)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-health)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-health 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 74,
+    "category": "construction-health",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·교육·작업환경(창작 5)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-health)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-health 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 75,
+    "category": "construction-health",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·교육·작업환경(창작 6)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-health)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-health 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 76,
+    "category": "construction-health",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·교육·작업환경(창작 7)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-health)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-health 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 77,
+    "category": "construction-health",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·교육·작업환경(창작 8)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-health)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-health 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 78,
+    "category": "construction-health",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·교육·작업환경(창작 9)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-health)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-health 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 79,
+    "category": "construction-health",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·교육·작업환경(창작 10)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-health)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-health 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 80,
+    "category": "construction-health",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·교육·작업환경(창작 11)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-health)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-health 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 81,
+    "category": "construction-health",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·교육·작업환경(창작 12)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-health)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-health 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 82,
+    "category": "construction-health",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·교육·작업환경(창작 13)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-health)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-health 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 83,
+    "category": "construction-health",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·교육·작업환경(창작 14)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-health)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-health 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 84,
+    "category": "construction-health",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·교육·작업환경(창작 15)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-health)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-health 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 85,
+    "category": "construction-fire",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·인간공학·시스템안전(창작 1)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-fire)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-fire 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 86,
+    "category": "construction-fire",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·인간공학·시스템안전(창작 2)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-fire)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-fire 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 87,
+    "category": "construction-fire",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·인간공학·시스템안전(창작 3)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-fire)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-fire 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 88,
+    "category": "construction-fire",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·인간공학·시스템안전(창작 4)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-fire)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-fire 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 89,
+    "category": "construction-fire",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·인간공학·시스템안전(창작 5)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-fire)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-fire 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 90,
+    "category": "construction-fire",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·인간공학·시스템안전(창작 6)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-fire)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-fire 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 91,
+    "category": "construction-fire",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·인간공학·시스템안전(창작 7)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-fire)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-fire 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 92,
+    "category": "construction-fire",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·인간공학·시스템안전(창작 8)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-fire)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-fire 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 93,
+    "category": "construction-fire",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·인간공학·시스템안전(창작 9)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-fire)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-fire 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 94,
+    "category": "construction-fire",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·인간공학·시스템안전(창작 10)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-fire)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-fire 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 95,
+    "category": "construction-fire",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·인간공학·시스템안전(창작 11)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-fire)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-fire 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 96,
+    "category": "construction-fire",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·인간공학·시스템안전(창작 12)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-fire)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-fire 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 97,
+    "category": "construction-fire",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·인간공학·시스템안전(창작 13)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-fire)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-fire 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 98,
+    "category": "construction-fire",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·인간공학·시스템안전(창작 14)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-fire)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-fire 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 99,
+    "category": "construction-fire",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 산업심리·인간공학·시스템안전(창작 15)을 고려할 때, 건설안전보건 관점에서 가장 적절한 것은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-fire)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-fire 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 100,
+    "category": "construction-excavation",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 굴착·흙막이·지보공(창작 1)과 관련한 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-excavation)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-excavation 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 101,
+    "category": "construction-excavation",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 굴착·흙막이·지보공(창작 2)과 관련한 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-excavation)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-excavation 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 102,
+    "category": "construction-excavation",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 굴착·흙막이·지보공(창작 3)과 관련한 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-excavation)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-excavation 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 103,
+    "category": "construction-scaffold",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 비계·가설구조·동바리(창작 1)와 관련한 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-scaffold)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-scaffold 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 104,
+    "category": "construction-scaffold",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 비계·가설구조·동바리(창작 2)와 관련한 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-scaffold)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-scaffold 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 105,
+    "category": "construction-scaffold",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 비계·가설구조·동바리(창작 3)와 관련한 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-scaffold)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-scaffold 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 106,
+    "category": "construction-machinery",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 건설기계·양중·운반(창작 1)과 관련한 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-machinery)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-machinery 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 107,
+    "category": "construction-machinery",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 건설기계·양중·운반(창작 2)과 관련한 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-machinery)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-machinery 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 108,
+    "category": "construction-machinery",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 건설기계·양중·운반(창작 3)과 관련한 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-machinery)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-machinery 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 109,
+    "category": "construction-demolition",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 건설재료·구조·해체(창작 1)와 관련한 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-demolition)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-demolition 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 110,
+    "category": "construction-demolition",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 건설재료·구조·해체(창작 2)와 관련한 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-demolition)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-demolition 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 111,
+    "category": "construction-demolition",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 건설재료·구조·해체(창작 3)와 관련한 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-demolition)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-demolition 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 112,
+    "category": "construction-electrical",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 건설현장 전기·감전 예방(창작 1)과 관련한 일반적 방향은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-electrical)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-electrical 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 113,
+    "category": "construction-electrical",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 건설현장 전기·감전 예방(창작 2)과 관련한 일반적 방향은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-electrical)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-electrical 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 114,
+    "category": "construction-electrical",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 건설현장 전기·감전 예방(창작 3)과 관련한 일반적 방향은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-electrical)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-electrical 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 115,
+    "category": "construction-confined",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 밀폐공간·지하·특수작업(창작 1)과 관련한 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-confined)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-confined 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 116,
+    "category": "construction-confined",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 밀폐공간·지하·특수작업(창작 2)과 관련한 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-confined)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-confined 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 117,
+    "category": "construction-confined",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 밀폐공간·지하·특수작업(창작 3)과 관련한 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-confined)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-confined 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 118,
+    "category": "construction-ppe",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 보호구·안전장구(창작 1)와 관련한 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-ppe)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-ppe 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 119,
+    "category": "construction-ppe",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 보호구·안전장구(창작 2)와 관련한 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-ppe)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-ppe 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 120,
+    "category": "construction-ppe",
+    "difficulty": "medium",
+    "question": "[창작 모의 · 건설안전기사] 보호구·안전장구(창작 3)와 관련한 일반적 안전 원칙은?",
+    "options": [
+      "관계 법령·지침을 확인하지 않고 관행만 따르는 방식",
+      "위험 요인을 문서화하지 않고 구두로만 전달하는 방식",
+      "건설현장 안전·보건 절차를 확인하고 위험을 줄이기 위한 조치·기록·교육을 이행한다 (창작 모의: construction-ppe)",
+      "개인의 편의만으로 보호구를 생략하는 방식"
+    ],
+    "answer": 2,
+    "explanation": "창작 모의 문항입니다. 실제 시험은 시행 공고·최신 법령·교재를 기준으로 합니다. construction-ppe 영역에서는 절차·기록·교육·보호구·위험성평가 등을 종합적으로 점검하는 것이 일반적입니다.",
+    "sourceLevel": "creative_mock",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "itemVersion": 1,
+    "reviewStatus": "published"
   }
 ]

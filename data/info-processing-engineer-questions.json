@@ -314,13 +314,17 @@
       "빅뱅 통합"
     ],
     "answer": 1,
-    "explanation": "스크럼 등에서는 시간 박스된 스프린트마다 증분을 만들어 피드백을 받는다.",
-    "category": "software-engineering",
+    "explanation": "정답: 스프린트(또는 이터레이션). 애자일에서는 시간 박스된 주기마다 동작 가능한 증분을 내놓고 회고한다. 오답: 워터폴 마일스톤은 단계별 순차 일정에 가깝고, V모델 검증 단계는 검증 중심 순차 모델이며, 빅뱅 통합은 말미 일괄 통합에 가깝다.",
+    "category": "project-management",
     "difficulty": "medium",
-    "stemKind": "definition",
+    "stemKind": "which_best",
     "cognitiveLevel": "understand",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "애자일",
+      "스프린트"
+    ]
   },
   {
     "id": 18,
@@ -368,49 +372,62 @@
       "그래픽 페인트"
     ],
     "answer": 1,
-    "explanation": "분산/중앙형 VCS는 브랜치·머지·충돌 해결 워크플로를 지원한다.",
-    "category": "software-engineering",
+    "explanation": "정답: 버전 관리 시스템(Git 등). 동시 수정·브랜치·머지·충돌 해결이 일정·품질 관리와 직결되는 구축관리 활동이다. 오답: 워드/압축/페인트 도구는 소스 형상·이력 관리를 제공하지 않는다.",
+    "category": "project-management",
     "difficulty": "medium",
     "stemKind": "which_best",
     "cognitiveLevel": "understand",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "형상관리",
+      "Git"
+    ]
   },
   {
     "id": 21,
-    "question": "이진 탐색(binary search)이 적용되기 위해 선행되어야 하는 조건은?",
+    "leadIn": "정렬된 정수 배열에서 특정 값을 찾을 때, 중앙 원소와 비교한 뒤 남은 절반 구간만 다시 검사하는 방식을 쓰려 한다.",
+    "question": "이 탐색이 올바르게 작동하기 위해 데이터가 만족해야 하는 전제는?",
     "options": [
-      "데이터가 연결 리스트 구조일 것",
-      "정렬된 배열(또는 랜덤 액세스 가능한 정렬 구간)",
-      "데이터 개수가 짝수일 것",
-      "중복 값이 없어야 함"
+      "연결 리스트로만 저장되어 있을 것",
+      "키 기준으로 정렬되어 있고 임의 접근이 가능할 것",
+      "원소 개수가 홀수일 것",
+      "중복 값이 없어야만 함"
     ],
     "answer": 1,
-    "explanation": "이진 탐색은 정렬된 전제에서 중간값과 비교하며 범위를 반으로 줄인다.",
+    "explanation": "정답: 정렬·랜덤 액세스. 이진 탐색은 ‘중간값 비교 후 절반 제거’가 성립하려면 순서가 정해져 있어야 한다. 오답: 연결 리스트는 중간 접근이 O(n)이라 전제와 맞지 않고, 짝수·무중복은 필수 조건이 아니다.",
     "category": "data-structures",
     "difficulty": "easy",
-    "stemKind": "definition",
-    "cognitiveLevel": "remember",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "stemKind": "scenario",
+    "cognitiveLevel": "understand",
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "이진탐색",
+      "정렬"
+    ]
   },
   {
     "id": 22,
-    "question": "스택 자료구조의 연산 특성으로 옳은 것은?",
+    "question": "스택(Stack) 자료구조에 대한 설명으로 옳지 않은 것은?",
     "options": [
-      "FIFO",
-      "LIFO",
-      "임의 위치 삭제가 기본",
-      "우선순위만 저장"
+      "삽입(push)과 삭제(pop)이 보통 같은 끝(top)에서 이루어진다",
+      "후입선출(LIFO) 순서를 따른다",
+      "큐(Queue)와 동일하게 선입선출(FIFO)로 동작한다",
+      "빈 스택에서 pop을 시도하면 오류 처리가 필요할 수 있다"
     ],
-    "answer": 1,
-    "explanation": "스택은 후입선출(LIFO)로 push/pop이 한쪽 끝에서 이뤄진다.",
+    "answer": 2,
+    "explanation": "정답(틀린 설명): C. 스택은 LIFO, 큐는 FIFO로 동작 규칙이 다르다. 오답: A·B는 스택의 정의, D는 스택 언더플로를 막기 위한 일반적 구현 관점에서 타당하다.",
     "category": "data-structures",
     "difficulty": "easy",
-    "stemKind": "definition",
-    "cognitiveLevel": "remember",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "stemKind": "not",
+    "cognitiveLevel": "analyze",
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "스택",
+      "LIFO"
+    ]
   },
   {
     "id": 23,
@@ -422,49 +439,65 @@
       "데드락"
     ],
     "answer": 1,
-    "explanation": "충돌은 개방 주소법이나 체이닝 등으로 해결한다.",
+    "explanation": "정답: 충돌. 서로 다른 키가 같은 슬롯을 가리키면 충돌이며 체이닝·개방 주소법 등으로 처리한다. 오답: 클러스터링은 주로 개방 주소에서 연속 점유 현상, 정규화는 DB 설계, 데드락은 자원 대기 문제이다.",
     "category": "data-structures",
     "difficulty": "easy",
     "stemKind": "definition",
     "cognitiveLevel": "remember",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "해시",
+      "충돌"
+    ]
   },
   {
     "id": 24,
-    "question": "그래프를 인접 행렬로 표현할 때 공간 복잡도에 대한 설명으로 적절한 것은?",
+    "contextType": "table",
+    "contextBlock": "무향 단순 그래프(정점 V0~V2)의 인접 행렬 M. M[i][j]=1이면 간선 존재.\n       V0  V1  V2\n  V0 [ 0   1   1 ]\n  V1 [ 1   0   1 ]\n  V2 [ 1   1   0 ]",
+    "question": "정점 수를 V라 할 때, 이와 같이 인접 행렬로 전체 그래프를 저장할 때의 공간 복잡도에 가장 가까운 것은?",
     "options": [
-      "정점 수에 선형",
-      "정점 수의 제곱에 비례",
-      "항상 상수",
-      "간선 수만 의존"
+      "O(V)",
+      "O(V²)",
+      "O(1)",
+      "간선 수 E에 대해 O(E)만"
     ],
     "answer": 1,
-    "explanation": "V×V 행렬을 쓰므로 O(V²) 공간이 필요하다.",
+    "explanation": "정답: O(V²). V×V 셀을 쓰므로 정점 수 제곱에 비례한다. 오답: O(V)·O(E)는 인접 리스트 쪽이 유리한 경우, O(1)은 불가능하다.",
     "category": "data-structures",
     "difficulty": "medium",
-    "stemKind": "definition",
+    "stemKind": "table_diagram",
     "cognitiveLevel": "understand",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "그래프",
+      "인접행렬"
+    ]
   },
   {
     "id": 25,
-    "question": "시간 복잡도 O(n log n) 평균을 기대할 수 있는 정렬 알고리즘 예시는?",
+    "contextType": "code",
+    "contextBlock": "병합 정렬의 병합(merge) 단계 의사코드:\nmerge(A, left, mid, right):\n  i=left, j=mid+1, k=0\n  while i<=mid and j<=right:\n    if A[i]<=A[j]: B[k++]=A[i++]\n    else: B[k++]=A[j++]\n  (남은 구간 복사 후 A에 반영)\n분할 단계는 길이가 1이 될 때까지 반으로 나눈다.",
+    "question": "위 알고리즘 전체(분할+병합)의 최악 시간 복잡도에 가장 가까운 것은?",
     "options": [
-      "버블 정렬",
-      "병합 정렬",
-      "단순 선택 정렬(항상)",
-      "삽입 정렬(최선만 고려)"
+      "O(n)",
+      "O(n log n)",
+      "O(n²)",
+      "O(log n)"
     ],
     "answer": 1,
-    "explanation": "병합 정렬은 비교 기반에서 안정적으로 O(n log n)을 보장한다. 퀵 정렬은 평균 O(n log n)이다.",
+    "explanation": "정답: O(n log n). 분할 깊이 log n, 각 층에서 병합이 선형이라 전체가 n log n이다. 오답: O(n²)는 단순 버블·삽입 최악, O(n)·O(log n)은 단계만 보면 부족하다.",
     "category": "data-structures",
     "difficulty": "medium",
-    "stemKind": "definition",
-    "cognitiveLevel": "understand",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "stemKind": "code_or_sql",
+    "cognitiveLevel": "apply",
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "병합정렬",
+      "복잡도"
+    ]
   },
   {
     "id": 26,
@@ -558,75 +591,95 @@
   },
   {
     "id": 31,
-    "question": "CPU의 기본 구성 요소 중 산술·논리 연산을 수행하는 부품은?",
+    "leadIn": "명령어 실행 사이클 중, 레지스터에 담긴 피연산자에 대해 덧셈·논리연산 등을 실제로 수행하는 단계가 있다.",
+    "question": "이 연산을 담당하는 CPU 내부 블록은?",
     "options": [
       "제어장치",
       "산술논리연산장치(ALU)",
       "메인 메모리",
-      "시스템 버스만"
+      "입출력 채널만"
     ],
     "answer": 1,
-    "explanation": "ALU가 덧셈, 논리연산 등을 수행하고 제어장치는 명령 해석과 신호를 조정한다.",
+    "explanation": "정답: ALU. 산술·논리 연산의 실행 주체이다. 오답: 제어장치는 명령 해독·제어 신호, 메모리는 저장, I/O 채널은 주변장치 전송에 가깝다.",
     "category": "computer-architecture",
     "difficulty": "easy",
-    "stemKind": "definition",
+    "stemKind": "scenario",
     "cognitiveLevel": "remember",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "ALU",
+      "CPU"
+    ]
   },
   {
     "id": 32,
-    "question": "캐시 메모리가 있는 주된 이유는?",
+    "leadIn": "메인 메모리(DRAM)보다 훨씬 빠른 소용량 SRAM에 최근 참조된 블록을 복사해 두었다가 재사용한다.",
+    "question": "이 계층(캐시)을 두는 주된 이유는?",
     "options": [
-      "디스크 용량 확대",
-      "CPU와 메인 메모리 사이 속도 차 완화",
-      "전원 차단 후 데이터 보존",
-      "네트워크 대역폭 증가"
+      "디스크 용량을 늘리기 위해",
+      "CPU와 메인 메모리 간 속도 격차를 완화하기 위해",
+      "전원 차단 후에도 데이터를 보존하기 위해",
+      "LAN 대역폭을 직접 늘리기 위해"
     ],
     "answer": 1,
-    "explanation": "지역성을 활용해 자주 쓰는 데이터를 빠른 SRAM 계층에 둔다.",
+    "explanation": "정답: 속도 격차 완화. 시간·공간 지역성을 이용해 평균 접근 시간을 줄인다. 오답: 캐시는 휘발성이며 디스크 용량·네트워크와는 목적이 다르다.",
     "category": "computer-architecture",
     "difficulty": "easy",
-    "stemKind": "definition",
-    "cognitiveLevel": "remember",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "stemKind": "scenario",
+    "cognitiveLevel": "understand",
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "캐시",
+      "지역성"
+    ]
   },
   {
     "id": 33,
-    "question": "명령어 파이프라인에서 분기 예측이 실패하면 발생하기 쉬운 비용은?",
+    "leadIn": "5단계 파이프라인이 분기 명령을 만났을 때, 예측이 빗나가면 잘못 가져온 명령들을 폐기하고 파이프라인을 다시 채워야 한다.",
+    "question": "이때 발생하기 쉬운 비용으로 가장 가까운 것은?",
     "options": [
       "버블·페널티로 인한 지연",
-      "캐시 용량 무한 증가",
-      "디스크 포맷",
-      "키보드 레이턴시만 증가"
+      "캐시 용량이 자동으로 무한 증가",
+      "디스크 전체 포맷",
+      "키보드 입력 지연만 증가"
     ],
     "answer": 0,
-    "explanation": "잘못된 경로로 가져온 명령은 버리고 올바른 주소로 다시 채워 넣어야 한다.",
+    "explanation": "정답: 버블·지연. 분기 오예측은 잘못된 경로 명령을 버리고 PC를 바로잡는 비용이 든다. 오답: 나머지는 파이프라인 오예측과 무관하거나 비현실적이다.",
     "category": "computer-architecture",
     "difficulty": "hard",
-    "stemKind": "definition",
+    "stemKind": "scenario",
     "cognitiveLevel": "apply",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "파이프라인",
+      "분기예측"
+    ]
   },
   {
     "id": 34,
-    "question": "RAID 1의 특징으로 가장 알맞은 것은?",
+    "leadIn": "서버에 디스크 두 벌에 동일 데이터를 동시에 기록해, 한쪽 장애 시에도 서비스를 유지하려 한다.",
+    "question": "이 구성에 가장 가까운 RAID 개념은?",
     "options": [
-      "스트라이핑만 사용",
-      "미러링으로 장애 내성 확보, 용량 효율은 낮을 수 있음",
-      "패리티 없이 속도만 최대",
-      "디스크 1개만 허용"
+      "스트라이핑(RAID 0)만으로 속도만 극대화",
+      "미러링(RAID 1)으로 복제본을 유지",
+      "패리티 없이 단일 디스크만 사용",
+      "JBOD로 묶기만 하고 중복 없음"
     ],
     "answer": 1,
-    "explanation": "RAID1은 데이터를 복제해 동일 복사본을 유지한다.",
+    "explanation": "정답: RAID 1 미러링. 동일 데이터 복제로 장애 내성을 얻고 용량 효율은 낮아질 수 있다. 오답: RAID 0은 장애 내성이 약하고, 단일·JBOD는 미러 요구와 맞지 않는다.",
     "category": "computer-architecture",
     "difficulty": "medium",
-    "stemKind": "which_best",
+    "stemKind": "scenario",
     "cognitiveLevel": "understand",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "RAID",
+      "미러링"
+    ]
   },
   {
     "id": 35,
@@ -638,13 +691,17 @@
       "품질 검사가 없는 경로"
     ],
     "answer": 1,
-    "explanation": "임계 경로상 활동 지연이 프로젝트 완료일을 밀어낸다.",
+    "explanation": "정답: 전체 기간에 직접 영향을 주는 최장 경로. 임계 경로상 작업이 밀리면 프로젝트 종료일이 그대로 밀린다. 오답: 최단 경로·최소비용만 모은 경로는 임계 경로 정의가 아니다.",
     "category": "project-management",
     "difficulty": "medium",
-    "stemKind": "definition",
+    "stemKind": "scenario",
     "cognitiveLevel": "understand",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "임계경로",
+      "일정"
+    ]
   },
   {
     "id": 36,
@@ -656,13 +713,17 @@
       "테스트 생략"
     ],
     "answer": 1,
-    "explanation": "성숙도 모델은 정의·관리·측정·최적화 등 단계적 프로세스 역량 강화를 지향한다.",
+    "explanation": "정답: 측정·재현 가능한 프로세스로 품질·예측 가능성 향상. CMMI는 성숙도 단계를 통해 조직 프로세스 역량을 체계화한다. 오답: 문서·테스트 생략·코딩만 극대화는 성숙도 목표와 반대된다.",
     "category": "project-management",
     "difficulty": "medium",
     "stemKind": "which_best",
     "cognitiveLevel": "understand",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "CMMI",
+      "성숙도"
+    ]
   },
   {
     "id": 37,
@@ -674,13 +735,17 @@
       "재사용성"
     ],
     "answer": 1,
-    "explanation": "가동 시간과 장애 대응은 가용성·신뢰성 요구로 분류된다.",
-    "category": "software-engineering",
+    "explanation": "정답: 가용성·신뢰성. 장애 후 복구 시간은 서비스 지속 가능성(가용성)과 고장 허용(신뢰성) 요구에 해당한다. 오답: 사용성은 UX, 이식성은 환경 이전, 재사용성은 모듈 재사용과 관련된다.",
+    "category": "project-management",
     "difficulty": "medium",
     "stemKind": "which_best",
     "cognitiveLevel": "understand",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "품질특성",
+      "가용성"
+    ]
   },
   {
     "id": 38,
@@ -810,21 +875,26 @@
   },
   {
     "id": 45,
-    "question": "큐(Queue) 자료구조의 출입 규칙으로 옳은 것은?",
+    "leadIn": "프린터 작업 대기열은 접수된 순서대로 출력한다. 우선순위 큐는 쓰지 않는다고 가정한다.",
+    "question": "이 대기열을 모델링하기 가장 적합한 자료구조는?",
     "options": [
-      "FIFO",
-      "우선순위 없음",
-      "임의 삭제만",
-      "LIFO"
+      "스택(Stack)",
+      "큐(Queue)",
+      "우선순위 힙만",
+      "해시 테이블만"
     ],
-    "answer": 0,
-    "explanation": "큐는 선입선출(FIFO)로 rear에서 삽입, front에서 삭제하는 구조이다.",
+    "answer": 1,
+    "explanation": "정답: 큐. 선입선출(FIFO)로 먼저 들어온 작업이 먼저 나간다. 오답: 스택은 LIFO, 힙은 우선순위가 있을 때, 해시는 키-값 매핑에 적합하다.",
     "category": "data-structures",
     "difficulty": "easy",
-    "stemKind": "definition",
-    "cognitiveLevel": "remember",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "stemKind": "scenario",
+    "cognitiveLevel": "understand",
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "큐",
+      "FIFO"
+    ]
   },
   {
     "id": 46,
@@ -846,39 +916,48 @@
   },
   {
     "id": 47,
-    "question": "컴퓨터에서 정보의 최소 단위로 널리 쓰이는 것은?",
+    "question": "컴퓨터에서 정보의 표현·단위에 대한 설명으로 옳지 않은 것은?",
     "options": [
-      "비트(bit)",
-      "블록만",
-      "바이트",
-      "워드만"
+      "비트(bit)는 이진 한 자리로 정보의 최소 단위이다",
+      "바이트(byte)는 보통 8비트 묶음으로 쓰인다",
+      "워드(word)는 CPU가 한 번에 다루기 쉬운 고정 비트 폭 단위로 쓰이기도 한다",
+      "모든 데이터는 반드시 4바이트 배수로만 저장되어야 한다"
     ],
-    "answer": 0,
-    "explanation": "비트는 이진 한 자리로 정보의 최소 단위이다.",
+    "answer": 3,
+    "explanation": "정답(틀린 설명): D. 정렬(alignment)은 있어도 ‘항상 4바이트 배수만’은 아니다. 오답: A는 비트 정의, B는 일반적 바이트, C는 워드 개념으로 타당하다.",
     "category": "computer-architecture",
     "difficulty": "easy",
-    "stemKind": "definition",
-    "cognitiveLevel": "remember",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "stemKind": "not",
+    "cognitiveLevel": "understand",
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "비트",
+      "바이트"
+    ]
   },
   {
     "id": 48,
-    "question": "프로젝트 일정을 막대 형태로 활동 기간과 의존관계를 표현하는 도구로 알려진 것은?",
+    "leadIn": "PM이 주간 보고용으로 ‘작업별 시작·종료 시점’을 한눈에 보여 주는 일정 도표를 준비한다.",
+    "question": "막대(bar)로 활동 기간을 그리고 일정을 시각화하는 대표 도구는?",
     "options": [
-      "시퀀스만",
+      "시퀀스 다이어그램만",
       "ERD",
-      "유스케이스만",
+      "유스케이스 다이어그램만",
       "간트 차트"
     ],
     "answer": 3,
-    "explanation": "간트 차트는 작업 기간과 순서를 시각화하는 일정 관리 도구이다.",
+    "explanation": "정답: 간트 차트. 작업 기간·겹침·의존을 막대로 표현한다. 오답: 시퀀스/유스케이스는 행위 흐름, ERD는 데이터 모델이다.",
     "category": "project-management",
     "difficulty": "easy",
-    "stemKind": "definition",
+    "stemKind": "scenario",
     "cognitiveLevel": "remember",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "간트",
+      "일정"
+    ]
   },
   {
     "id": 49,
@@ -936,21 +1015,26 @@
   },
   {
     "id": 52,
-    "question": "우선순위가 있는 작업을 효율적으로 꺼내기 위해 흔히 사용하는 트리 기반 자료구조는?",
+    "leadIn": "응급실 대기 환자 명단에서, 중증도가 가장 높은 환자를 곧바로 꺼내 진료에 넣어야 한다. 삽입은 자주 일어난다.",
+    "question": "‘현재 가장 우선인 원소’를 빠르게 조회·삭제하기 위해 많이 쓰는 트리 기반 구조는?",
     "options": [
-      "연결 리스트만",
+      "단순 연결 리스트 선형 탐색만",
       "스택",
-      "큐만",
-      "힙(heap)"
+      "일반 큐만",
+      "힙(heap) 기반 우선순위 큐"
     ],
     "answer": 3,
-    "explanation": "힙은 우선순위 큐 구현에 자주 쓰이는 완전이진트리 구조이다.",
+    "explanation": "정답: 힙. 완전이진트리로 최솟값/최댓값 추출을 평균적으로 효율적으로 지원한다. 오답: 리스트 선형 탐색은 O(n), 스택·일반 큐는 우선순위 반영이 어렵다.",
     "category": "data-structures",
     "difficulty": "medium",
-    "stemKind": "definition",
-    "cognitiveLevel": "understand",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "stemKind": "scenario",
+    "cognitiveLevel": "apply",
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "힙",
+      "우선순위큐"
+    ]
   },
   {
     "id": 53,
@@ -962,13 +1046,17 @@
       "유일하게 아무 현상도 없음"
     ],
     "answer": 2,
-    "explanation": "격리 수준에 따라 더티 리드·비반복 읽기·팬텀 등 허용 여부가 달라진다.",
+    "explanation": "정답: 격리 수준별 현상(팬텀·비반복 읽기 등). READ COMMITTED는 더티 리드를 막지만 같은 트랜잭션 안에서 반복 읽기 시 값이 달라질 수 있다(비반복 읽기). 오답: 데드락·무결성 파괴만/아무 현상도 없음은 격리 논의와 맞지 않는다.",
     "category": "database",
     "difficulty": "hard",
-    "stemKind": "code_or_sql",
+    "stemKind": "which_best",
     "cognitiveLevel": "apply",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "트랜잭션",
+      "격리수준"
+    ]
   },
   {
     "id": 54,
@@ -1044,21 +1132,27 @@
   },
   {
     "id": 58,
-    "question": "가상 메모리에서 페이지 테이블 접근을 가속하기 위해 CPU 쪽에 캐시하는 구조로 알려진 것은?",
+    "contextType": "code",
+    "contextBlock": "가상 주소 → 물리 주소 변환 의사코드:\nvpn = (virtual_addr >> PAGE_SHIFT) & VPN_MASK;\npte = page_table_walk(vpn);  // 느린 메모리 접근\nif (tlb_has(vpn)) frame = tlb_get_frame(vpn);  // 빠른 조회\nelse { frame = pte.frame; tlb_fill(vpn, frame); }",
+    "question": "page_table_walk 대신 최근 변환 결과를 CPU 내부에 캐시해 평균 변환 비용을 줄이는 구조는?",
     "options": [
-      "TLB",
-      "디스크 캐시만",
-      "L3만",
-      "DMA만"
+      "TLB(Translation Lookaside Buffer)",
+      "디스크 스풀만",
+      "L3 캐시만으로 대체",
+      "DMA 컨트롤러만"
     ],
     "answer": 0,
-    "explanation": "TLB는 최근 페이지 테이블 항목을 캐시해 주소 변환 비용을 줄인다.",
+    "explanation": "정답: TLB. VPN→프레임 매핑을 온칩에 캐시해 페이지 테이블 순회 횟수를 줄인다. 오답: 디스크 스풀·DMA는 주소 변환 캐시가 아니고, L3는 범용 캐시로 TLB 역할과 다르다.",
     "category": "computer-architecture",
     "difficulty": "hard",
-    "stemKind": "definition",
+    "stemKind": "code_or_sql",
     "cognitiveLevel": "apply",
-    "itemVersion": 1,
-    "reviewStatus": "published"
+    "itemVersion": 2,
+    "reviewStatus": "published",
+    "tags": [
+      "TLB",
+      "가상메모리"
+    ]
   },
   {
     "id": 59,
@@ -1093,6 +1187,804 @@
     "difficulty": "hard",
     "stemKind": "definition",
     "cognitiveLevel": "apply",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 61,
+    "question": "요구사항 명세에서 ‘시스템이 반드시 수행해야 할 기능’과 ‘품질·제약’을 구분할 때, 후자에 가까운 예는?",
+    "options": [
+      "로그인 후 주문 목록을 조회한다",
+      "피크 시간대에도 응답 시간 2초 이내",
+      "장바구니에 상품을 담을 수 있다",
+      "결제 수단으로 카드·계좌를 선택할 수 있다"
+    ],
+    "answer": 1,
+    "explanation": "정답: 비기능(성능). 오답: 나머지는 기능 요구에 가깝다.",
+    "category": "software-engineering",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 62,
+    "question": "객체지향 설계에서 인터페이스에 의존하고 구현체를 주입하는 방식이 지향하는 이점으로 가장 가까운 것은?",
+    "options": [
+      "실행 속도 극대화",
+      "구현 교체·테스트 용이(결합도 완화)",
+      "메모리 사용 최소화",
+      "단일 CPU 점유"
+    ],
+    "answer": 1,
+    "explanation": "정답: 구현 교체·테스트. 오답: DI의 주 목적이 아니다.",
+    "category": "software-engineering",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 63,
+    "question": "유스케이스 다이어그램에서 시스템 외부와 상호작용하는 주체를 표현하는 요소는?",
+    "options": [
+      "클래스",
+      "액터",
+      "패키지",
+      "컴포넌트"
+    ],
+    "answer": 1,
+    "explanation": "정답: 액터. 오답: 클래스·패키지·컴포넌트는 다른 UML 다이어그램 요소이다.",
+    "category": "software-engineering",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 64,
+    "question": "소프트웨어 아키텍처에서 ‘관심사의 분리’를 계층으로 나눈 전형적 웹 구조에 가까운 것은?",
+    "options": [
+      "프레젠테이션·애플리케이션·데이터 계층",
+      "CPU·메모리·디스크만",
+      "TCP·UDP·IP만",
+      "스택·큐·힙만"
+    ],
+    "answer": 0,
+    "explanation": "정답: 계층형 구조. 오답: 하드웨어·프로토콜·자료구조 용어와 혼동하면 안 된다.",
+    "category": "software-engineering",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 65,
+    "question": "디자인 패턴 중 객체 생성을 캡슐화해 구체 클래스에 덜 묶이게 하는 패턴 예는?",
+    "options": [
+      "옵저버",
+      "싱글톤·팩토리 메서드",
+      "어댑터",
+      "프록시"
+    ],
+    "answer": 1,
+    "explanation": "정답: 생성 패턴. 오답: 옵저버는 행위, 어댑터·프록시는 구조에 가깝다.",
+    "category": "software-engineering",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 66,
+    "question": "요구사항 검증에서 프로토타입이 특히 유용한 상황은?",
+    "options": [
+      "요구가 불명확하고 조기 피드백이 필요할 때",
+      "운영 로그만 수집할 때",
+      "배포 파이프라인만 자동화할 때",
+      "디스크 포맷만 할 때"
+    ],
+    "answer": 0,
+    "explanation": "정답: 불명확·피드백. 오답: 나머지는 프로토타입 목적과 거리가 있다.",
+    "category": "software-engineering",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 67,
+    "question": "UML 시퀀스 다이어그램이 강조하는 관점은?",
+    "options": [
+      "클래스의 정적 속성",
+      "객체 간 메시지 순서와 시간 흐름",
+      "물리 서버 위치",
+      "ER 관계만"
+    ],
+    "answer": 1,
+    "explanation": "정답: 상호작용·시간. 오답: 정적 구조·배포·ER은 다른 다이어그램이다.",
+    "category": "software-engineering",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 68,
+    "question": "소프트웨어 품질 ISO/IEC 25010에서 사용성과 가장 거리가 먼 예는?",
+    "options": [
+      "학습 용이성",
+      "CPU 클럭 주파수",
+      "사용자 오류 방지",
+      "접근성"
+    ],
+    "answer": 1,
+    "explanation": "정답: CPU 클럭은 하드웨어 지표. 오답: 나머지는 사용성 요소와 연관된다.",
+    "category": "software-engineering",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 69,
+    "question": "마이크로서비스 아키텍처에서 서비스 간 통신에 흔히 쓰이는 스타일은?",
+    "options": [
+      "단일 공유 DB만 허용",
+      "REST·메시지 등 API",
+      "직접 메모리 포인터 공유",
+      "같은 프로세스만"
+    ],
+    "answer": 1,
+    "explanation": "정답: API·메시징. 오답: MSA는 느슨한 결합·독립 배포가 핵심이다.",
+    "category": "software-engineering",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 70,
+    "question": "리팩터링의 주된 목적은?",
+    "options": [
+      "외부 동작은 유지하며 내부 구조 개선",
+      "기능을 삭제",
+      "라이선스 회피",
+      "요구사항 미검증 상태로 배포"
+    ],
+    "answer": 0,
+    "explanation": "정답: 동작 유지·구조 개선. 오답: 리팩터링 정의와 맞지 않는다.",
+    "category": "software-engineering",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 71,
+    "question": "애자일 선언에서 ‘계약 협상보다 고객과의 협력’이 강조되는 이유에 가까운 것은?",
+    "options": [
+      "법적 분쟁을 늘리기 위해",
+      "변화에 빠르게 대응하려면 협력이 유리하기 때문",
+      "문서를 없애기 위해",
+      "고정 요구만 받기 위해"
+    ],
+    "answer": 1,
+    "explanation": "정답: 변화 대응. 오답: 나머지는 애자일 취지와 반대이다.",
+    "category": "software-engineering",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 72,
+    "question": "요구사항 추적성 매트릭스의 활용 목적으로 적절한 것은?",
+    "options": [
+      "요구·설계·테스트 간 대응 관계 파악",
+      "CPU 캐시 크기 결정",
+      "라우팅 테이블 갱신",
+      "디스크 조각 모음"
+    ],
+    "answer": 0,
+    "explanation": "정답: 추적·영향 분석. 오답: 인프라 저수준 작업과 무관하다.",
+    "category": "software-engineering",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 73,
+    "question": "단방향 연결 리스트에서 임의 위치 삽입 시 평균적으로 필요한 연산에 가까운 것은?",
+    "options": [
+      "삽입 위치까지 순회 후 포인터 조정",
+      "항상 O(1)",
+      "정렬 후 삽입만",
+      "이진 탐색만"
+    ],
+    "answer": 0,
+    "explanation": "정답: 순회 필요. 오답: 임의 위치 O(1)은 보통 불가, 정렬·이진탐색은 리스트 특성과 다르다.",
+    "category": "data-structures",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 74,
+    "question": "이진 탐색 트리가 편향되면 검색 시간이 나빠질 수 있는 이유는?",
+    "options": [
+      "높이가 O(n)에 가까워질 수 있어서",
+      "리프만 존재해서",
+      "해시 충돌 때문",
+      "스택 오버플로만"
+    ],
+    "answer": 0,
+    "explanation": "정답: 높이·깊이. 오답: 편향 시 선형에 가까운 탐색이 된다.",
+    "category": "data-structures",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 75,
+    "question": "그래프를 인접 리스트로 표현할 때 일반적으로 유리한 점은?",
+    "options": [
+      "희소한(간선 적은) 그래프에서 공간 절약",
+      "항상 O(1)로 임의 간선 존재 판별",
+      "행렬보다 항상 느림",
+      "방향 그래프에만 쓰임"
+    ],
+    "answer": 0,
+    "explanation": "정답: 희소 그래프. 오답: 간선 존재 판별은 리스트에서 O(degree)일 수 있다.",
+    "category": "data-structures",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 76,
+    "question": "다익스트라 최단 경로 알고리즘이 전제로 하는 가중치 조건은?",
+    "options": [
+      "음의 간선 허용",
+      "음이 아닌 간선 가중치",
+      "모든 간선 동일",
+      "무방향만"
+    ],
+    "answer": 1,
+    "explanation": "정답: 비음수 가중(전형적 전제). 오답: 음의 간선은 벨만-포드 등 다른 알고리즘을 고려한다.",
+    "category": "data-structures",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 77,
+    "question": "재귀 호출이 깊어질 때 스택 오버플로가 나기 쉬운 이유는?",
+    "options": [
+      "호출 스택 프레임이 누적되기 때문",
+      "힙만 사용해서",
+      "큐 때문",
+      "디스크 스왑 때문"
+    ],
+    "answer": 0,
+    "explanation": "정답: 호출 스택. 오답: 힙·큐·스왑은 직접 원인이 아니다.",
+    "category": "data-structures",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 78,
+    "question": "해시 테이블에서 체이닝으로 충돌을 처리할 때 평균 검색에 가까운 복잡도(부하 계수가 일정하다고 할 때)는?",
+    "options": [
+      "O(n²)",
+      "O(1)에 가깝게 유지 가능",
+      "O(log log n)만",
+      "항상 O(n)"
+    ],
+    "answer": 1,
+    "explanation": "정답: 적절한 해시·부하 시 평균 O(1) 근접. 오답: 항상 제곱·로그로 고정되지는 않는다.",
+    "category": "data-structures",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 79,
+    "question": "B-Tree가 DB 인덱스에 많이 쓰이는 이유로 가장 가까운 것은?",
+    "options": [
+      "디스크 블록 단위 접근에 유리한 낮은 높이",
+      "항상 메모리에만 적합",
+      "정렬 불필요",
+      "해시만 사용"
+    ],
+    "answer": 0,
+    "explanation": "정답: 블록 I/O·높이 완화. 오답: B-Tree는 정렬·범위에도 쓰인다.",
+    "category": "data-structures",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 80,
+    "question": "위상 정렬이 가능한 그래프의 조건은?",
+    "options": [
+      "강연결만",
+      "DAG(사이클 없는 방향 그래프)",
+      "무방향만",
+      "완전 그래프만"
+    ],
+    "answer": 1,
+    "explanation": "정답: DAG. 오답: 사이클이 있으면 위상 정렬 불가이다.",
+    "category": "data-structures",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 81,
+    "question": "퀵 정렬의 평균 시간 복잡도에 가까운 것은?",
+    "options": [
+      "O(n²)",
+      "O(n log n)",
+      "O(n)",
+      "O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "정답: 평균 O(n log n). 오답: 최악 O(n²)일 수 있으나 평균은 아니다.",
+    "category": "data-structures",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 82,
+    "question": "우선순위 큐를 배열로만 구현해 매번 최솟값을 선형 탐색하면 삭제에 가까운 복잡도는?",
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(log n)",
+      "O(1) 보장"
+    ],
+    "answer": 1,
+    "explanation": "정답: O(n) 선형 탐색. 오답: 힙 사용 시 삽입·삭제는 log이지만 단순 배열은 아니다.",
+    "category": "data-structures",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 83,
+    "question": "트리의 순회에서 중위 순회가 이진 탐색 트리에서 의미 있게 쓰이는 경우는?",
+    "options": [
+      "키를 정렬된 순서로 방문",
+      "항상 전위와 동일",
+      "높이만 구함",
+      "엣지 수만 셈"
+    ],
+    "answer": 0,
+    "explanation": "정답: 정렬 순서 출력. 오답: 순회마다 목적이 다르다.",
+    "category": "data-structures",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 84,
+    "question": "플로이드-워셜 알고리즘이 구하는 것은?",
+    "options": [
+      "모든 쌍 최단 경로",
+      "최소 신장 트리만",
+      "위상 정렬만",
+      "해시 충돌 해소만"
+    ],
+    "answer": 0,
+    "explanation": "정답: 전쌍 최단 경로. 오답: MST는 크루스칼·프림 등이다.",
+    "category": "data-structures",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 85,
+    "question": "연결 리스트와 배열 비교 시, 임의 위치 접근에서 배열이 유리한 이유는?",
+    "options": [
+      "인덱스로 O(1) 접근",
+      "삽입이 항상 더 빠름",
+      "메모리 항상 더 적음",
+      "정렬이 항상 불필요"
+    ],
+    "answer": 0,
+    "explanation": "정답: 랜덤 액세스. 오답: 삽입·메모리는 상황에 따라 다르다.",
+    "category": "data-structures",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 86,
+    "question": "정규화에서 이행 함수 종속을 제거하는 단계로 알려진 것은?",
+    "options": [
+      "제1정규형",
+      "제3정규형",
+      "비정규",
+      "역정규만"
+    ],
+    "answer": 1,
+    "explanation": "정답: 3NF에서 이행 제거 논의. 오답: 1NF는 원자값 등 다른 조건이다.",
+    "category": "database",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 87,
+    "question": "트랜잭션 격리 수준 중 더티 리드를 허용하지 않는 가장 낮은 단계로 널리 알려진 것은?",
+    "options": [
+      "READ UNCOMMITTED",
+      "READ COMMITTED",
+      "SERIALIZABLE만",
+      "없음"
+    ],
+    "answer": 1,
+    "explanation": "정답: READ COMMITTED는 커밋된 읽기. 오답: RU는 더티 리드를 허용할 수 있다.",
+    "category": "database",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 88,
+    "question": "뷰(View)가 업데이트 제약을 받는 대표적 이유는?",
+    "options": [
+      "집계·조인 등으로 기본 테이블에 모호하게 매핑될 때",
+      "뷰가 물리 파일이라서",
+      "인덱스가 없어서만",
+      "DDL만 가능해서"
+    ],
+    "answer": 0,
+    "explanation": "정답: 갱신 모호성. 오답: 뷰는 가상이다.",
+    "category": "database",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 89,
+    "question": "무손실 분해의 직관적 의미는?",
+    "options": [
+      "분해 후 자연 조인으로 원래 릴레이션을 복원할 수 있음",
+      "행 수가 항상 절반",
+      "모든 속성이 키",
+      "외래키 불필요"
+    ],
+    "answer": 0,
+    "explanation": "정답: 자연 조인 복원. 오답: 행 수·키 정의와 무관한 서술이다.",
+    "category": "database",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 90,
+    "question": "SQL에서 HAVING 절이 WHERE와 구분되는 점은?",
+    "options": [
+      "그룹 집계 결과에 조건을 걸 때",
+      "정렬할 때만",
+      "트랜잭션 시작할 때",
+      "인덱스 생성할 때"
+    ],
+    "answer": 0,
+    "explanation": "정답: 그룹 이후 필터. 오답: WHERE는 행 단위(그룹 전)이다.",
+    "category": "database",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 91,
+    "question": "ER 모델에서 다대다 관계를 관계 DB로 옮길 때 흔히 추가하는 것은?",
+    "options": [
+      "체크 제약만",
+      "연결(교차) 엔티티·릴레이션",
+      "뷰만",
+      "시퀀스만"
+    ],
+    "answer": 1,
+    "explanation": "정답: 교차 테이블. 오답: M:N은 중간 릴레이션이 필요하다.",
+    "category": "database",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 92,
+    "question": "외래키가 참조 무결성을 돕는 방식은?",
+    "options": [
+      "부모 키에 없는 값을 자식이 가지 못하게 함",
+      "항상 중복만 허용",
+      "NULL 금지만",
+      "인덱스 불필요"
+    ],
+    "answer": 0,
+    "explanation": "정답: 존재하는 기본키 참조. 오답: FK는 정책에 따라 NULL 허용도 있다.",
+    "category": "database",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 93,
+    "question": "옵티마이저가 실행 계획을 세울 때 참고하는 정보로 가장 가까운 것은?",
+    "options": [
+      "통계·인덱스·카디널리티",
+      "모니터 해상도",
+      "키보드 레이아웃",
+      "파일 확장자만"
+    ],
+    "answer": 0,
+    "explanation": "정답: 통계·인덱스. 오답: 하드웨어 주변과 무관하다.",
+    "category": "database",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 94,
+    "question": "NoSQL 중 문서 지향 DB의 특징으로 가장 가까운 것은?",
+    "options": [
+      "JSON 유사 문서 단위 저장·조회",
+      "항상 관계만 강제",
+      "SQL만 허용",
+      "트랜잭션 불가"
+    ],
+    "answer": 0,
+    "explanation": "정답: 문서 단위. 오답: 일부는 트랜잭션을 지원한다.",
+    "category": "database",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 95,
+    "question": "백업 유형 중 증분 백업의 일반적 의미는?",
+    "options": [
+      "이전 백업 이후 변경분만 저장",
+      "전체를 매번 전량",
+      "디스크 포맷",
+      "로그인 기록만"
+    ],
+    "answer": 0,
+    "explanation": "정답: 변경분. 오답: 전량 백업과 대비된다.",
+    "category": "database",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 96,
+    "question": "프로젝트 삼각 제약에서 일반적으로 세 축으로 묶이는 것은?",
+    "options": [
+      "범위·일정·비용",
+      "CPU·GPU·RAM",
+      "TCP·UDP·IP",
+      "스택·큐·트리"
+    ],
+    "answer": 0,
+    "explanation": "정답: 범위·시간·비용. 오답: HW·네트워크·자료구조와 혼동 금지.",
+    "category": "project-management",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 97,
+    "question": "EVM에서 진행 가치(EV)가 의미하는 것은?",
+    "options": [
+      "해당 시점까지 완료된 작업의 계획 대비 가치",
+      "실제 지출만",
+      "계약서 페이지 수",
+      "버그 개수만"
+    ],
+    "answer": 0,
+    "explanation": "정답: 완료 작업의 가치. 오답: AC는 실제 비용, PV는 계획이다.",
+    "category": "project-management",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 98,
+    "question": "WBS의 목적으로 적절한 것은?",
+    "options": [
+      "작업을 계층적으로 분해해 관리",
+      "코드 커버리지 측정",
+      "패킷 라우팅",
+      "디스크 조각 정리"
+    ],
+    "answer": 0,
+    "explanation": "정답: 분업·일정·추적. 오답: SW 품질·네트워크와 무관하다.",
+    "category": "project-management",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 99,
+    "question": "리스크 대응 전략 중 ‘확률·영향을 줄이기 위해 보험·계약 조항을 두는’ 방식에 가까운 것은?",
+    "options": [
+      "회피",
+      "전가",
+      "수용",
+      "확대"
+    ],
+    "answer": 1,
+    "explanation": "정답: 전가(Transfer). 오답: 회피는 범위 변경, 수용은 감수이다.",
+    "category": "project-management",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 100,
+    "question": "대칭키 암호 사용 시 키 배포 문제를 완화하기 위해 흔히 병행하는 방식은?",
+    "options": [
+      "공개키로 세션 키를 교환·협상",
+      "평문으로 키만 전송",
+      "키를 하드코딩만",
+      "해시만으로 암호화"
+    ],
+    "answer": 0,
+    "explanation": "정답: 하이브리드(예: TLS). 오답: 평문·하드코딩은 위험하다.",
+    "category": "security",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 101,
+    "question": "OWASP Top 10 성격의 웹 취약점 중, 사용자 입력이 쿼리에 섞이는 대표 사례는?",
+    "options": [
+      "CSRF",
+      "SQL 인젝션",
+      "DHCP 기만",
+      "ARP 스푸핑"
+    ],
+    "answer": 1,
+    "explanation": "정답: SQLi. 오답: CSRF는 요청 위조, 나머지는 다른 계층이다.",
+    "category": "security",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
+    "itemVersion": 1,
+    "reviewStatus": "published"
+  },
+  {
+    "id": 102,
+    "question": "다단계 인증(MFA)이 강화하는 보안 목표에 가까운 것은?",
+    "options": [
+      "단일 요인 탈취만으로는 접근 어렵게",
+      "네트워크 대역만 증가",
+      "디스크 용량",
+      "컴파일 시간"
+    ],
+    "answer": 0,
+    "explanation": "정답: 인증 강도. 오답: 대역·용량·빌드와 무관하다.",
+    "category": "security",
+    "difficulty": "medium",
+    "stemKind": "which_best",
+    "cognitiveLevel": "understand",
+    "sourceLevel": "creative_mock",
     "itemVersion": 1,
     "reviewStatus": "published"
   }

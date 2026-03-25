@@ -17,11 +17,19 @@ export type InProgressPayload = {
   elapsedSec: number;
 };
 
+export type SessionKeyOptions = {
+  /** 기본 15 — 100문항 실전 등 */
+  sessionCap?: number;
+  /** 예: full-mock */
+  examPreset?: string;
+};
+
 export function buildSessionKey(
   examSlug: ExamSlug,
   difficultyMode: ExamDifficultyMode,
   poolOverride: ExamQuestion[] | null | undefined,
   categoryFilter: string[] | null | undefined,
+  options?: SessionKeyOptions,
 ): string {
   const poolPart =
     poolOverride && poolOverride.length > 0
@@ -35,7 +43,10 @@ export function buildSessionKey(
     categoryFilter && categoryFilter.length > 0
       ? [...categoryFilter].sort().join("|")
       : "";
-  return `${examSlug}|${difficultyMode}|${poolPart}|${focusPart}`;
+  const capPart =
+    options?.sessionCap != null ? String(options.sessionCap) : "";
+  const presetPart = options?.examPreset ?? "";
+  return `${examSlug}|${difficultyMode}|${poolPart}|${focusPart}|cap=${capPart}|p=${presetPart}`;
 }
 
 export function loadInProgress(): InProgressPayload | null {

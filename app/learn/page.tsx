@@ -11,6 +11,10 @@ import {
   type ExamSlug,
 } from "@/lib/exam-registry";
 import { loadRoadmapFocus, saveRoadmapFocus } from "@/lib/roadmap";
+import { INFO_PROCESSING_WRITTEN_SUBJECTS } from "@/lib/info-processing-written";
+import { INDUSTRIAL_SAFETY_INDUSTRIAL_WRITTEN_SUBJECTS } from "@/lib/industrial-safety-industrial-written";
+import { INDUSTRIAL_SAFETY_ENGINEER_WRITTEN_SUBJECTS } from "@/lib/industrial-safety-engineer-written";
+import { CONSTRUCTION_SAFETY_INDUSTRIAL_WRITTEN_SUBJECTS } from "@/lib/construction-safety-industrial-written";
 
 export default function LearnPage() {
   const [examSlug, setExamSlug] = useState<ExamSlug>("info-processing");
@@ -126,6 +130,135 @@ export default function LearnPage() {
           })}
         </select>
       </section>
+
+      {examSlug === "info-processing" && (
+        <section className="mt-8 space-y-3">
+          <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-50">
+            필기 5과목 (바로 풀기)
+          </h2>
+          <p className="text-xs text-zinc-500 dark:text-zinc-400">
+            큐넷 필기 과목 구분에 맞춘 창작 풀입니다. 과목별로 mixed 모의로
+            연결됩니다.
+          </p>
+          <ul className="flex flex-col gap-2">
+            {INFO_PROCESSING_WRITTEN_SUBJECTS.map((sub) => {
+              const focus = [...sub.categoryKeys].sort().join(",");
+              const href = `/test/info-processing/quiz?mode=mixed&session=new&focus=${encodeURIComponent(focus)}`;
+              return (
+                <li key={sub.id}>
+                  <Link
+                    href={href}
+                    className="flex flex-col rounded-xl border border-zinc-200 bg-white px-4 py-3 text-sm transition-colors hover:border-emerald-300 hover:bg-emerald-50/40 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:border-emerald-800"
+                  >
+                    <span className="font-medium text-zinc-900 dark:text-zinc-50">
+                      {sub.shortLabel} · {sub.label}
+                    </span>
+                    <span className="mt-0.5 text-xs text-emerald-700 dark:text-emerald-400">
+                      이 과목만 모의 →
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
+
+      {examSlug === "industrial-safety-industrial" && (
+        <section className="mt-8 space-y-3">
+          <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-50">
+            필기 5과목 (바로 풀기)
+          </h2>
+          <p className="text-xs text-zinc-500 dark:text-zinc-400">
+            필기 과목 구분에 맞춘 창작 풀입니다. 과목별로 mixed 모의로 연결됩니다.
+          </p>
+          <ul className="flex flex-col gap-2">
+            {INDUSTRIAL_SAFETY_INDUSTRIAL_WRITTEN_SUBJECTS.map((sub) => {
+              const focus = [...sub.categoryKeys].sort().join(",");
+              const href = `/test/industrial-safety-industrial/quiz?mode=mixed&session=new&focus=${encodeURIComponent(focus)}`;
+              return (
+                <li key={sub.id}>
+                  <Link
+                    href={href}
+                    className="flex flex-col rounded-xl border border-zinc-200 bg-white px-4 py-3 text-sm transition-colors hover:border-emerald-300 hover:bg-emerald-50/40 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:border-emerald-800"
+                  >
+                    <span className="font-medium text-zinc-900 dark:text-zinc-50">
+                      {sub.shortLabel} · {sub.label}
+                    </span>
+                    <span className="mt-0.5 text-xs text-emerald-700 dark:text-emerald-400">
+                      이 과목만 모의 →
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
+
+      {examSlug === "industrial-safety" && (
+        <section className="mt-8 space-y-3">
+          <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-50">
+            필기 6과목 (바로 풀기)
+          </h2>
+          <p className="text-xs text-zinc-500 dark:text-zinc-400">
+            필기 과목 구분에 맞춘 창작 풀입니다. 과목별로 mixed 모의로 연결됩니다.
+          </p>
+          <ul className="flex flex-col gap-2">
+            {INDUSTRIAL_SAFETY_ENGINEER_WRITTEN_SUBJECTS.map((sub) => {
+              const focus = [...sub.categoryKeys].sort().join(",");
+              const href = `/test/industrial-safety/quiz?mode=mixed&session=new&focus=${encodeURIComponent(focus)}`;
+              return (
+                <li key={sub.id}>
+                  <Link
+                    href={href}
+                    className="flex flex-col rounded-xl border border-zinc-200 bg-white px-4 py-3 text-sm transition-colors hover:border-emerald-300 hover:bg-emerald-50/40 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:border-emerald-800"
+                  >
+                    <span className="font-medium text-zinc-900 dark:text-zinc-50">
+                      {sub.shortLabel} · {sub.label}
+                    </span>
+                    <span className="mt-0.5 text-xs text-emerald-700 dark:text-emerald-400">
+                      이 과목만 모의 →
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
+
+      {examSlug === "construction-safety-industrial" && (
+        <section className="mt-8 space-y-3">
+          <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-50">
+            필기 5과목 (바로 풀기)
+          </h2>
+          <p className="text-xs text-zinc-500 dark:text-zinc-400">
+            필기 과목 구분에 맞춘 창작 풀입니다. 과목별로 mixed 모의로 연결됩니다.
+          </p>
+          <ul className="flex flex-col gap-2">
+            {CONSTRUCTION_SAFETY_INDUSTRIAL_WRITTEN_SUBJECTS.map((sub) => {
+              const focus = [...sub.categoryKeys].sort().join(",");
+              const href = `/test/construction-safety-industrial/quiz?mode=mixed&session=new&focus=${encodeURIComponent(focus)}`;
+              return (
+                <li key={sub.id}>
+                  <Link
+                    href={href}
+                    className="flex flex-col rounded-xl border border-zinc-200 bg-white px-4 py-3 text-sm transition-colors hover:border-emerald-300 hover:bg-emerald-50/40 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:border-emerald-800"
+                  >
+                    <span className="font-medium text-zinc-900 dark:text-zinc-50">
+                      {sub.shortLabel} · {sub.label}
+                    </span>
+                    <span className="mt-0.5 text-xs text-emerald-700 dark:text-emerald-400">
+                      이 과목만 모의 →
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
 
       <section className="mt-8 space-y-3">
         <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-50">
